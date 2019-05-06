@@ -1,5 +1,5 @@
 ---
-title: Test
 templateKey: index
+title: Test
 ---
-Test
+Here is some new test content.
