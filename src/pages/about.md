@@ -1,5 +1,5 @@
 ---
-title: About
 templateKey: about
+title: About
 ---
-Test
+This is new about content
