@@ -6,7 +6,7 @@ title: We’re a full-spectrum digital services company.
 
 -------------
 
-Agile6 helps government agencies and other clients create customized digital solutions to meet the needs of their users. No matter how much experience you have with digital development or where you are in the process, we can get you where you want to go. 
+Agile Six helps government agencies and other clients create customized digital solutions to meet the needs of their users. No matter how much experience you have with digital development or where you are in the process, we can get you where you want to go. 
 
 Our goal? Government digital products that serve citizens better — and that are as engaging and easy to use as the apps on your phone.
 
