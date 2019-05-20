@@ -14,4 +14,4 @@ So stay tuned — [follow us on Twitter for updates](https://twitter.com/agilesi
 
 In the meantime, read our capability statement to get a handle on everything we do.
 
-Or, get in touch to tell us about your project. How can we can help?
+Or, get in touch to tell us about your project. [How can we can help?](<mailto: contact@agile6.com>)
