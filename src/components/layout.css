@@ -73,8 +73,26 @@ header .wrapper {
   background-color: #ffffff;
 }
 
+.btn-link {
+  display: inline-block;
+  color: #ffffff;
+  background: #52addb;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #ffffff;
+  background: #0B2E41;
+}
+
 a {
   color: #52addb;
+}
+
+a:hover {
+  color: #0B2E41;
 }
 
 h1 {
@@ -101,7 +119,7 @@ h3 {
 
 hr {
   width: 25%;
-  background: #52addb;
+  background: #A63D3E;
   border: none;
   height: 5px;
   margin: 2rem 0;
@@ -126,5 +144,9 @@ footer {
   h2 {
     font-size: 2.5rem;
     line-height: 1;
+  }
+
+  .logo {
+    max-height: 65px;
   }
 }
