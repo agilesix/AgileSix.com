@@ -5,16 +5,30 @@ import Layout from '../components/layout'
 
 export const IndexTemplate = ({
   title,
+  subtitle,
   body
 }) => (
   <div>
-    <h1>{title}</h1>
-    <div dangerouslySetInnerHTML={{__html: body}}></div>
+    <div className={'hero'}>
+      <div className={'wrapper'}>
+        <div className={'hero-text'}>
+          <h1>{title}</h1>
+          <h2>{subtitle}</h2>
+        </div>
+      </div>
+    </div>
+    <div className={'content'}>
+      <div 
+        className={'wrapper'}
+        dangerouslySetInnerHTML={{__html: body}}
+      />
+    </div>
   </div>
 )
 
 IndexTemplate.propTypes = {
   title: PropTypes.string,
+  subtitle: PropTypes.string,
   body: PropTypes.string
 }
 
@@ -25,6 +39,7 @@ const Index = ({ data }) => {
     <Layout>
       <IndexTemplate
         title={frontmatter.title}
+        subtitle={frontmatter.subtitle}
         body={html}
       />
     </Layout>
@@ -46,7 +61,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index" } }) {
       html
       frontmatter {
-        title
+        title,
+        subtitle
       }
     }
   }

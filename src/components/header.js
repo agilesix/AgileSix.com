@@ -4,32 +4,24 @@ import React from "react"
 import logo from "../../static/img/agilesix-logo.png"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 700,
-        padding: `2rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-        >
-          <img 
-            src={logo} 
-            alt={siteTitle} 
-            className={'logo'}
-            style={{
-              height: 40,
-            }}
-          />
-        </Link>
-      </h1>
+  <header>
+    <div className={'wrapper'}>
+      <div className={'logo-container'}>
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+          >
+            <img 
+              src={logo} 
+              alt={siteTitle} 
+              className={'logo'}
+            />
+          </Link>
+        </h1>
+      </div>
+      <div className={'nav-container'}>
+        <a href="https://www.linkedin.com/pulse/seeking-product-manager-vagov-brian-derfer/">We're hiring!</a>
+      </div>
     </div>
   </header>
 )
