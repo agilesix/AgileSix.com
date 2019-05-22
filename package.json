@@ -26,6 +26,7 @@
     "sharp": "^0.22.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.17.0"
   },
   "keywords": [
