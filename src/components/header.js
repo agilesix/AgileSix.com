@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
         </h1>
       </div>
       <div className={'nav-container'}>
-        <a href="https://www.linkedin.com/pulse/seeking-product-manager-vagov-brian-derfer/">We're hiring!</a>
+        <a href="https://agilesix.workable.com">We're hiring!</a>
       </div>
     </div>
   </header>
