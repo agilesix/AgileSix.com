@@ -16,4 +16,4 @@ In the meantime, learn more about the work we do.
 
 <a href="/docs/agile-six-capabilities.pdf" download class="btn-link">Read our capabilities statement</a>
 
-Ready to tell us about your project? [Send us a note](<mailto: contact@agile6.com>)?
+Ready to tell us about your project? [Send us a note](<mailto: contact@agile6.com>).
