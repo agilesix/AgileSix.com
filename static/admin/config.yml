@@ -7,6 +7,15 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
+  - name: "capabilities"
+    label: "Capabilities"
+    folder: "src/pages/capabilities"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"

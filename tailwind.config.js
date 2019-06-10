@@ -6,8 +6,10 @@ module.exports = {
         light: '#e5e5e5',
       },
       blue: {
+        light: '#00b7ef',
         dark: '#002360'
-      }
+      },
+      transparent: 'transparent'
     }
   },
   screens: {
