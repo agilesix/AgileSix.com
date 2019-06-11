@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
 import Capabilities from '../components/capabilities'
+import CaseStudies from '../components/case-studies'
 
 export const IndexTemplate = ({
   title,
@@ -23,6 +24,10 @@ export const IndexTemplate = ({
     <Block className={'bg-grey-light'} title={'Capabilities'}>
       <div>Test</div>
       <Capabilities />
+    </Block>
+    <Block className={'bg-white'} title={'Recent Work'}>
+      <div>Test</div>
+      <CaseStudies />
     </Block>
   </div>
 )

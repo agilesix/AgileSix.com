@@ -21,7 +21,7 @@ collections:
 
   - name: "casestudies"
     label: "Case Study"
-    folder: "src/content/capabilities"
+    folder: "src/content/case-studies"
     create: true
     slug: "{{slug}}"
     fields:
