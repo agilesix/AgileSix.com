@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
+import Capabilities from '../components/capabilities'
 
 export const IndexTemplate = ({
   title,
@@ -21,6 +22,7 @@ export const IndexTemplate = ({
     </div>
     <Block className={'bg-grey-light'} title={'Capabilities'}>
       <div>Test</div>
+      <Capabilities />
     </Block>
   </div>
 )

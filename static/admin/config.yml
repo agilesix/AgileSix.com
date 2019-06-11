@@ -8,28 +8,28 @@ public_folder: "/img"
 
 collections:
   - name: "capabilities"
-    label: "Capabilities"
-    folder: "src/pages/capabilities"
+    label: "Capability"
+    folder: "src/content/capabilities"
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "capability"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Short Description", name: "shortdescription", widget: "string"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Show on home page?", name: "featured", widget: "boolean", default: false, required: false}
 
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: "casestudies"
+    label: "Case Study"
+    folder: "src/content/capabilities"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "casestudy"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Short Description", name: "shortdescription", widget: "string"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Show on home page?", name: "featured", widget: "boolean", default: false, required: false}
 
   - name: "pages"
     label: "Pages"
