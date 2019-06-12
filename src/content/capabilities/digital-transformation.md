@@ -1,8 +1,10 @@
 ---
 templateKey: capability
 title: Digital Transformation
-featuredimage: /img/hcd.png
+shortdescription: >-
+  Here is the short description for Digital Transformation. Here is the short
+  description for Digital Transformation.
+featuredimage: /img/digital-transformation.png
 featured: true
-shortdescription: Here is the short description for Digital Transformation
 ---
 
