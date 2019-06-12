@@ -12,21 +12,19 @@ export const IndexTemplate = ({
 }) => (
   <div>
     <div className={'bg-blue-dark px-6 py-10'}>
-      <div className={'max-w-6xl mx-auto flex'}>
-        <div className={'md:w-1/2'}>
+      <div className={'max-w-5xl mx-auto flex'}>
+        <div className={'md:w-2/3'}>
           <h1 className={'text-white text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
           <div className={'text-white text-md md:text-xl'} dangerouslySetInnerHTML={{__html: body}}></div>
         </div>
-        <div className={'w-1/2'} style={{backgroundColor: 'red'}}>
+        <div className={'w-1/3'} style={{backgroundColor: 'red'}}>
         </div>
       </div>
     </div>
     <Block className={'bg-grey-light'} title={'Capabilities'}>
-      <div>Test</div>
       <Capabilities />
     </Block>
     <Block className={'bg-white'} title={'Recent Work'}>
-      <div>Test</div>
       <CaseStudies />
     </Block>
   </div>

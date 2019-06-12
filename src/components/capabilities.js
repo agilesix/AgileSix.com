@@ -27,7 +27,7 @@ const Capabilities = ({ children }) => (
                 shortdescription
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 300) {
+                    fluid(maxWidth: 200) {
                     ...GatsbyImageSharpFluid
                     }
                   }
@@ -42,20 +42,20 @@ const Capabilities = ({ children }) => (
       let capabilities = data.allMarkdownRemark.edges;
 
       return (
-        <>
+        <div className={'flex flex-wrap'}>
           {capabilities.map(capability => {
             console.log(capability);
             return (
-              <div>
-                <div style={{maxWidth: 300}}>
+              <div className={'text-center w-1/2'}>
+                <div className={'mx-auto mb-6'} style={{maxWidth: 200}}>
                   <Img fluid={capability.node.frontmatter.featuredimage.childImageSharp.fluid} />
                 </div>
-                {capability.node.frontmatter.title}
+                <h2 className={'font-bold'}>{capability.node.frontmatter.title}</h2>
                 {capability.node.frontmatter.shortdescription}
               </div>
             )
           })}
-        </>
+        </div>
       )
     }}
   />
