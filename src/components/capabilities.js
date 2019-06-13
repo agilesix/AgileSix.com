@@ -42,16 +42,21 @@ const Capabilities = ({ children }) => (
       let capabilities = data.allMarkdownRemark.edges;
 
       return (
-        <div className={'flex flex-wrap'}>
+        <div className={'flex flex-wrap md:-mx-2'}>
           {capabilities.map(capability => {
-            console.log(capability);
             return (
-              <div className={'text-center w-1/2'}>
-                <div className={'mx-auto mb-6'} style={{maxWidth: 200}}>
-                  <Img fluid={capability.node.frontmatter.featuredimage.childImageSharp.fluid} />
+              <div className={'md:p-2 md:w-1/2'}>
+                <div className={'bg-grey-light p-1'}>
+                  <div className={'bg-white mb-3'}>
+                    <div className={'py-10 mx-auto'} style={{maxWidth: 250}}>
+                      <Img fluid={capability.node.frontmatter.featuredimage.childImageSharp.fluid} />
+                    </div>
+                  </div>
+                  <div className={'p-8'}>
+                    <h2 className={'font-bold text-xl md:text-2xl text-blue-dark leading-tight mb-3'}>{capability.node.frontmatter.title}</h2>
+                    <div className={'text-l md:text-xl leading-tight'}>{capability.node.frontmatter.shortdescription}</div>
+                  </div>
                 </div>
-                <h2 className={'font-bold'}>{capability.node.frontmatter.title}</h2>
-                {capability.node.frontmatter.shortdescription}
               </div>
             )
           })}

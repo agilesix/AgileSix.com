@@ -5,6 +5,8 @@ module.exports = {
     author: `@agilesix`,
   },
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     'gatsby-plugin-postcss',
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
@@ -65,8 +67,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-remark-relative-images`,
     {
       resolve: `gatsby-plugin-manifest`,

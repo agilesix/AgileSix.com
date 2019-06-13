@@ -18,4 +18,5 @@
 
 body {
     background-color: #efefef;
+    @apply font-agile6;
 }
