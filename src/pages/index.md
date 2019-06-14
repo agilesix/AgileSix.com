@@ -1,6 +1,5 @@
 ---
 templateKey: index
-title: We've got your six
+title: We help government work better
 ---
-
-And we’re building a better, citizen-centered government.
+We’re Agile Six — full-spectrum digital developers, civic tech fanatics
