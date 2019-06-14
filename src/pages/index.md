@@ -1,6 +1,6 @@
 ---
 templateKey: index
-title: We’re a full-spectrum digital services company.
+title: We've got your six
 ---
 
 And we’re building a better, citizen-centered government.
