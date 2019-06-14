@@ -3,7 +3,7 @@ import React from "react"
 import Break from "./break"
 
 const Block = ({ title, children, className }) => (
-  <div className={`px-10 py-20 ${className}`}>
+  <div className={`px-6 py-10 md:py-20 ${className}`}>
     <div className={'max-w-4xl mx-auto'}>
       {title && (
         <div className={'mx-auto'}>

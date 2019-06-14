@@ -52,12 +52,12 @@ const CaseStudies = ({ children }) => (
         <div className={'flex flex-wrap md:-mx-2'}>
           {caseStudies.map(caseStudy => {
             return (
-              <div className={'md:p-2 md:w-1/2'}>
+              <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2'}>
                 <div className={'bg-white p-1'}>
                   <div className={'bg-white mb-3 relative'}>
                     <Img fluid={caseStudy.node.frontmatter.background.childImageSharp.fluid} />
-                    <div className={'absolute'}>
-                      <div style={{maxWidth: 150}}>
+                    <div className={'absolute bottom-0 left-0 top-0 right-0 flex justify-center items-center'}>
+                      <div style={{width: 150}}>
                         <Img fluid={caseStudy.node.frontmatter.logo.childImageSharp.fluid} />
                       </div>
                     </div>

@@ -45,7 +45,7 @@ const Capabilities = ({ children }) => (
         <div className={'flex flex-wrap md:-mx-2'}>
           {capabilities.map(capability => {
             return (
-              <div className={'md:p-2 md:w-1/2'}>
+              <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2'}>
                 <div className={'bg-grey-light p-1'}>
                   <div className={'bg-white mb-3'}>
                     <div className={'py-10 mx-auto'} style={{maxWidth: 250}}>

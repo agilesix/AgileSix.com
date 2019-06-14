@@ -11,16 +11,16 @@ export const IndexTemplate = ({
   body
 }) => (
   <div>
-    <div className={'bg-blue-dark px-6 py-20'}>
+    <div className={'bg-blue-dark px-6 py-10 md:py-20'}>
       <div className={'max-w-4xl mx-auto flex'}>
         <div className={'md:w-2/3'}>
           <h1 className={'text-white text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
-          <div className={'text-blue-light text-md md:text-4xl leading-none'} dangerouslySetInnerHTML={{__html: body}}></div>
+          <div className={'text-blue-light text-md text-3xl md:text-4xl leading-none'} dangerouslySetInnerHTML={{__html: body}}></div>
         </div>
       </div>
     </div>
     <Block className={'bg-white'} title={'Capabilities'}>
-      <p className={'text-xl md:text-2xl mb-5'}>Agile Six helps government agencies and other clients create customized digital solutions to meet the needs of their users. No matter how much experience you have with digital development or where you are in the process, we can get you where you want to go.</p>
+      <p className={'text-xl md:text-2xl mb-10'}>Agile Six helps government agencies and other clients create customized digital solutions to meet the needs of their users. No matter how much experience you have with digital development or where you are in the process, we can get you where you want to go.</p>
       <Capabilities />
       <div class="text-center mt-10">
         <a href="#" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">Learn More</a>
@@ -29,7 +29,7 @@ export const IndexTemplate = ({
     <Block className={'bg-grey-light'} title={'Recent Work'}>
       <CaseStudies />
       <div class="text-center mt-10">
-        <a href="#" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">See our work</a>
+        <a href="#" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">See all of our work</a>
       </div>
     </Block>
   </div>

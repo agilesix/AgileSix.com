@@ -37,7 +37,7 @@ const CaseStudies = ({ children }) => (
       return (
         <footer className={'text-grey-medium'}>
           <Block className={"bg-white"}>
-            <div className={'flex'}>
+            <div className={'md:flex'}>
               <div className={'md:w-1/4 md:pr-4'}>
                 <div className={'mb-6'}>
                   <div className={'uppercase font-bold'}>Legal Name</div>
