@@ -7,6 +7,17 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
+  - name: "people"
+    label: "Team Member"
+    folder: "src/content/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template", name: "templateKey", widget: "hidden", default: "team-member"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Picture", name: "picture", widget: image}
+
   - name: "capabilities"
     label: "Capability"
     folder: "src/content/capabilities"
