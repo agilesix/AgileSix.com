@@ -1,5 +1,5 @@
 ---
 templateKey: index
-title: We help government work better
+title: We’re a full-spectrum digital services company.
 ---
-We’re Agile Six — full-spectrum digital developers, civic tech fanatics
+And we’re building a better, citizen-centered government.
