@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
-import Capabilities from '../components/capabilities'
+import TeamMembers from '../components/team-members'
 import CaseStudies from '../components/case-studies'
 
 export const TeamTemplate = ({
@@ -15,12 +15,14 @@ export const TeamTemplate = ({
       <div className={'max-w-4xl mx-auto flex'}>
         <div className={'md:w-2/3'}>
           <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
-          <div className={'text-blue-light text-md text-3xl md:text-4xl leading-none'} dangerouslySetInnerHTML={{__html: body}}></div>
+          <div className={'text-blue-light text-xl md:text-2xl leading-tight'} dangerouslySetInnerHTML={{__html: body}}></div>
         </div>
       </div>
     </div>
     <Block className={'bg-grey-light'} title={'Meet the Team'}>
-      
+      <p className={'text-xl md:text-2xl mb-4'}>At Agile Six, we work as a team. We trust and help each other. And we consciously pull talent from all sorts of different sectors because we want to learn from them — and because different perspectives on a project will make for a better end result.</p>
+      <p className={'text-xl md:text-2xl mb-10'}>Staff hierarchy is overrated. Every one of usthose faces below, from our founders to our most recent hires, areis both a teachers and studentsand a students.</p>
+      <TeamMembers />
     </Block>
     <Block className={'bg-white'} title={'Recent Work'}>
       <CaseStudies />

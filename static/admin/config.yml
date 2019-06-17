@@ -12,6 +12,7 @@ collections:
     folder: "src/content/team"
     create: true
     slug: "{{slug}}"
+    identifier_field: name
     fields:
       - {label: "Template", name: "templateKey", widget: "hidden", default: "team-member"}
       - {label: "Name", name: "name", widget: "string"}
@@ -55,6 +56,16 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/team.md"
+        label: "Team"
+        name: "team"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Team Intro", name: "team-intro", widget: "markdown"}
+          - {label: "Join Team Title", name: "join-title", widget: "string"}
+          - {label: "Join Team Body", name: "join-body", widget: "markdown"}
       - file: "src/pages/about.md"
         label: "About"
         name: "about"

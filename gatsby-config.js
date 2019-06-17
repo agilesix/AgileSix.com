@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-postcss',
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     {

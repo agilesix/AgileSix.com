@@ -1,6 +1,6 @@
 ---
 templateKey: team
-title: One team focused on purpose over profit
+title: We’ve got your six.
 ---
 
-Other copy will go here at some point when Dan, Josh, and Morgan review.
+That’s a military term for “we’ve got your back.” And it’s been a guiding principle for us since we started.
