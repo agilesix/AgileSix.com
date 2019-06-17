@@ -16,7 +16,9 @@ collections:
       - {label: "Template", name: "templateKey", widget: "hidden", default: "team-member"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Position", name: "position", widget: "string"}
+      - {label: "Short Bio", name: "bio", widget: "string"}
       - {label: "Picture", name: "picture", widget: image}
+      - {label: "Order", name: "order", widget: "number"}
 
   - name: "capabilities"
     label: "Capability"

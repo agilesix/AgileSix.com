@@ -20,10 +20,7 @@ export const TeamTemplate = ({
       </div>
     </div>
     <Block className={'bg-grey-light'} title={'Meet the Team'}>
-      <Capabilities />
-      <div class="text-center mt-10">
-        <a href="#" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">Learn More</a>
-      </div>
+      
     </Block>
     <Block className={'bg-white'} title={'Recent Work'}>
       <CaseStudies />
