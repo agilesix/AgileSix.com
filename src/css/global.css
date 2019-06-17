@@ -20,3 +20,7 @@ body {
     background-color: #efefef;
     @apply font-agile6;
 }
+
+p:not(:first-child) {
+    @apply mt-4;
+}

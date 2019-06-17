@@ -8,9 +8,8 @@ team-intro: >-
   for a better end result.
 
 
-  Staff hierarchy is overrated. Every one of usthose faces below, from our
-  founders to our most recent hires, areis both a teachers and studentsand a
-  students.
+  Staff hierarchy is overrated. Every one of us below, from our
+  founders to our most recent hires, are both teachers and students.
 join-title: Join our team
 join-body: >-
   **What we do matters.**
