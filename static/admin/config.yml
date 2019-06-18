@@ -92,8 +92,10 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "capabilities"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Intro", name: "team-intro", widget: "markdown"}
-          - {label: "Purpose Title", name: "purpose-title", widget: "string"}
-          - {label: "Purpose Body", name: "purpose-body", widget: "markdown"}
-          - {label: "History Title", name: "history-title", widget: "string"}
-          - {label: "History Body", name: "history-body", widget: "markdown"}
+          - {label: "Capabilities Title", name: "capabilities-title", widget: "string"}
+          - {label: "Capabilities Body", name: "capabilities-body", widget: "markdown"}
+          - {label: "Capabilities", name: "capabilities", widget: "relation", collection: "capabilities", valueField: "title", multiple: true, displayFields: ["title"]}
+          - {label: "Process Title", name: "process-title", widget: "string"}
+          - {label: "Process Body", name: "process-body", widget: "markdown"}
+          - {label: "Contracts Title", name: "contracts-title", widget: "string"}
+          - {label: "Contracts Body", name: "contracts-body", widget: "markdown"}

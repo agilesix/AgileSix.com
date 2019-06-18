@@ -1,7 +1,6 @@
 ---
-templateKey: index
+templateKey: capabilities
 title: Capabilities
-intro: test
 capabilities-title: What We Do
 capabilities-body: >-
   Agile Six is a full-spectrum digital services company that combines digital
