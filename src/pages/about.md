@@ -1,5 +1,5 @@
 ---
-templateKey: index
+templateKey: about
 title: About Us
 intro: >-
   After all, a person’s finances, health, and well-being can depend on their

@@ -25,14 +25,14 @@ export const AboutTemplate = ({
         </div>
       </div>
     </div>
-    <Block className={'bg-white'} title={'Meet the About'}>
-      <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: intro}}></div>
+    <Block className={'bg-white'} title={null}>
+      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: intro}}></div>
     </Block>
     <Block className={'bg-grey-light'} title={purpose_title}>
-      <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: purpose_body}}></div>
+      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: purpose_body}}></div>
     </Block>
-    <Block className={'bg-grey-light'} title={history_title}>
-      <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: history_body}}></div>
+    <Block className={'bg-white'} title={history_title}>
+      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: history_body}}></div>
     </Block>
   </div>
 )
@@ -56,8 +56,8 @@ const About = ({ data }) => {
         title={frontmatter.title}
         body={html}
         intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.intro).toString()}
-        purpose_title={frontmatter.history_title}
-        purpose_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.history_body).toString()}
+        purpose_title={frontmatter.purpose_title}
+        purpose_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.purpose_body).toString()}
         history_title={frontmatter.history_title}
         history_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.history_body).toString()}
       />
@@ -77,7 +77,7 @@ export default About
 
 export const pageQuery = graphql`
   query AboutTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "About" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "about" } }) {
       html
       frontmatter {
         title
