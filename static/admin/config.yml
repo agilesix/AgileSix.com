@@ -73,3 +73,27 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/about.md"
+        label: "About"
+        name: "about"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Intro", name: "intro", widget: "markdown"}
+          - {label: "Purpose Title", name: "purpose-title", widget: "string"}
+          - {label: "Purpose Body", name: "purpose-body", widget: "markdown"}
+          - {label: "History Title", name: "history-title", widget: "string"}
+          - {label: "History Body", name: "history-body", widget: "markdown"}
+      - file: "src/pages/capabilities.md"
+        label: "Capabilities"
+        name: "capabilities"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "capabilities"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Intro", name: "team-intro", widget: "markdown"}
+          - {label: "Purpose Title", name: "purpose-title", widget: "string"}
+          - {label: "Purpose Body", name: "purpose-body", widget: "markdown"}
+          - {label: "History Title", name: "history-title", widget: "string"}
+          - {label: "History Body", name: "history-body", widget: "markdown"}
