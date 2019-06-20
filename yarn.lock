@@ -7833,6 +7833,11 @@ lodash.kebabcase@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
   integrity sha1-hImxyw0p/4gZXM7KRI/21swpXDY=
 
+lodash.keys@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-4.2.0.tgz#a08602ac12e4fb83f91fc1fb7a360a4d9ba35205"
+  integrity sha1-oIYCrBLk+4P5H8H7ejYKTZujUgU=
+
 lodash.map@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.map/-/lodash.map-4.6.0.tgz#771ec7839e3473d9c4cde28b19394c3562f4f6d3"
@@ -7852,6 +7857,16 @@ lodash.mergewith@^4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
   integrity sha512-eWw5r+PYICtEBgrBE5hhlT6aAa75f411bgDz/ZL2KZqYV03USvucsxcHUIlGTDTECs1eunpI7HOV7U+WLDvNdQ==
+
+lodash.omit@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
+  integrity sha1-brGa5aHuHdnfC5aeZs4Lf6MLXmA=
+
+lodash.pick@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
+  integrity sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=
 
 lodash.template@^4.4.0:
   version "4.4.0"
@@ -10272,6 +10287,13 @@ postcss@^7.0.11, postcss@^7.0.16:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
+postscribe@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/postscribe/-/postscribe-2.0.8.tgz#5b7a53aad4b690b6c2f75818fcefe74490f410d5"
+  integrity sha1-W3pTqtS2kLbC91gY/O/nRJD0ENU=
+  dependencies:
+    prescribe ">=1.1.2"
+
 potrace@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/potrace/-/potrace-2.1.1.tgz#79111a858197f366418845f667fe8f7fac0a79db"
@@ -10315,6 +10337,11 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
+
+prescribe@>=1.1.2:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/prescribe/-/prescribe-1.1.3.tgz#8d3122445f3fbaf4c4c5817ea527a17fc8139ee6"
+  integrity sha1-jTEiRF8/uvTExYF+pSehf8gTnuY=
 
 prettier@^1.17.0:
   version "1.17.0"
@@ -10808,6 +10835,17 @@ react-portal@^3.1.0:
   integrity sha512-avb1FreAZAVCvNNyS2dCpxZiPYPJnAasHYPxdVBTROgNFeI+KSb+OoMHNsC1GbDawESCriPwCX+qKua6WSPIFw==
   dependencies:
     prop-types "^15.5.8"
+
+react-postscribe@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/react-postscribe/-/react-postscribe-0.1.3.tgz#7018618dd7277a90f6f11fe8c2b5b7ea270b8400"
+  integrity sha512-qFRPUpZ5y+G5Yg8AMZBQjZr/9RW+4fddeTYRv3+YlT2gsmBEck02wdY2hEkQzIi/ci4nRuynwHEi7JM9GCQkkA==
+  dependencies:
+    lodash.keys "^4.2.0"
+    lodash.omit "^4.5.0"
+    lodash.pick "^4.4.0"
+    postscribe "^2.0.8"
+    prop-types "^15.6.2"
 
 react-redux@^4.0.0:
   version "4.4.10"

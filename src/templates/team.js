@@ -4,10 +4,11 @@ import remark from 'remark'
 import recommended from 'remark-preset-lint-recommended'
 import remarkHtml from 'remark-html'
 import { graphql } from 'gatsby'
+import Helmet from  'react-helmet'
+import { PostScribe } from 'react-postscribe'
 import Layout from '../components/layout'
 import Block from '../components/block'
 import TeamMembers from '../components/team-members'
-import CaseStudies from '../components/case-studies'
 
 export const TeamTemplate = ({
   title,
@@ -17,6 +18,9 @@ export const TeamTemplate = ({
   join_body
 }) => (
   <div>
+    <Helmet>
+      <script src="https://www.workable.com/assets/embed.js" type="text/javascript"></script>
+    </Helmet>
     <div className={'bg-grey-light px-6 py-10 md:py-20'}>
       <div className={'max-w-4xl mx-auto flex'}>
         <div className={'md:w-2/3'}>
@@ -31,6 +35,20 @@ export const TeamTemplate = ({
     </Block>
     <Block className={'bg-grey-light'} title={join_title}>
       <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
+      <PostScribe html={`
+        <script>
+          function checkVariable() {
+            if (window.whr) {
+              whr(document).ready(function(){whr_embed(357587, {detail: 'titles', base: 'jobs', zoom: 'country', grouping: 'none'});});
+            } else {
+              setTimeout(checkVariable, 1000);
+            }
+          }
+
+          setTimeout(checkVariable, 50);
+        </script>
+        <div id='whr_embed_hook'></div>
+      `} />
     </Block>
   </div>
 )
