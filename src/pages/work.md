@@ -1,5 +1,5 @@
 ---
-templateKey: index
+templateKey: work
 title: What we've done
 intro: >-
   Every one of our projects has required a lot of listening, iterating, and

@@ -62,7 +62,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "string"}
           - {label: "Team Intro", name: "team-intro", widget: "markdown"}
           - {label: "Join Team Title", name: "join-title", widget: "string"}
           - {label: "Join Team Body", name: "join-body", widget: "markdown"}
@@ -70,16 +70,21 @@ collections:
         label: "Work"
         name: "work"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "markdown"}
+          - {label: "Case Studies", name: "casestudies", widget: "relation", collection: "casestudies", valueField: "title", multiple: true, displayFields: ["title"]}
+          - {label: "CTA Title", name: "cta-title", widget: "string"}
+          - {label: "CTA Body", name: "cta-body", widget: "string"}
+          - {label: "CTA Label", name: "cta-label", widget: "string"}
       - file: "src/pages/about.md"
         label: "About"
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}
           - {label: "Purpose Title", name: "purpose-title", widget: "string"}
           - {label: "Purpose Body", name: "purpose-body", widget: "markdown"}
@@ -91,7 +96,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "capabilities"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "string"}
           - {label: "Capabilities Title", name: "capabilities-title", widget: "string"}
           - {label: "Capabilities Body", name: "capabilities-body", widget: "markdown"}
           - {label: "Capabilities", name: "capabilities", widget: "relation", collection: "capabilities", valueField: "title", multiple: true, displayFields: ["title"]}
