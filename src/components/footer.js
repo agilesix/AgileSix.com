@@ -94,8 +94,8 @@ const CaseStudies = ({ children }) => (
             <div className={'border-t-2 border-grey-light pt-8 mt-8'}>
               <div className={'text-md'}>Copyright © 2019 Agile Six Applications, Inc.</div>
               <div className={'text-md'}>
-                <a href="#" className={'text-blue-light mr-2 underline'}>Privacy Policy</a>
-                <a href="#" className={'text-blue-light underline'}>Purpose</a>
+                <a href="/privacy" className={'text-blue-light mr-2 underline'}>Privacy Policy</a>
+                <a href="/purpose" className={'text-blue-light underline'}>Purpose</a>
               </div>
             </div>
           </Block>

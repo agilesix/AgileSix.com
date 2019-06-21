@@ -5,7 +5,6 @@ import recommended from 'remark-preset-lint-recommended'
 import remarkHtml from 'remark-html'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import Block from '../components/block'
 
 export const WorkTemplate = ({
   title,
