@@ -56,7 +56,7 @@ const CaseStudies = ({ children }) => (
                   <div>541511, 541512, 541513, 541519, 541611, 611420, 611430</div>
                 </div>
               </div>
-              <div className={'md:w-1/4 md:px-4'}>
+              <div className={'md:w-1/4 md:px-4 mt-10 md:mt-0'}>
                 <div className={'uppercase font-bold mb-4'}>Case Studies</div>
                 {caseStudies.map((caseStudy) => {
                   return(
@@ -66,7 +66,7 @@ const CaseStudies = ({ children }) => (
                   )
                 })}
               </div>
-              <div className={'md:w-1/4 md:px-4'}>
+              <div className={'md:w-1/4 md:px-4 mt-10 md:mt-0'}>
                 <div className={'uppercase font-bold mb-4'}>Learn About</div>
                 <div className={'mb-6'}>
                   <Link to={'/'}>Agile Six</Link>
@@ -78,7 +78,7 @@ const CaseStudies = ({ children }) => (
                   <Link to={'/'}>The Team</Link>
                 </div>
               </div>
-              <div className={'md:w-1/4 md:px-4'}>
+              <div className={'md:w-1/4 md:px-4 mt-10 md:mt-0'}>
                 <div className={'uppercase font-bold mb-4'}>Contact</div>
                 <div className={'mb-6'}>
                   <Link to={'/'}>Hire Us</Link>
