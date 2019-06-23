@@ -46,7 +46,7 @@ const TeamMembers = ({ children }) => (
         <div className={'flex flex-wrap md:-mx-4'}>
           {teamMembers.map(person => {
             return (
-              <div className={'mt-6 md:mt-0 md:p-4 md:w-1/2 lg:w-1/4'}>
+              <div className={'mt-6 md:mt-0 px-8 md:p-4 w-full md:w-1/2 lg:w-1/4'}>
                 <div className={'mx-auto'}>
                   <Img fluid={person.node.frontmatter.picture.childImageSharp.fluid} />
                 </div>
