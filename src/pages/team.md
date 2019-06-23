@@ -8,8 +8,8 @@ team-intro: >-
   for a better end result.
 
 
-  Staff hierarchy is overrated. Every one of us below, from our
-  founders to our most recent hires, are both teachers and students.
+  Staff hierarchy is overrated. Every one of us below, from our founders to our
+  most recent hires, are both teachers and students.
 join-title: Join our team
 join-body: >-
   **What we do matters.**
@@ -34,6 +34,14 @@ join-body: >-
 
   On our projects, we don’t single out individuals as heroes or rockstars. We
   celebrate our successes together.
+cta:
+  cta-description: >-
+    If you have questions about what it takes to join the Agile Six team, drop
+    us a line.
+  cta-label: Get in touch
+  cta-title: Learn more
+  cta-url: /contact
+  cta-visible: true
 ---
 
 That’s a military term for “we’ve got your back.” And it’s been a guiding principle for us since we started.
