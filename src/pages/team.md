@@ -36,7 +36,7 @@ join-body: >-
   celebrate our successes together.
 cta:
   cta-description: >-
-    If you have questions about what it takes to join the Agile Six team, drop
+    If you have questions about what it takes to join the Agile Six team (or for pictures of the dogs), drop
     us a line.
   cta-label: Get in touch
   cta-title: Learn more

@@ -66,6 +66,15 @@ collections:
           - {label: "Team Intro", name: "team-intro", widget: "markdown"}
           - {label: "Join Team Title", name: "join-title", widget: "string"}
           - {label: "Join Team Body", name: "join-body", widget: "markdown"}
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Visible", name: "cta-visible", widget: "boolean"}
+              - {label: "Title", name: "cta-title", widget: "string"}
+              - {label: "Description", name: "cta-description", widget: "string"}
+              - {label: "Button Label", name: "cta-label", widget: "string"}
+              - {label: "Button URL", name: "cta-url", widget: "string"}
       - file: "src/pages/work.md"
         label: "Work"
         name: "work"

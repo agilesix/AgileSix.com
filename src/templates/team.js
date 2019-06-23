@@ -9,13 +9,15 @@ import { PostScribe } from 'react-postscribe'
 import Layout from '../components/layout'
 import Block from '../components/block'
 import TeamMembers from '../components/team-members'
+import CTA from '../components/cta'
 
 export const TeamTemplate = ({
   title,
   body,
   team_intro,
   join_title,
-  join_body
+  join_body,
+  cta
 }) => (
   <div>
     <Helmet>
@@ -51,6 +53,16 @@ export const TeamTemplate = ({
         <div id='whr_embed_hook'></div>
       `} />
     </Block>
+    {
+      cta.cta_visible && (
+        <CTA
+          title={cta.cta_title}
+          description={cta.cta_description}
+          label={cta.cta_label}
+          url={cta.cta_url}
+        />
+      )
+    }
   </div>
 )
 
@@ -59,7 +71,8 @@ TeamTemplate.propTypes = {
   body: PropTypes.string,
   team_intro: PropTypes.string,
   join_title: PropTypes.string,
-  join_body: PropTypes.string
+  join_body: PropTypes.string,
+  cta: PropTypes.object
 }
 
 const Team = ({ data }) => {
@@ -73,6 +86,7 @@ const Team = ({ data }) => {
         team_intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.team_intro).toString()}
         join_title={frontmatter.join_title}
         join_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.join_body).toString()}
+        cta={frontmatter.cta}
       />
     </Layout>
   )
@@ -97,6 +111,13 @@ export const pageQuery = graphql`
         team_intro
         join_title
         join_body
+        cta {
+          cta_url
+          cta_label
+          cta_title
+          cta_visible
+          cta_description
+        }
       }
     }
   }
