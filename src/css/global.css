@@ -37,6 +37,7 @@ p:not(:first-child) {
 
 .whr-title {
     @apply font-semibold;
+    @apply leading-tight;
     @apply text-lg;
 }
 

@@ -43,10 +43,10 @@ const TeamMembers = ({ children }) => (
       let teamMembers = data.allMarkdownRemark.edges;
 
       return (
-        <div className={'flex flex-wrap md:-mx-4'}>
+        <div className={'flex flex-wrap sm:-mx-4'}>
           {teamMembers.map(person => {
             return (
-              <div className={'mt-6 md:mt-0 px-8 md:p-4 w-full md:w-1/2 lg:w-1/4'}>
+              <div className={'mt-6 md:mt-0 px-8 sm:p-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4'}>
                 <div className={'mx-auto'}>
                   <Img fluid={person.node.frontmatter.picture.childImageSharp.fluid} />
                 </div>
