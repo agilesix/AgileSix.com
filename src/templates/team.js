@@ -36,6 +36,7 @@ export const TeamTemplate = ({
     <Block className={'bg-grey-light'} title={join_title}>
       <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
       <PostScribe html={`
+        <div class="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Open Positions</div>
         <script>
           function checkVariable() {
             if (window.whr) {

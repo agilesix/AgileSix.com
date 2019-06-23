@@ -24,3 +24,25 @@ body {
 p:not(:first-child) {
     @apply mt-4;
 }
+
+.whr-item {
+    @apply pb-4;
+    @apply border-b;
+    @apply border-grey;
+}
+
+.whr-item:not(:last-child) {
+    @apply mb-4;
+}
+
+.whr-title {
+    @apply font-semibold;
+    @apply text-lg;
+}
+
+.whr-code,
+.whr-dept,
+.whr-date,
+.whr-location span {
+    @apply hidden;
+}
