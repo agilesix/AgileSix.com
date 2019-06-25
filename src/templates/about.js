@@ -6,10 +6,12 @@ import remarkHtml from 'remark-html'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
+import CTA from '../components/cta'
 
 export const AboutTemplate = ({
   title,
   body,
+  cta,
   intro,
   purpose_title,
   purpose_body,
@@ -34,6 +36,16 @@ export const AboutTemplate = ({
     <Block className={'bg-white'} title={history_title}>
       <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: history_body}}></div>
     </Block>
+    {
+      cta && cta.cta_visible && (
+        <CTA
+          title={cta.cta_title}
+          description={cta.cta_description}
+          label={cta.cta_label}
+          url={cta.cta_url}
+        />
+      )
+    }
   </div>
 )
 
@@ -44,7 +56,8 @@ AboutTemplate.propTypes = {
   purpose_title: PropTypes.string,
   purpose_body: PropTypes.string,
   history_title: PropTypes.string,
-  history_body: PropTypes.string
+  history_body: PropTypes.string,
+  cta: PropTypes.object
 }
 
 const About = ({ data }) => {
@@ -60,6 +73,7 @@ const About = ({ data }) => {
         purpose_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.purpose_body).toString()}
         history_title={frontmatter.history_title}
         history_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.history_body).toString()}
+        cta={frontmatter.cta}
       />
     </Layout>
   )
@@ -86,6 +100,13 @@ export const pageQuery = graphql`
         purpose_body
         history_title
         history_body
+        cta {
+          cta_url
+          cta_label
+          cta_title
+          cta_visible
+          cta_description
+        }
       }
     }
   }

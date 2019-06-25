@@ -76,5 +76,13 @@ history-body: >-
   Agile Six is a Vveteran-owned business, and many of our team members have come
   from jobs at the U.S. Digital Service, the Department of Veterans Affairs, and
   other federal agencies.
+cta:
+  cta-description: >-
+    If you have questions about the Agile Six team, drop
+    us a line.
+  cta-label: Get in touch
+  cta-title: Learn more
+  cta-url: /contact
+  cta-visible: true
 ---
 We think that government technology should make day-to-day life for citizens easier.

@@ -69,6 +69,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        cta {
+          cta_url
+          cta_label
+          cta_title
+          cta_visible
+          cta_description
+        }
       }
     }
   }

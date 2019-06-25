@@ -5,11 +5,12 @@ import recommended from 'remark-preset-lint-recommended'
 import remarkHtml from 'remark-html'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import CTA from '../components/cta'
 
 export const WorkTemplate = ({
   title,
   body,
-  intro
+  cta
 }) => (
   <div>
     <div className={'bg-grey-light px-6 py-10 md:py-20'}>
@@ -20,13 +21,24 @@ export const WorkTemplate = ({
         </div>
       </div>
     </div>
+    {
+      cta.cta_visible && (
+        <CTA
+          title={cta.cta_title}
+          description={cta.cta_description}
+          label={cta.cta_label}
+          url={cta.cta_url}
+        />
+      )
+    }
   </div>
 )
 
 WorkTemplate.propTypes = {
   title: PropTypes.string,
   body: PropTypes.string,
-  intro: PropTypes.string
+  intro: PropTypes.string,
+  cta: PropTypes.object
 }
 
 const Work = ({ data }) => {
@@ -38,6 +50,7 @@ const Work = ({ data }) => {
         title={frontmatter.title}
         body={html}
         intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.intro).toString()}
+        cta={frontmatter.cta}
       />
     </Layout>
   )
@@ -60,6 +73,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
+        cta {
+          cta_url
+          cta_label
+          cta_title
+          cta_visible
+          cta_description
+        }
       }
     }
   }

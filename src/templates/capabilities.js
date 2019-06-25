@@ -7,11 +7,12 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
 import CapabilitiesBlock from '../components/capabilities'
+import CTA from '../components/cta'
 
 export const CapabilitiesTemplate = ({
   title,
   body,
-  intro,
+  cta,
   capabilities_title,
   capabilities_body,
   process_title,
@@ -38,6 +39,16 @@ export const CapabilitiesTemplate = ({
     <Block className={'bg-white'} title={contracts_title}>
       <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: contracts_body}}></div>
     </Block>
+    {
+      cta.cta_visible && (
+        <CTA
+          title={cta.cta_title}
+          description={cta.cta_description}
+          label={cta.cta_label}
+          url={cta.cta_url}
+        />
+      )
+    }
   </div>
 )
 
@@ -50,7 +61,8 @@ CapabilitiesTemplate.propTypes = {
   contracts_title: PropTypes.string,
   contracts_body: PropTypes.string,
   process_title: PropTypes.string,
-  process_body: PropTypes.string
+  process_body: PropTypes.string,
+  cta: PropTypes.object
 }
 
 const Capabilities = ({ data }) => {
@@ -68,6 +80,7 @@ const Capabilities = ({ data }) => {
         contracts_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.contracts_body).toString()}
         process_title={frontmatter.process_title}
         process_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.process_body).toString()}
+        cta={frontmatter.cta}
       />
     </Layout>
   )
@@ -96,6 +109,13 @@ export const pageQuery = graphql`
         process_body
         contracts_title
         contracts_body
+        cta {
+          cta_url
+          cta_label
+          cta_title
+          cta_visible
+          cta_description
+        }
       }
     }
   }
