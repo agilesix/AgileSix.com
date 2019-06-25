@@ -7,8 +7,11 @@ intro: >-
   we’ve helped.
 casestudies:
   - VA.gov Modernization
-cta-title: Work with us
-cta-body: We'd love the chance to work on your project
-cta-label: Get in touch
+cta:
+  cta-description: We want to work with you on your project.
+  cta-label: Get in touch
+  cta-title: Work with us
+  cta-url: /contact
+  cta-visible: true
 ---
 There’s no one-size-fits-all solution for digital transformation. 
