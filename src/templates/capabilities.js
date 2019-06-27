@@ -30,7 +30,7 @@ export const CapabilitiesTemplate = ({
       </div>
     </div>
     <Block className={'bg-white'} title={capabilities_title}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
+      <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
       <CapabilitiesBlock />
     </Block>
     <Block className={'bg-grey-light'} title={process_title}>

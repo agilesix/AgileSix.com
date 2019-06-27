@@ -46,18 +46,7 @@ contracts-body: >-
   * Dept of VA - T4NG IDIQ (VA118-16-D-1011) 
 
   * State of California PQVP AD-DS and CMAS (3-18-70-3581A) 
-
-
-  ### Industry Information 
-
-
-  * Legal Name: Agile Six Applications, Inc. 
-
-  * DUNS Number: 079622664 
-
-  * CAGE Code: 79H77 
-
-  * NAICS Codes: 541511, 541512, 541513, 541519, 541611, 611420, 611430
+  
 cta:
   cta-description: Send us all of your questions
   cta-label: Get in touch

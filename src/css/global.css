@@ -21,8 +21,20 @@ body {
     @apply font-agile6;
 }
 
-p:not(:first-child) {
-    @apply mt-4;
+p:not(:first-child),
+ul:not(:first-child),
+h3:not(:first-child) {
+    @apply mt-6;
+}
+
+h3 {
+    @apply uppercase;
+    @apply text-red;
+}
+
+ul {
+    @apply list-disc;
+    @apply list-inside;
 }
 
 .whr-item {
