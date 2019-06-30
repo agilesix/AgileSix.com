@@ -1,6 +1,11 @@
 ---
 templateKey: index
 title: We’re a full-spectrum digital services company.
+cta:
+  cta-description: Drop us a line and we'll get back to you shortly.
+  cta-label: Get in touch
+  cta-title: How can we help you?
+  cta-url: /contact
+  cta-visible: true
 ---
-
-Agile Six helps government agencies and other clients create customized digital solutions to meet the needs of their users. 
+And we’re building a better, citizen-centered government.

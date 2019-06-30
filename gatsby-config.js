@@ -5,7 +5,9 @@ module.exports = {
     author: `@agilesix`,
   },
   plugins: [
-    'gatsby-plugin-postcss',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     {
@@ -21,6 +23,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/content/team`,
+        name: 'team-members',
       },
     },
     {
@@ -65,8 +74,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-remark-relative-images`,
     {
       resolve: `gatsby-plugin-manifest`,
