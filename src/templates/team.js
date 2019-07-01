@@ -21,7 +21,7 @@ export const TeamTemplate = ({
   cta
 }) => (
   <div>
-    <SEO title={title} />
+    <SEO title={title} description={body} />
     <Helmet>
       <script src="https://www.workable.com/assets/embed.js" type="text/javascript"></script>
     </Helmet>
