@@ -3,12 +3,14 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
+import SEO from '../components/seo'
 
 export const ContactTemplate = ({
   title,
   body
 }) => (
   <div>
+    <SEO title={title} description={body} />
     <div className={'bg-grey-light px-6 py-10 md:py-20'}>
       <div className={'max-w-4xl mx-auto flex'}>
         <div className={'md:w-2/3'}>

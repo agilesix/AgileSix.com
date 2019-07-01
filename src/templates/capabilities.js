@@ -8,11 +8,13 @@ import Layout from '../components/layout'
 import Block from '../components/block'
 import CapabilitiesBlock from '../components/capabilities'
 import CTA from '../components/cta'
+import SEO from '../components/seo'
 
 export const CapabilitiesTemplate = ({
   title,
   body,
   cta,
+  capabilities,
   capabilities_title,
   capabilities_body,
   process_title,
@@ -21,6 +23,7 @@ export const CapabilitiesTemplate = ({
   contracts_body
 }) => (
   <div>
+    <SEO title={title} description={body} />
     <div className={'bg-grey-light px-6 py-10 md:py-20'}>
       <div className={'max-w-4xl mx-auto flex'}>
         <div className={'md:w-2/3'}>
@@ -31,7 +34,7 @@ export const CapabilitiesTemplate = ({
     </div>
     <Block className={'bg-white'} title={capabilities_title}>
       <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
-      <CapabilitiesBlock />
+      <CapabilitiesBlock selectedCapabilities={capabilities} />
     </Block>
     <Block className={'bg-grey-light'} title={process_title}>
       <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: process_body}}></div>
@@ -62,6 +65,7 @@ CapabilitiesTemplate.propTypes = {
   contracts_body: PropTypes.string,
   process_title: PropTypes.string,
   process_body: PropTypes.string,
+  capabilities: PropTypes.array,
   cta: PropTypes.object
 }
 
@@ -73,6 +77,7 @@ const Capabilities = ({ data }) => {
       <CapabilitiesTemplate
         title={frontmatter.title}
         body={html}
+        capabilities={frontmatter.capabilities}
         intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.intro).toString()}
         capabilities_title={frontmatter.capabilities_title}
         capabilities_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.capabilities_body).toString()}
@@ -103,6 +108,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
+        capabilities
         capabilities_title
         capabilities_body
         process_title
