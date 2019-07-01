@@ -2,6 +2,7 @@
     font-family: "Source Sans Pro";
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
     src: url("/fonts/SourceSansPro-Regular.ttf");
 }
 
@@ -9,6 +10,7 @@
     font-family: "Source Sans Pro";
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
     src: url("/fonts/SourceSansPro-Bold.ttf");
 }
 
