@@ -5,12 +5,14 @@ import Layout from '../components/layout'
 import Block from '../components/block'
 import Capabilities from '../components/capabilities'
 import CaseStudies from '../components/case-studies'
+import SEO from '../components/seo'
 
 export const IndexTemplate = ({
   title,
   body
 }) => (
   <div>
+    <SEO title={title} />
     <div className={'bg-blue-dark px-6 py-10 md:py-20'}>
       <div className={'max-w-4xl mx-auto flex'}>
         <div className={'md:w-2/3'}>

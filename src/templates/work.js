@@ -6,6 +6,7 @@ import remarkHtml from 'remark-html'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import CTA from '../components/cta'
+import SEO from '../components/seo'
 
 export const WorkTemplate = ({
   title,
@@ -13,6 +14,7 @@ export const WorkTemplate = ({
   cta
 }) => (
   <div>
+    <SEO title={title} />
     <div className={'bg-grey-light px-6 py-10 md:py-20'}>
       <div className={'max-w-4xl mx-auto flex'}>
         <div className={'md:w-2/3'}>

@@ -10,6 +10,7 @@ import Layout from '../components/layout'
 import Block from '../components/block'
 import TeamMembers from '../components/team-members'
 import CTA from '../components/cta'
+import SEO from '../components/seo'
 
 export const TeamTemplate = ({
   title,
@@ -20,6 +21,7 @@ export const TeamTemplate = ({
   cta
 }) => (
   <div>
+    <SEO title={title} />
     <Helmet>
       <script src="https://www.workable.com/assets/embed.js" type="text/javascript"></script>
     </Helmet>

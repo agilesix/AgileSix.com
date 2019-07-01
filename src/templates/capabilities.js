@@ -8,6 +8,7 @@ import Layout from '../components/layout'
 import Block from '../components/block'
 import CapabilitiesBlock from '../components/capabilities'
 import CTA from '../components/cta'
+import SEO from '../components/seo'
 
 export const CapabilitiesTemplate = ({
   title,
@@ -22,6 +23,7 @@ export const CapabilitiesTemplate = ({
   contracts_body
 }) => (
   <div>
+    <SEO title={title} />
     <div className={'bg-grey-light px-6 py-10 md:py-20'}>
       <div className={'max-w-4xl mx-auto flex'}>
         <div className={'md:w-2/3'}>
