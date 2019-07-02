@@ -1,6 +1,9 @@
 ---
 templateKey: capabilities
 title: Capabilities
+subtitle: >-
+  We’ve got the know-how to guide you through every step of digital
+  transformation.
 capabilities-title: What We Do
 capabilities-body: >-
   Agile Six is a full-spectrum digital services company that combines digital
@@ -45,13 +48,6 @@ contracts-body: >-
 
   * Dept of VA - T4NG IDIQ (VA118-16-D-1011) 
 
-  * State of California PQVP AD-DS and CMAS (3-18-70-3581A) 
-  
-cta:
-  cta-description: Send us all of your questions
-  cta-label: Get in touch
-  cta-title: Talk to us
-  cta-url: /contact
-  cta-visible: true
+  * State of California PQVP AD-DS and CMAS (3-18-70-3581A)
 ---
-We’ve got the know-how to guide you through every step of digital transformation. 
+
