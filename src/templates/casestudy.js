@@ -2,24 +2,34 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Block from '../components/block'
+import Break from '../components/break'
 import Img from "gatsby-image"
 
 export const CaseStudyTemplate = ({
   title,
   body,
-  background
+  background,
+  subtitle
 }) => (
   <div>
-    <div className={'mx-auto'}>
-      <Img fluid={background.childImageSharp.fluid} />
-    </div>
-    <h1 className={'text-white text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
+    <Block 
+      className={'bg-white'}
+    >
+      <div className={'pb-10'}>
+        <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-1'}>{title}</h1>
+        <div className={'text-blue-light text-xl md:text-2xl leading-tight mb-5'}>{subtitle}</div>
+        <Break />
+      </div>
+      <div dangerouslySetInnerHTML={{__html: body}}></div>
+    </Block>
   </div>
 )
 
 CaseStudyTemplate.propTypes = {
   title: PropTypes.string,
-  body: PropTypes.string
+  body: PropTypes.string,
+  subtitle: PropTypes.string
 }
 
 const CaseStudy = ({ data }) => {
@@ -29,6 +39,7 @@ const CaseStudy = ({ data }) => {
     <Layout>
       <CaseStudyTemplate
         title={frontmatter.title}
+        subtitle={frontmatter.subtitle}
         body={html}
         background={frontmatter.background}
       />
