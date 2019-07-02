@@ -12,7 +12,7 @@ export const ContactTemplate = ({
   <div>
     <SEO title={title} description={body} />
     <div className={'bg-grey-light px-6 py-10 md:py-20'}>
-      <div className={'max-w-4xl mx-auto flex'}>
+      <div className={'max-w-5xl mx-auto flex'}>
         <div className={'md:w-2/3'}>
           <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
           <div className={'text-blue-light text-xl md:text-2xl leading-tight'} dangerouslySetInnerHTML={{__html: body}}></div>

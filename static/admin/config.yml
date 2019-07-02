@@ -41,10 +41,12 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "casestudy"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-Title", name: "subtitle", widget: "string"}
       - {label: "Short Description", name: "shortdescription", widget: "string"}
       - {label: "Logo", name: "logo", widget: image}
       - {label: "Background", name: "background", widget: image}
       - {label: "Show on home page?", name: "featured", widget: "boolean", default: false, required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Pages"
@@ -55,14 +57,16 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
       - file: "src/pages/team.md"
         label: "Team"
         name: "team"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Team Intro", name: "team-intro", widget: "markdown"}
           - {label: "Join Team Title", name: "join-title", widget: "string"}
           - {label: "Join Team Body", name: "join-body", widget: "markdown"}
@@ -81,35 +85,60 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Intro", name: "intro", widget: "markdown"}
           - {label: "Case Studies", name: "casestudies", widget: "relation", collection: "casestudies", valueField: "title", multiple: true, displayFields: ["title"]}
-          - {label: "CTA Title", name: "cta-title", widget: "string"}
-          - {label: "CTA Body", name: "cta-body", widget: "string"}
-          - {label: "CTA Label", name: "cta-label", widget: "string"}
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Visible", name: "cta-visible", widget: "boolean"}
+              - {label: "Title", name: "cta-title", widget: "string"}
+              - {label: "Description", name: "cta-description", widget: "string"}
+              - {label: "Button Label", name: "cta-label", widget: "string"}
+              - {label: "Button URL", name: "cta-url", widget: "string"}
       - file: "src/pages/about.md"
         label: "About"
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Intro", name: "intro", widget: "markdown"}
           - {label: "Purpose Title", name: "purpose-title", widget: "string"}
           - {label: "Purpose Body", name: "purpose-body", widget: "markdown"}
           - {label: "History Title", name: "history-title", widget: "string"}
           - {label: "History Body", name: "history-body", widget: "markdown"}
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Visible", name: "cta-visible", widget: "boolean"}
+              - {label: "Title", name: "cta-title", widget: "string"}
+              - {label: "Description", name: "cta-description", widget: "string"}
+              - {label: "Button Label", name: "cta-label", widget: "string"}
+              - {label: "Button URL", name: "cta-url", widget: "string"}
       - file: "src/pages/capabilities.md"
         label: "Capabilities"
         name: "capabilities"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "capabilities"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Capabilities Title", name: "capabilities-title", widget: "string"}
           - {label: "Capabilities Body", name: "capabilities-body", widget: "markdown"}
           - {label: "Capabilities", name: "capabilities", widget: "relation", collection: "capabilities", valueField: "title", multiple: true, displayFields: ["title"]}
           - {label: "Process Title", name: "process-title", widget: "string"}
           - {label: "Process Body", name: "process-body", widget: "markdown"}
-          - {label: "Contracts Title", name: "contracts-title", widget: "string"}
-          - {label: "Contracts Body", name: "contracts-body", widget: "markdown"}
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Visible", name: "cta-visible", widget: "boolean"}
+              - {label: "Title", name: "cta-title", widget: "string"}
+              - {label: "Description", name: "cta-description", widget: "string"}
+              - {label: "Button Label", name: "cta-label", widget: "string"}
+              - {label: "Button URL", name: "cta-url", widget: "string"}

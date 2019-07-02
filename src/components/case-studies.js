@@ -63,7 +63,9 @@ const CaseStudies = ({ children }) => (
                     </div>
                   </div>
                   <div className={'p-8'}>
-                    <h2 className={'font-bold text-xl md:text-2xl text-blue-dark leading-tight mb-3'}>{caseStudy.node.frontmatter.title}</h2>
+                    <h2 className={'font-bold text-xl md:text-2xl text-blue-dark leading-tight mb-3'}>
+                      <a href={caseStudy.node.fields.slug}>{caseStudy.node.frontmatter.title}</a>
+                    </h2>
                     <div className={'text-l md:text-xl leading-tight'}>{caseStudy.node.frontmatter.shortdescription}</div>
                   </div>
                 </div>

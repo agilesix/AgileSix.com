@@ -3,13 +3,13 @@ import React from "react"
 import Break from "./break"
 import SectionTitle from "./section-title"
 
-const Block = ({ title, children, className }) => (
-  <div className={`px-6 py-10 md:py-20 ${className}`}>
-    <div className={'max-w-4xl mx-auto'}>
+const Block = ({ title, children, className, image, imageTitle, imageBackgroundColor }) => (
+  <div className={`px-6 py-10 md:py-20 relative ${className}`}>
+    <div className={'max-w-5xl mx-auto'}>
       {title && (
-        <div className={'mx-auto'}>
+        <div className={'text-center'}>
           <SectionTitle>{title}</SectionTitle>
-          <Break />
+          <Break className={'mx-auto border-red'} />
         </div>
       )}
       {children}

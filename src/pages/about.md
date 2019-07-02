@@ -1,6 +1,10 @@
 ---
 templateKey: about
 title: About Us
+subtitle: >-
+  We think that government technology needs to make day-to-day life for citizens
+  easier. 
+hero: /img/header-team.png
 intro: >-
   After all, a person’s finances, health, and well-being can depend on their
   ability to understand and use an agency’s digital services. But too often,
@@ -77,12 +81,10 @@ history-body: >-
   from jobs at the U.S. Digital Service, the Department of Veterans Affairs, and
   other federal agencies.
 cta:
-  cta-description: >-
-    If you have questions about the Agile Six team, drop
-    us a line.
+  cta-description: Get in touch to chat with us about our work.
   cta-label: Get in touch
-  cta-title: Learn more
+  cta-title: Learn about us
   cta-url: /contact
   cta-visible: true
 ---
-We think that government technology should make day-to-day life for citizens easier.
+

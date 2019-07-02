@@ -6,12 +6,15 @@ import remarkHtml from 'remark-html'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
+import Hero from '../components/hero'
 import CTA from '../components/cta'
 import SEO from "../components/seo"
+import Prose from '../components/prose'
 
 export const AboutTemplate = ({
   title,
-  body,
+  subtitle,
+  hero,
   cta,
   intro,
   purpose_title,
@@ -20,23 +23,26 @@ export const AboutTemplate = ({
   history_body
 }) => (
   <div>
-    <SEO title={title} description={body} />
-    <div className={'bg-grey-light px-6 py-10 md:py-20'}>
-      <div className={'max-w-4xl mx-auto flex'}>
-        <div className={'md:w-2/3'}>
-          <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
-          <div className={'text-blue-light text-xl md:text-2xl leading-tight'} dangerouslySetInnerHTML={{__html: body}}></div>
-        </div>
-      </div>
-    </div>
+    <SEO title={title} description={subtitle} />
+    <Hero
+      title={title}
+      subtitle={subtitle}
+      hero={hero}
+    />
     <Block className={'bg-white'} title={null}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: intro}}></div>
+      <Prose>
+        <div dangerouslySetInnerHTML={{__html: intro}}></div>
+      </Prose>
     </Block>
     <Block className={'bg-grey-light'} title={purpose_title}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: purpose_body}}></div>
+      <Prose>
+        <div dangerouslySetInnerHTML={{__html: purpose_body}}></div>
+      </Prose>
     </Block>
     <Block className={'bg-white'} title={history_title}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: history_body}}></div>
+      <Prose>
+        <div dangerouslySetInnerHTML={{__html: history_body}}></div>
+      </Prose>
     </Block>
     {
       cta && cta.cta_visible && (
@@ -53,7 +59,7 @@ export const AboutTemplate = ({
 
 AboutTemplate.propTypes = {
   title: PropTypes.string,
-  body: PropTypes.string,
+  subtitle: PropTypes.string,
   intro: PropTypes.string,
   purpose_title: PropTypes.string,
   purpose_body: PropTypes.string,
@@ -63,19 +69,20 @@ AboutTemplate.propTypes = {
 }
 
 const About = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <AboutTemplate
         title={frontmatter.title}
-        body={html}
+        subtitle={frontmatter.subtitle}
         intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.intro).toString()}
         purpose_title={frontmatter.purpose_title}
         purpose_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.purpose_body).toString()}
         history_title={frontmatter.history_title}
         history_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.history_body).toString()}
         cta={frontmatter.cta}
+        hero={frontmatter.hero.childImageSharp}
       />
     </Layout>
   )
@@ -97,11 +104,19 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         intro
         purpose_title
         purpose_body
         history_title
         history_body
+        hero {
+          childImageSharp {
+            fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
         cta {
           cta_url
           cta_label
