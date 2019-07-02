@@ -41,10 +41,12 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "casestudy"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-Title", name: "subtitle", widget: "string"}
       - {label: "Short Description", name: "shortdescription", widget: "string"}
       - {label: "Logo", name: "logo", widget: image}
       - {label: "Background", name: "background", widget: image}
       - {label: "Show on home page?", name: "featured", widget: "boolean", default: false, required: false}
+      - {label: "Content", name: "content", widget: "markdown"}
 
   - name: "pages"
     label: "Pages"

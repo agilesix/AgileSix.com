@@ -2,12 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Img from "gatsby-image"
 
 export const CaseStudyTemplate = ({
   title,
-  body
+  body,
+  background
 }) => (
   <div>
+    <div className={'mx-auto'}>
+      <Img fluid={background.childImageSharp.fluid} />
+    </div>
     <h1 className={'text-white text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
   </div>
 )
@@ -25,6 +30,7 @@ const CaseStudy = ({ data }) => {
       <CaseStudyTemplate
         title={frontmatter.title}
         body={html}
+        background={frontmatter.background}
       />
     </Layout>
   )
@@ -49,6 +55,15 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        subtitle
+        shortdescription
+        background {
+          childImageSharp {
+            fluid(maxWidth: 1800) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
