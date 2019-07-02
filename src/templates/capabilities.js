@@ -21,8 +21,6 @@ export const CapabilitiesTemplate = ({
   capabilities_body,
   process_title,
   process_body,
-  contracts_title,
-  contracts_body,
   hero
 }) => (
   <div>
@@ -62,8 +60,6 @@ CapabilitiesTemplate.propTypes = {
   intro: PropTypes.string,
   capabilities_title: PropTypes.string,
   capabilities_body: PropTypes.string,
-  contracts_title: PropTypes.string,
-  contracts_body: PropTypes.string,
   process_title: PropTypes.string,
   process_body: PropTypes.string,
   capabilities: PropTypes.array,
@@ -82,7 +78,6 @@ const Capabilities = ({ data }) => {
         intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.intro).toString()}
         capabilities_title={frontmatter.capabilities_title}
         capabilities_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.capabilities_body).toString()}
-        contracts_title={frontmatter.contracts_title}
         contracts_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.contracts_body).toString()}
         process_title={frontmatter.process_title}
         process_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.process_body).toString()}
@@ -116,8 +111,6 @@ export const pageQuery = graphql`
         capabilities_body
         process_title
         process_body
-        contracts_title
-        contracts_body
         hero {
           childImageSharp {
             fluid(maxWidth: 200) {
