@@ -58,6 +58,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
       - file: "src/pages/team.md"
         label: "Team"
         name: "team"
@@ -65,6 +66,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Team Intro", name: "team-intro", widget: "markdown"}
           - {label: "Join Team Title", name: "join-title", widget: "string"}
           - {label: "Join Team Body", name: "join-body", widget: "markdown"}
@@ -84,6 +86,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Intro", name: "intro", widget: "markdown"}
           - {label: "Case Studies", name: "casestudies", widget: "relation", collection: "casestudies", valueField: "title", multiple: true, displayFields: ["title"]}
           - label: "CTA"
@@ -102,6 +105,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Intro", name: "intro", widget: "markdown"}
           - {label: "Purpose Title", name: "purpose-title", widget: "string"}
           - {label: "Purpose Body", name: "purpose-body", widget: "markdown"}
@@ -123,6 +127,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "capabilities"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Capabilities Title", name: "capabilities-title", widget: "string"}
           - {label: "Capabilities Body", name: "capabilities-body", widget: "markdown"}
           - {label: "Capabilities", name: "capabilities", widget: "relation", collection: "capabilities", valueField: "title", multiple: true, displayFields: ["title"]}

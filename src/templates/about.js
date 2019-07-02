@@ -13,6 +13,7 @@ import SEO from "../components/seo"
 export const AboutTemplate = ({
   title,
   subtitle,
+  hero,
   cta,
   intro,
   purpose_title,
@@ -25,6 +26,7 @@ export const AboutTemplate = ({
     <Hero
       title={title}
       subtitle={subtitle}
+      hero={hero}
     />
     <Block className={'bg-white'} title={null}>
       <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: intro}}></div>
@@ -73,6 +75,7 @@ const About = ({ data }) => {
         history_title={frontmatter.history_title}
         history_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.history_body).toString()}
         cta={frontmatter.cta}
+        hero={frontmatter.hero.childImageSharp}
       />
     </Layout>
   )
@@ -100,6 +103,13 @@ export const pageQuery = graphql`
         purpose_body
         history_title
         history_body
+        hero {
+          childImageSharp {
+            fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
         cta {
           cta_url
           cta_label

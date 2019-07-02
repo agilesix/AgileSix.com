@@ -1,6 +1,6 @@
 ---
 templateKey: work
-title: What we've done
+title: Work
 subtitle: There’s no one-size-fits-all solution for digital transformation.
 intro: >-
   Every one of our projects has required a lot of listening, iterating, and
