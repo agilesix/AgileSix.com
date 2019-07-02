@@ -10,7 +10,6 @@ content: >-
   ## The Challenge
 
 
-
   Like a lot of federal agencies, the Department of Veterans Affairs had
   accumulated a mix of different, competing technologies and systems over the
   years. 
@@ -23,7 +22,6 @@ content: >-
 
 
   ## The Solution
-
 
 
   Through the US Digital Service at the VA, we’re consolidating all of VA.gov
