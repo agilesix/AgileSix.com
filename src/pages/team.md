@@ -1,15 +1,18 @@
 ---
 templateKey: team
 title: We’ve got your six.
+subtitle: >-
+  That’s a military term for “we’ve got your back.” And it’s been a guiding
+  principle for us since we started. (It’s why we chose our name, actually.) 
 team-intro: >-
   At Agile Six, we work as a team. We trust and help each other. And we
   consciously pull talent from all sorts of different sectors because we want to
   learn from them — and because different perspectives on a project will make
-  for a better end result.
+  for a better end result. 
 
 
-  Staff hierarchy is overrated. Every one of us below, from our founders to our
-  most recent hires, are both teachers and students.
+  Staff hierarchy is overrated. At Agile Six, all of us — from our most recent
+  hires to our founders — are both students and teachers.
 join-title: Join our team
 join-body: >-
   **What we do matters.**
@@ -36,12 +39,11 @@ join-body: >-
   celebrate our successes together.
 cta:
   cta-description: >-
-    If you have questions about what it takes to join the Agile Six team (or for pictures of the dogs), drop
-    us a line.
+    If you have questions about what it takes to join the Agile Six team (or for
+    pictures of the dogs), drop us a line.
   cta-label: Get in touch
   cta-title: Learn more
   cta-url: /contact
   cta-visible: true
 ---
 
-That’s a military term for “we’ve got your back.” And it’s been a guiding principle for us since we started.
