@@ -2,6 +2,7 @@
 templateKey: work
 title: Work
 subtitle: There’s no one-size-fits-all solution for digital transformation.
+hero: /img/image3.png
 intro: >-
   Every one of our projects has required a lot of listening, iterating, and
   custom-tailoring. Check out some of the problems we’ve solved and clients
