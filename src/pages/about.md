@@ -4,6 +4,7 @@ title: About Us
 subtitle: >-
   We think that government technology needs to make day-to-day life for citizens
   easier. 
+hero: /img/header-team.png
 intro: >-
   After all, a person’s finances, health, and well-being can depend on their
   ability to understand and use an agency’s digital services. But too often,
@@ -79,5 +80,11 @@ history-body: >-
   Agile Six is a Vveteran-owned business, and many of our team members have come
   from jobs at the U.S. Digital Service, the Department of Veterans Affairs, and
   other federal agencies.
+cta:
+  cta-description: Get in touch to chat with us about our work.
+  cta-label: Get in touch
+  cta-title: Learn about us
+  cta-url: /contact
+  cta-visible: true
 ---
 
