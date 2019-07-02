@@ -6,13 +6,14 @@ import remarkHtml from 'remark-html'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
+import Hero from '../components/hero'
 import CapabilitiesBlock from '../components/capabilities'
 import CTA from '../components/cta'
 import SEO from '../components/seo'
 
 export const CapabilitiesTemplate = ({
   title,
-  body,
+  subtitle,
   cta,
   capabilities,
   capabilities_title,
@@ -23,15 +24,11 @@ export const CapabilitiesTemplate = ({
   contracts_body
 }) => (
   <div>
-    <SEO title={title} description={body} />
-    <div className={'bg-grey-light px-6 py-10 md:py-20'}>
-      <div className={'max-w-4xl mx-auto flex'}>
-        <div className={'md:w-2/3'}>
-          <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
-          <div className={'text-blue-light text-xl md:text-2xl leading-tight'} dangerouslySetInnerHTML={{__html: body}}></div>
-        </div>
-      </div>
-    </div>
+    <SEO title={title} description={subtitle} />
+    <Hero
+      title={title}
+      subtitle={subtitle}
+    />
     <Block className={'bg-white'} title={capabilities_title}>
       <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
       <CapabilitiesBlock selectedCapabilities={capabilities} />
@@ -43,7 +40,7 @@ export const CapabilitiesTemplate = ({
       <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: contracts_body}}></div>
     </Block>
     {
-      cta.cta_visible && (
+      cta && cta.cta_visible && (
         <CTA
           title={cta.cta_title}
           description={cta.cta_description}
@@ -57,7 +54,7 @@ export const CapabilitiesTemplate = ({
 
 CapabilitiesTemplate.propTypes = {
   title: PropTypes.string,
-  body: PropTypes.string,
+  subtitle: PropTypes.string,
   intro: PropTypes.string,
   capabilities_title: PropTypes.string,
   capabilities_body: PropTypes.string,
@@ -70,13 +67,13 @@ CapabilitiesTemplate.propTypes = {
 }
 
 const Capabilities = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <CapabilitiesTemplate
         title={frontmatter.title}
-        body={html}
+        subtitle={frontmatter.subtitle}
         capabilities={frontmatter.capabilities}
         intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.intro).toString()}
         capabilities_title={frontmatter.capabilities_title}
@@ -107,6 +104,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         intro
         capabilities
         capabilities_title

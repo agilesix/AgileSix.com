@@ -3,24 +3,23 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
+import Hero from '../components/hero'
 import Capabilities from '../components/capabilities'
 import CaseStudies from '../components/case-studies'
 import SEO from '../components/seo'
 
 export const IndexTemplate = ({
   title,
-  body
+  subtitle
 }) => (
   <div>
-    <SEO title={title} description={body} />
-    <div className={'bg-blue-dark px-6 py-10 md:py-20'}>
-      <div className={'max-w-4xl mx-auto flex'}>
-        <div className={'md:w-2/3'}>
-          <h1 className={'text-white text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
-          <div className={'text-blue-light text-md text-3xl md:text-4xl leading-none'} dangerouslySetInnerHTML={{__html: body}}></div>
-        </div>
-      </div>
-    </div>
+    <SEO title={title} description={subtitle} />
+    <Hero
+      title={title}
+      subtitle={subtitle}
+      className={`bg-blue-dark`}
+      textClass={`text-white`}
+    />
     <Block className={'bg-white'} title={'Capabilities'}>
       <p className={'text-xl md:text-2xl mb-10'}>Agile Six helps government agencies and other clients create customized digital solutions to meet the needs of their users. No matter how much experience you have with digital development or where you are in the process, we can get you where you want to go.</p>
       <Capabilities featuredOnly={true} />
@@ -39,17 +38,17 @@ export const IndexTemplate = ({
 
 IndexTemplate.propTypes = {
   title: PropTypes.string,
-  body: PropTypes.string
+  subtitle: PropTypes.string
 }
 
 const Index = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <IndexTemplate
         title={frontmatter.title}
-        body={html}
+        subtitle={frontmatter.subtitle}
       />
     </Layout>
   )
@@ -71,6 +70,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         cta {
           cta_url
           cta_label

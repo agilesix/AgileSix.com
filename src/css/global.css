@@ -23,15 +23,24 @@ body {
     @apply font-agile6;
 }
 
+h2:not(:first-child) {
+    @apply mt-10;
+}
+
 p:not(:first-child),
 ul:not(:first-child),
 h3:not(:first-child) {
     @apply mt-6;
 }
 
-h3 {
+.agile-prose h2 {
     @apply uppercase;
-    @apply text-red;
+    @apply text-3xl;
+    @apply font-bold;
+}
+
+.agile-prose p {
+    @apply text-xl;
 }
 
 ul {
@@ -40,6 +49,7 @@ ul {
 }
 
 .whr-item {
+    @apply list-none;
     @apply pb-4;
     @apply border-b;
     @apply border-grey;

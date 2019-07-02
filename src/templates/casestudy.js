@@ -17,11 +17,14 @@ export const CaseStudyTemplate = ({
       className={'bg-white'}
     >
       <div className={'pb-10'}>
+        <div className={'mb-5'}>
+          <a className={'text-blue-light text-md'} href={'/work'}>View all our work</a>
+        </div>
         <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-1'}>{title}</h1>
-        <div className={'text-blue-light text-xl md:text-2xl leading-tight mb-5'}>{subtitle}</div>
+        <div className={'text-xl md:text-2xl leading-tight mb-5'}>{subtitle}</div>
         <Break />
       </div>
-      <div dangerouslySetInnerHTML={{__html: body}}></div>
+      <div className={'agile-prose'} dangerouslySetInnerHTML={{__html: body}}></div>
     </Block>
   </div>
 )
