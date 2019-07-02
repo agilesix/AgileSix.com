@@ -4,6 +4,7 @@ title: Capabilities
 subtitle: >-
   We’ve got the know-how to guide you through every step of digital
   transformation.
+hero: /img/image5.png
 capabilities-title: What We Do
 capabilities-body: >-
   Agile Six is a full-spectrum digital services company that combines digital
