@@ -1,10 +1,10 @@
 import React from "react"
 
-const Break = () => (
+const Break = ({className, noMargin}) => (
   <hr 
-    className={'mt-1 mb-6 border-b-4 border-red mx-auto'}
+    className={`m-0 mt-1 ${noMargin ?  '' : 'mb-10'} border-b-2 ${className || 'border-red'}`}
     style={{
-      maxWidth: 150
+      maxWidth: 250
     }}
   />
 )

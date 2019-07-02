@@ -5,9 +5,12 @@ module.exports = {
     author: `@agilesix`,
   },
   plugins: [
-    'gatsby-plugin-postcss',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -21,6 +24,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/content/team`,
+        name: 'team-members',
       },
     },
     {
@@ -65,8 +75,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-remark-relative-images`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -79,6 +87,17 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/agile-six-icon.png`, // This path is relative to the root of the site.
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Agile Six`,
+        short_name: `Agile Six`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#002360`,
+        display: `standalone`,
+      },
     },
     {
       resolve: `gatsby-plugin-netlify-cms`
