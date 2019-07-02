@@ -4,6 +4,7 @@ title: We’ve got your six.
 subtitle: >-
   That’s a military term for “we’ve got your back.” And it’s been a guiding
   principle for us since we started. (It’s why we chose our name, actually.) 
+hero: /img/image2.png
 team-intro: >-
   At Agile Six, we work as a team. We trust and help each other. And we
   consciously pull talent from all sorts of different sectors because we want to
