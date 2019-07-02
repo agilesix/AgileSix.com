@@ -7,8 +7,17 @@ subtitle: >-
 capabilities-title: What We Do
 capabilities-body: >-
   Agile Six is a full-spectrum digital services company that combines digital
-  government modernization, software services delivery, and human-centered
-  design. Our core competency areas.
+  government modernization, product delivery, and human-centered design. 
+
+
+  But we’re not just a tech company. We’re a solutions company. While most of
+  our work is digital, we recognize that some problems can’t be solved by coding
+  or new hardware. Our team will work with you to figure out what you need —
+  sometimes the best solution is as low-tech as a new process for handling
+  incoming paperwork. 
+
+
+  ### Core Competency Areas
 capabilities:
   - Devops & Cloud
   - Human Centered Design
