@@ -58,5 +58,11 @@ contracts-body: >-
   * Dept of VA - T4NG IDIQ (VA118-16-D-1011) 
 
   * State of California PQVP AD-DS and CMAS (3-18-70-3581A)
+cta:
+  cta-description: 'We can do a lot, let''s connect and talk about what we can do for you.'
+  cta-label: Get in touch
+  cta-title: Learn more about our capabilities
+  cta-url: /contact
+  cta-visible: true
 ---
 
