@@ -10,6 +10,7 @@ import Hero from '../components/hero'
 import CapabilitiesBlock from '../components/capabilities'
 import CTA from '../components/cta'
 import SEO from '../components/seo'
+import Prose from '../components/prose'
 
 export const CapabilitiesTemplate = ({
   title,
@@ -21,23 +22,26 @@ export const CapabilitiesTemplate = ({
   process_title,
   process_body,
   contracts_title,
-  contracts_body
+  contracts_body,
+  hero
 }) => (
   <div>
     <SEO title={title} description={subtitle} />
     <Hero
       title={title}
       subtitle={subtitle}
+      hero={hero}
     />
     <Block className={'bg-white'} title={capabilities_title}>
-      <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
+      <Prose>
+        <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
+      </Prose>
       <CapabilitiesBlock selectedCapabilities={capabilities} />
     </Block>
     <Block className={'bg-grey-light'} title={process_title}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: process_body}}></div>
-    </Block>
-    <Block className={'bg-white'} title={contracts_title}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: contracts_body}}></div>
+      <Prose>
+        <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: process_body}}></div>
+      </Prose>
     </Block>
     {
       cta && cta.cta_visible && (
@@ -83,6 +87,7 @@ const Capabilities = ({ data }) => {
         process_title={frontmatter.process_title}
         process_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.process_body).toString()}
         cta={frontmatter.cta}
+        hero={frontmatter.hero.childImageSharp}
       />
     </Layout>
   )
@@ -113,6 +118,13 @@ export const pageQuery = graphql`
         process_body
         contracts_title
         contracts_body
+        hero {
+          childImageSharp {
+            fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
         cta {
           cta_url
           cta_label

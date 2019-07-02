@@ -12,13 +12,15 @@ import Hero from '../components/hero'
 export const WorkTemplate = ({
   title,
   subtitle,
-  cta
+  cta,
+  hero
 }) => (
   <div>
     <SEO title={title} description={subtitle} />
     <Hero
       title={title}
       subtitle={subtitle}
+      hero={hero}
     />
     {
       cta.cta_visible && (
@@ -50,6 +52,7 @@ const Work = ({ data }) => {
         subtitle={frontmatter.subtitle}
         intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.intro).toString()}
         cta={frontmatter.cta}
+        hero={frontmatter.hero.childImageSharp}
       />
     </Layout>
   )
@@ -73,6 +76,13 @@ export const pageQuery = graphql`
         title
         subtitle
         intro
+        hero {
+          childImageSharp {
+            fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
         cta {
           cta_url
           cta_label

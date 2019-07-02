@@ -133,8 +133,6 @@ collections:
           - {label: "Capabilities", name: "capabilities", widget: "relation", collection: "capabilities", valueField: "title", multiple: true, displayFields: ["title"]}
           - {label: "Process Title", name: "process-title", widget: "string"}
           - {label: "Process Body", name: "process-body", widget: "markdown"}
-          - {label: "Contracts Title", name: "contracts-title", widget: "string"}
-          - {label: "Contracts Body", name: "contracts-body", widget: "markdown"}
           - label: "CTA"
             name: "cta"
             widget: "object"

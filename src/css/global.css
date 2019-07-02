@@ -39,8 +39,19 @@ h3:not(:first-child) {
     @apply font-bold;
 }
 
+.agile-prose h3 {
+    @apply uppercase;
+    @apply text-2xl;
+    @apply font-bold;
+    @apply text-red;
+}
+
 .agile-prose p {
-    @apply text-xl;
+    @apply text-2xl;
+}
+
+.agile-prose .gatsby-resp-image-wrapper {
+    @apply text-2xl;
 }
 
 ul {
@@ -57,6 +68,12 @@ ul {
 
 .whr-item:not(:last-child) {
     @apply mb-4;
+}
+
+.whr-location,
+.whr-info:not(:first-child) {
+    @apply list-none;
+    @apply m-0;
 }
 
 .whr-title {

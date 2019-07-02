@@ -9,6 +9,7 @@ import Block from '../components/block'
 import Hero from '../components/hero'
 import CTA from '../components/cta'
 import SEO from "../components/seo"
+import Prose from '../components/prose'
 
 export const AboutTemplate = ({
   title,
@@ -29,13 +30,19 @@ export const AboutTemplate = ({
       hero={hero}
     />
     <Block className={'bg-white'} title={null}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: intro}}></div>
+      <Prose>
+        <div dangerouslySetInnerHTML={{__html: intro}}></div>
+      </Prose>
     </Block>
     <Block className={'bg-grey-light'} title={purpose_title}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: purpose_body}}></div>
+      <Prose>
+        <div dangerouslySetInnerHTML={{__html: purpose_body}}></div>
+      </Prose>
     </Block>
     <Block className={'bg-white'} title={history_title}>
-      <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: history_body}}></div>
+      <Prose>
+        <div dangerouslySetInnerHTML={{__html: history_body}}></div>
+      </Prose>
     </Block>
     {
       cta && cta.cta_visible && (

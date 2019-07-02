@@ -7,10 +7,12 @@ import Hero from '../components/hero'
 import Capabilities from '../components/capabilities'
 import CaseStudies from '../components/case-studies'
 import SEO from '../components/seo'
+import Prose from '../components/prose'
 
 export const IndexTemplate = ({
   title,
-  subtitle
+  subtitle,
+  hero
 }) => (
   <div>
     <SEO title={title} description={subtitle} />
@@ -19,9 +21,12 @@ export const IndexTemplate = ({
       subtitle={subtitle}
       className={`bg-blue-dark`}
       textClass={`text-white`}
+      hero={hero}
     />
     <Block className={'bg-white'} title={'Capabilities'}>
-      <p className={'text-xl md:text-2xl mb-10'}>Agile Six helps government agencies and other clients create customized digital solutions to meet the needs of their users. No matter how much experience you have with digital development or where you are in the process, we can get you where you want to go.</p>
+      <Prose>
+        <p className={'text-xl md:text-2xl mb-10'}>Agile Six helps government agencies and other clients create customized digital solutions to meet the needs of their users. No matter how much experience you have with digital development or where you are in the process, we can get you where you want to go.</p>
+      </Prose>
       <Capabilities featuredOnly={true} />
       <div class="text-center mt-10">
         <a href="/capabilities" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">Learn about our capabilities</a>
@@ -49,6 +54,7 @@ const Index = ({ data }) => {
       <IndexTemplate
         title={frontmatter.title}
         subtitle={frontmatter.subtitle}
+        hero={frontmatter.hero.childImageSharp}
       />
     </Layout>
   )
@@ -71,6 +77,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
+        hero {
+          childImageSharp {
+            fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
         cta {
           cta_url
           cta_label

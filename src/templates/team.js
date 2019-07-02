@@ -11,6 +11,7 @@ import Hero from '../components/hero'
 import Block from '../components/block'
 import TeamMembers from '../components/team-members'
 import CTA from '../components/cta'
+import Prose from '../components/prose'
 import SEO from '../components/seo'
 
 export const TeamTemplate = ({
@@ -19,7 +20,8 @@ export const TeamTemplate = ({
   team_intro,
   join_title,
   join_body,
-  cta
+  cta,
+  hero
 }) => (
   <div>
     <SEO title={title} description={subtitle} />
@@ -29,28 +31,33 @@ export const TeamTemplate = ({
     <Hero
       title={title}
       subtitle={subtitle}
+      hero={hero}
     />
     <Block className={'bg-white'} title={'Meet the Team'}>
-      <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: team_intro}}></div>
+      <Prose>
+        <div className={'mb-10'} dangerouslySetInnerHTML={{__html: team_intro}}></div>
+      </Prose>
       <TeamMembers />
     </Block>
     <Block className={'bg-grey-light'} title={join_title}>
-      <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
-      <PostScribe html={`
-        <div class="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Open Positions</div>
-        <script>
-          function checkVariable() {
-            if (window.whr) {
-              whr(document).ready(function(){whr_embed(357587, {detail: 'titles', base: 'jobs', zoom: 'country', grouping: 'none'});});
-            } else {
-              setTimeout(checkVariable, 1000);
+      <Prose>
+        <div className={'mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
+        <PostScribe html={`
+          <div class="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Open Positions</div>
+          <script>
+            function checkVariable() {
+              if (window.whr) {
+                whr(document).ready(function(){whr_embed(357587, {detail: 'titles', base: 'jobs', zoom: 'country', grouping: 'none'});});
+              } else {
+                setTimeout(checkVariable, 1000);
+              }
             }
-          }
 
-          setTimeout(checkVariable, 50);
-        </script>
-        <div id='whr_embed_hook'></div>
-      `} />
+            setTimeout(checkVariable, 50);
+          </script>
+          <div id='whr_embed_hook'></div>
+        `} />
+      </Prose>
     </Block>
     {
       cta.cta_visible && (
@@ -86,6 +93,7 @@ const Team = ({ data }) => {
         join_title={frontmatter.join_title}
         join_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.join_body).toString()}
         cta={frontmatter.cta}
+        hero={frontmatter.hero.childImageSharp}
       />
     </Layout>
   )
@@ -111,6 +119,13 @@ export const pageQuery = graphql`
         team_intro
         join_title
         join_body
+        hero {
+          childImageSharp {
+            fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
         cta {
           cta_url
           cta_label

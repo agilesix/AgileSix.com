@@ -18,7 +18,6 @@ capabilities-body: >-
   incoming paperwork. 
 
 
-  ### Core Competency Areas
 capabilities:
   - Devops & Cloud
   - Human Centered Design

@@ -7,9 +7,9 @@ const Block = ({ title, children, className, image, imageTitle, imageBackgroundC
   <div className={`px-6 py-10 md:py-20 relative ${className}`}>
     <div className={'max-w-5xl mx-auto'}>
       {title && (
-        <div className={'mx-auto'}>
+        <div className={'text-center'}>
           <SectionTitle>{title}</SectionTitle>
-          <Break />
+          <Break className={'mx-auto border-red'} />
         </div>
       )}
       {children}
