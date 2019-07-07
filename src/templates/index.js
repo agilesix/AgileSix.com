@@ -33,7 +33,7 @@ export const IndexTemplate = ({
       </div>
     </Block>
     <Block className={'bg-grey-light'} title={'Recent Work'}>
-      <CaseStudies />
+      <CaseStudies featuredOnly={true} />
       <div class="text-center mt-10">
         <a href="/work" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">See all of our work</a>
       </div>

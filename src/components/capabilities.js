@@ -45,8 +45,6 @@ const Capabilities = ({ children, selectedCapabilities, featuredOnly }) => (
       return (
         <div className={'flex flex-wrap md:-mx-2'}>
           {capabilities.map(capability => {
-            console.log(capability.node.frontmatter);
-
             let display = true;
             if (featuredOnly) {
               if (capability.node.frontmatter.featured) {
