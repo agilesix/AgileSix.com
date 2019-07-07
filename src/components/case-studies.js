@@ -25,6 +25,7 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
               frontmatter {
                 title
                 shortdescription
+                featured
                 background {
                   childImageSharp {
                     fluid(maxWidth: 300) {
