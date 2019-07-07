@@ -25,7 +25,7 @@ export const WorkTemplate = ({
       subtitle={subtitle}
       hero={hero}
     />
-    <Block className={'bg-grey-light'} title={'Recent Work'}>
+    <Block className={'bg-grey-light'}>
       <CaseStudiesBlock selectedCasestudies={casestudies} />
     </Block>
     {
