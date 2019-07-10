@@ -67,7 +67,7 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
 
             if (display) {
               return (
-                <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2'}>
+                <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
                   <div className={'bg-white p-1'}>
                     <div className={'bg-white mb-3 relative'}>
                       <Img fluid={caseStudy.node.frontmatter.background.childImageSharp.fluid} />
