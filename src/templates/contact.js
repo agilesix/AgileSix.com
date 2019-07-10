@@ -4,21 +4,20 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Block from '../components/block'
 import SEO from '../components/seo'
+import Hero from '../components/hero'
 
 export const ContactTemplate = ({
   title,
-  body
+  subtitle,
+  hero
 }) => (
   <div>
-    <SEO title={title} description={body} />
-    <div className={'bg-grey-light px-6 py-10 md:py-20'}>
-      <div className={'max-w-5xl mx-auto flex'}>
-        <div className={'md:w-2/3'}>
-          <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-5'}>{title}</h1>
-          <div className={'text-blue-light text-xl md:text-2xl leading-tight'} dangerouslySetInnerHTML={{__html: body}}></div>
-        </div>
-      </div>
-    </div>
+    <SEO title={title} description={subtitle} />
+    <Hero
+      title={title}
+      subtitle={subtitle}
+      hero={hero}
+    />
     <Block className={'bg-white'} title={null}>
       <form class="w-full max-w-lg mx-auto">
         <div class="w-full px-3 mb-6">
@@ -62,17 +61,19 @@ export const ContactTemplate = ({
 
 ContactTemplate.propTypes = {
   title: PropTypes.string,
-  body: PropTypes.string
+  subtitle: PropTypes.string,
+  hero: PropTypes.object
 }
 
 const Contact = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <ContactTemplate
         title={frontmatter.title}
-        body={html}
+        subtitle={frontmatter.subtitle}
+        hero={frontmatter.hero.childImageSharp}
       />
     </Layout>
   )
@@ -94,6 +95,14 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
+        hero {
+          childImageSharp {
+            fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
