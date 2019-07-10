@@ -75,6 +75,8 @@ const Capabilities = ({ children, selectedCapabilities, featuredOnly }) => (
                 </div>
               )
             }
+
+            return null
           })}
         </div>
       )

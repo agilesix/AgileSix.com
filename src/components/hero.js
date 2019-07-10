@@ -1,7 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
 import Img from "gatsby-image"
-import Break from "../components/break"
 
 const Hero = ({ title, subtitle, className, textClass, hero }) => (
   <div className={`px-6 relative ${className || 'bg-white'}`}>

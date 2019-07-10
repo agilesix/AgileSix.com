@@ -86,7 +86,9 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
                   </div>
                 </div>
               )
-              }
+            }
+
+            return null;
           })}
         </div>
       )

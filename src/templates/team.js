@@ -82,7 +82,7 @@ TeamTemplate.propTypes = {
 }
 
 const Team = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
