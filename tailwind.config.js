@@ -18,9 +18,6 @@ module.exports = {
       'agile6': ['Source Sans Pro', '-apple-system', 'BlinkMacSystemFont'],
     }
   },
-  screens: {
-    'dark': {'raw': '(prefers-color-scheme: dark)'}
-  },
   variants: {},
   plugins: []
 }

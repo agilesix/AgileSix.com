@@ -86,6 +86,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Intro", name: "intro", widget: "markdown"}
           - {label: "Case Studies", name: "casestudies", widget: "relation", collection: "casestudies", valueField: "title", multiple: true, displayFields: ["title"]}
@@ -142,3 +143,10 @@ collections:
               - {label: "Description", name: "cta-description", widget: "string"}
               - {label: "Button Label", name: "cta-label", widget: "string"}
               - {label: "Button URL", name: "cta-url", widget: "string"}
+      - file: "src/pages/contact.md"
+        label: "Contact"
+        name: "Contact"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
