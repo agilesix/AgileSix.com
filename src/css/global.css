@@ -50,6 +50,14 @@ h3:not(:first-child) {
     @apply text-2xl;
 }
 
+.agile-prose a {
+    @apply text-blue-light;
+}
+
+.agile-prose a:hover {
+    @apply underline;
+}
+
 .agile-prose .gatsby-resp-image-wrapper {
     @apply text-2xl;
 }

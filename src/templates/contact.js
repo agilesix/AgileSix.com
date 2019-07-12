@@ -19,15 +19,15 @@ export const ContactTemplate = ({
       hero={hero}
     />
     <Block className={'bg-white'} title={null}>
-      <form name="contact" class="w-full max-w-lg mx-auto" method="POST" data-netlify="true">
+      <form action="/success" name="contact" class="w-full max-w-lg mx-auto" method="POST" data-netlify="true">
         <div hidden><input name="bot-field" /></div>
         <div class="w-full px-3 mb-6">
           <label class="block uppercase tracking-wide text-gray-700 text-xs mb-2" for="name"><strong>Name</strong></label>
-          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" id="name" name="name" type="text" placeholder="" />
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" id="name" name="name" type="text" placeholder="" required />
         </div>
         <div class="w-full px-3 mb-6">
           <label class="block uppercase tracking-wide text-gray-700 text-xs mb-2" for="email"><strong>Email</strong></label>
-          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" id="email" name="email" type="email" placeholder="" />
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" id="email" name="email" type="email" placeholder="" required />
         </div>
         <div class="w-full px-3 mb-6">
           <label class="block uppercase tracking-wide text-gray-700 text-xs mb-2" for="company"><strong>Company</strong> (optional)</label>
@@ -36,7 +36,7 @@ export const ContactTemplate = ({
         <div class="w-full px-3 mb-6">
           <label class="block uppercase tracking-wide text-gray-700 text-xs mb-2" for="subject"><strong>I'd like to talk about</strong></label>
           <div class="relative">
-            <select id="subject" name="subject" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark">
+            <select id="subject" name="subject" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" required>
               <option>Select one...</option>
               <option value="hiring us">Working with us</option>
               <option value="market development">Civic tech market development</option>
@@ -50,7 +50,7 @@ export const ContactTemplate = ({
         </div>
         <div class="w-full px-3 mb-6">
           <label class="block uppercase tracking-wide text-gray-700 text-xs mb-2" for="email"><strong>Message</strong></label>
-          <textarea rows="10" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" id="message" type="message" placeholder=""></textarea>
+          <textarea rows="10" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" id="message" type="message" placeholder="" required></textarea>
           <div class="text-center mt-10">
             <button className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">Send it</button>
           </div>
