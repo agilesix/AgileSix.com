@@ -19,7 +19,8 @@ export const ContactTemplate = ({
       hero={hero}
     />
     <Block className={'bg-white'} title={null}>
-      <form class="w-full max-w-lg mx-auto" data-netlify="true">
+      <form name="contact" class="w-full max-w-lg mx-auto" method="POST" data-netlify="true">
+        <div hidden><input name="bot-field" /></div>
         <div class="w-full px-3 mb-6">
           <label class="block uppercase tracking-wide text-gray-700 text-xs mb-2" for="name"><strong>Name</strong></label>
           <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" id="name" name="name" type="text" placeholder="" />
