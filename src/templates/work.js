@@ -8,12 +8,15 @@ import Layout from '../components/layout'
 import CTA from '../components/cta'
 import SEO from '../components/seo'
 import Hero from '../components/hero'
+import Block from '../components/block'
+import CaseStudiesBlock from '../components/case-studies'
 
 export const WorkTemplate = ({
   title,
   subtitle,
   cta,
-  hero
+  hero,
+  casestudies
 }) => (
   <div>
     <SEO title={title} description={subtitle} />
@@ -22,6 +25,9 @@ export const WorkTemplate = ({
       subtitle={subtitle}
       hero={hero}
     />
+    <Block className={'bg-grey-light'}>
+      <CaseStudiesBlock selectedCasestudies={casestudies} />
+    </Block>
     {
       cta.cta_visible && (
         <CTA
@@ -39,7 +45,8 @@ WorkTemplate.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
   intro: PropTypes.string,
-  cta: PropTypes.object
+  cta: PropTypes.object,
+  casestudies: PropTypes.array
 }
 
 const Work = ({ data }) => {
@@ -53,6 +60,7 @@ const Work = ({ data }) => {
         intro={remark().use(recommended).use(remarkHtml).processSync(frontmatter.intro).toString()}
         cta={frontmatter.cta}
         hero={frontmatter.hero.childImageSharp}
+        casestudies={frontmatter.casestudies}
       />
     </Layout>
   )
@@ -76,6 +84,7 @@ export const pageQuery = graphql`
         title
         subtitle
         intro
+        casestudies
         hero {
           childImageSharp {
             fluid(maxWidth: 200) {
