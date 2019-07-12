@@ -19,7 +19,7 @@ export const ContactTemplate = ({
       hero={hero}
     />
     <Block className={'bg-white'} title={null}>
-      <form netlify-honeypot="bot-field" data-netlify="true" action="/success" name="contact" class="w-full max-w-lg mx-auto" method="POST">
+      <form netlify-honeypot="bot-field" data-netlify="true" action="/success/" name="contact" class="w-full max-w-lg mx-auto" method="POST">
         <div hidden><input name="bot-field" /></div>
         <div class="w-full px-3 mb-6">
           <label class="block uppercase tracking-wide text-gray-700 text-xs mb-2" for="name"><strong>Name</strong></label>
