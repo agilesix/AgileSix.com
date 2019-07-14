@@ -21,10 +21,13 @@ export const CapabilitiesTemplate = ({
   capabilities_body,
   process_title,
   process_body,
-  hero
+  hero,
+  preview
 }) => (
   <div>
-    <SEO title={title} description={subtitle} />
+    {!preview && (
+      <SEO title={title} description={subtitle} />
+    )}
     <Hero
       title={title}
       subtitle={subtitle}
@@ -34,7 +37,12 @@ export const CapabilitiesTemplate = ({
       <Prose>
         <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
       </Prose>
-      <CapabilitiesBlock selectedCapabilities={capabilities} />
+      {!preview && (
+        <CapabilitiesBlock selectedCapabilities={capabilities} />
+      )}
+      {preview && (
+        <div>The capabilities list will display here when deployed</div>
+      )}
     </Block>
     <Block className={'bg-grey-light'} title={process_title}>
       <Prose>
