@@ -16,17 +16,22 @@ export const WorkTemplate = ({
   subtitle,
   cta,
   hero,
-  casestudies
+  casestudies,
+  preview
 }) => (
   <div>
-    <SEO title={title} description={subtitle} />
+    {!preview && (
+      <SEO title={title} description={subtitle}></SEO>
+    )}
     <Hero
       title={title}
       subtitle={subtitle}
       hero={hero}
     />
     <Block className={'bg-grey-light'}>
-      <CaseStudiesBlock selectedCasestudies={casestudies} />
+      {!preview && (
+        <CaseStudiesBlock selectedCasestudies={casestudies} />
+      )}
     </Block>
     {
       cta.cta_visible && (
