@@ -5,11 +5,11 @@ import TeamPagePreview from './preview-templates/TeamPagePreview'
 import WorkPagePreview from './preview-templates/WorkPagePreview'
 import AboutPagePreview from './preview-templates/AboutPagePreview'
 import CapabilitiesPagePreview from './preview-templates/CapabilitiesPagePreview'
-import ContactPagePreview from './preview-templates/ContactPagePreview'
+import TeamMemberPreview from './preview-templates/TeamMemberPreview'
 
 CMS.registerPreviewTemplate('work', WorkPagePreview)
 CMS.registerPreviewTemplate('team', TeamPagePreview)
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('capabilities', CapabilitiesPagePreview)
-CMS.registerPreviewTemplate('contact', ContactPagePreview)
+CMS.registerPreviewTemplate('people', TeamMemberPreview)
