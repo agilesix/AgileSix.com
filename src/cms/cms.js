@@ -7,11 +7,13 @@ import AboutPagePreview from './preview-templates/AboutPagePreview'
 import CapabilitiesPagePreview from './preview-templates/CapabilitiesPagePreview'
 import CaseStudyPagePreview from './preview-templates/CaseStudyPagePreview'
 import TeamMemberPreview from './preview-templates/TeamMemberPreview'
+import CapabilityPreview from './preview-templates/CapabilityPreview'
 
 CMS.registerPreviewTemplate('work', WorkPagePreview)
 CMS.registerPreviewTemplate('team', TeamPagePreview)
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
-CMS.registerPreviewTemplate('capabilities', CapabilitiesPagePreview)
+CMS.registerPreviewTemplate('capabilitiesPage', CapabilitiesPagePreview)
+CMS.registerPreviewTemplate('capabilities', CapabilityPreview)
 CMS.registerPreviewTemplate('casestudies', CaseStudyPagePreview)
 CMS.registerPreviewTemplate('people', TeamMemberPreview)

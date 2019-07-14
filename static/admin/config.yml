@@ -123,7 +123,7 @@ collections:
               - {label: "Button URL", name: "cta-url", widget: "string"}
       - file: "src/pages/capabilities.md"
         label: "Capabilities"
-        name: "capabilities"
+        name: "capabilitiesPage"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "capabilities"}
           - {label: "Title", name: "title", widget: "string"}
