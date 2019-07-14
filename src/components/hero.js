@@ -15,7 +15,7 @@ const Hero = ({ title, subtitle, className, textClass, hero }) => (
           )}
         </div>
         <div className={`w-3/4 md:w-1/2 mb-10 md:mb-0`}>
-          {hero && (
+          {hero && hero.fluid && (
             <Img fluid={hero.fluid} />
           )}
         </div>
