@@ -13,6 +13,7 @@ const TeamPagePreview = ({ entry, getAsset }) => {
         <TeamTemplate
             title={data.title}
             subtitle={data.subtitle}
+            hero={data.hero}
             team_intro={remark().use(recommended).use(remarkHtml).processSync(data['team-intro']).toString()}
             join_title={data['join-title']}
             join_body={remark().use(recommended).use(remarkHtml).processSync(data['join-body']).toString()}

@@ -10,6 +10,7 @@ const WorkPagePreview = ({ entry, getAsset }) => {
         <WorkTemplate
             title={data.title}
             subtitle={data.subtitle}
+            hero={data.hero}
             cta={{
                 cta_visible: data['cta-visible'],
                 cta_title: data['cta=title'],

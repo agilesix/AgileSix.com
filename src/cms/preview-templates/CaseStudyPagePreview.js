@@ -12,6 +12,7 @@ const CaseStudyPagePreview = ({ entry, getAsset }) => {
       <CaseStudyTemplate
           title={data.title}
           subtitle={data.subtitle}
+          hero={data.hero}
           body={remark().use(recommended).use(remarkHtml).processSync(data.body).toString()}
           background={data.background}
       />

@@ -13,6 +13,7 @@ const CapabilitiesPagePreview = ({ entry, getAsset }) => {
         <CapabilitiesTemplate
             title={data.title}
             subtitle={data.subtitle}
+            hero={data.hero}
             capabilities={data.capabilities}
             intro={remark().use(recommended).use(remarkHtml).processSync(data.intro).toString()}
             capabilities_title={data['capabilities-title']}

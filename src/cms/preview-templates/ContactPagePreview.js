@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ContactTemplate from '../../templates/contact'
+import {ContactTemplate} from '../../templates/contact'
 
 const ContactPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
@@ -10,6 +10,7 @@ const ContactPagePreview = ({ entry, getAsset }) => {
         <ContactTemplate
             title={data.title}
             subtitle={data.subtitle}
+            hero={data.hero}
             preview={true}
         />
     )

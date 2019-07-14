@@ -10,6 +10,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
       <Hero
         title={data.title}
         subtitle={data.subtitle}
+        hero={data.hero}
         className={`bg-blue-dark`}
         textClass={`text-white`}
       />

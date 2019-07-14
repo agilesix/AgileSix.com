@@ -145,8 +145,9 @@ collections:
               - {label: "Button URL", name: "cta-url", widget: "string"}
       - file: "src/pages/contact.md"
         label: "Contact"
-        name: "Contact"
+        name: "contact"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
