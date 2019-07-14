@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: matthewcrist/agile6
+  repo: agilesix/agilesix-website-refresh
   branch: master
 
 media_folder: "static/img"
