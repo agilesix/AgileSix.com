@@ -21,13 +21,17 @@ export const TeamTemplate = ({
   join_title,
   join_body,
   cta,
-  hero
+  hero,
+  preview
 }) => (
   <div>
-    <SEO title={title} description={subtitle} />
-    <Helmet>
-      <script src="https://www.workable.com/assets/embed.js" type="text/javascript"></script>
-    </Helmet>
+    {!preview && (
+        <SEO title={title} description={subtitle}>
+          <Helmet>
+            <script src="https://www.workable.com/assets/embed.js" type="text/javascript"></script>
+          </Helmet>
+        </SEO>
+    )}
     <Hero
       title={title}
       subtitle={subtitle}
@@ -37,26 +41,30 @@ export const TeamTemplate = ({
       <Prose>
         <div className={'mb-10'} dangerouslySetInnerHTML={{__html: team_intro}}></div>
       </Prose>
-      <TeamMembers />
+      {!preview && (
+        <TeamMembers />
+      )}
     </Block>
     <Block className={'bg-grey-light'} title={join_title}>
       <Prose>
         <div className={'mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
-        <PostScribe html={`
-          <div class="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Open Positions</div>
-          <script>
-            function checkVariable() {
-              if (window.whr) {
-                whr(document).ready(function(){whr_embed(357587, {detail: 'titles', base: 'jobs', zoom: 'country', grouping: 'none'});});
-              } else {
-                setTimeout(checkVariable, 1000);
+        {!preview && (
+          <PostScribe html={`
+            <div class="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Open Positions</div>
+            <script>
+              function checkVariable() {
+                if (window.whr) {
+                  whr(document).ready(function(){whr_embed(357587, {detail: 'titles', base: 'jobs', zoom: 'country', grouping: 'none'});});
+                } else {
+                  setTimeout(checkVariable, 1000);
+                }
               }
-            }
 
-            setTimeout(checkVariable, 50);
-          </script>
-          <div id='whr_embed_hook'></div>
-        `} />
+              setTimeout(checkVariable, 50);
+            </script>
+            <div id='whr_embed_hook'></div>
+          `} />
+        )}
       </Prose>
     </Block>
     {

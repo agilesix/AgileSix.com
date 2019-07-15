@@ -9,10 +9,13 @@ import Hero from '../components/hero'
 export const ContactTemplate = ({
   title,
   subtitle,
-  hero
+  hero,
+  preview
 }) => (
   <div>
-    <SEO title={title} description={subtitle} />
+    {!preview && (
+      <SEO title={title} description={subtitle} />
+    )}
     <Hero
       title={title}
       subtitle={subtitle}

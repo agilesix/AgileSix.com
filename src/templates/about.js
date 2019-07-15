@@ -20,10 +20,13 @@ export const AboutTemplate = ({
   purpose_title,
   purpose_body,
   history_title,
-  history_body
+  history_body,
+  preview
 }) => (
   <div>
-    <SEO title={title} description={subtitle} />
+    {!preview && (
+      <SEO title={title} description={subtitle} />
+    )}
     <Hero
       title={title}
       subtitle={subtitle}
