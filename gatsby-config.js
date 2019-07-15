@@ -91,7 +91,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/agile-six-icon.png`, // This path is relative to the root of the site.
       }
-    }
-    `gatsby-plugin-offline`,
+    },
+    `gatsby-plugin-offline`
   ],
 }
