@@ -15,7 +15,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-offline`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -93,22 +92,6 @@ module.exports = {
         icon: `src/images/agile-six-icon.png`, // This path is relative to the root of the site.
       }
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Agile Six`,
-        short_name: `Agile Six`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#002360`,
-        display: `standalone`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-netlify-cms`
-    }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`
   ],
 }
