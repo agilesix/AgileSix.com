@@ -4,6 +4,6 @@ name: Ernie Ramirez
 position: Co-Founder & COO
 bio: ' '
 picture: /img/ernie-ramirez.png
-order: 11
+order: 19
 ---
 
