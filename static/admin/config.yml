@@ -16,11 +16,11 @@ collections:
     identifier_field: name
     fields:
       - {label: "Template", name: "templateKey", widget: "hidden", default: "team-member"}
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Name", name: "name", widget: "string", required: true}
+      - {label: "Position", name: "position", widget: "string", required: true}
       - {label: "Short Bio", name: "bio", widget: "string"}
-      - {label: "Picture", name: "picture", widget: image}
-      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Picture", name: "picture", widget: image, required: true}
+      - {label: "Order", name: "order", widget: "number", required: true}
 
   - name: "capabilities"
     label: "Capability"

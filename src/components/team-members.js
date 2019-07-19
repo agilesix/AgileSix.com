@@ -14,7 +14,11 @@ const TeamMembers = ({ children }) => (
     query={graphql`
       query TeamMembersQuery {
         allMarkdownRemark(
-            filter: { frontmatter: {templateKey: {eq: "team-member"}} }
+          filter: { frontmatter: {templateKey: {eq: "team-member"}} }
+          sort: { 
+            order: [DESC, ASC], 
+            fields: [frontmatter___order, frontmatter___name]
+          }
         ) {
           edges {
             node {
@@ -48,7 +52,9 @@ const TeamMembers = ({ children }) => (
             return (
               <div className={'mt-6 md:mt-0 px-8 sm:p-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4'}>
                 <div className={'mx-auto'}>
-                  <Img fluid={person.node.frontmatter.picture.childImageSharp.fluid} />
+                  {person.node.frontmatter.picture && (
+                    <Img fluid={person.node.frontmatter.picture.childImageSharp.fluid} />
+                  )}
                 </div>
                 <div className={'py-2'}>
                   <h2 className={'font-bold text-l leading-tight'}>{person.node.frontmatter.name}</h2>
