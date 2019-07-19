@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Prose = ({ children }) => (
-  <div className={`agile-prose px-20`}>
+  <div className={`agile-prose md:px-20`}>
     {children}
   </div>
 )
