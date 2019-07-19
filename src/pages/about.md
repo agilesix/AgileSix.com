@@ -76,10 +76,37 @@ purpose-body: >-
   and choosy keeps us agile — and able to do meaningfulthe work we care about.
 history-title: How we got here
 history-body: >-
-  Our team members carry a sense of responsibility to the citizens we serve.
-  Agile Six is a Vveteran-owned business, and many of our team members have come
-  from jobs at the U.S. Digital Service, the Department of Veterans Affairs, and
-  other federal agencies.
+  In 2014, Robert Rasmussen was working as an IT contractor after having worked
+  for a decade in the telecom sector — and before that as a network and systems
+  engineer in the U.S. Navy. Ernie Ramirez worked as a partner in a game studio
+  and then as a leader at Amazon Game Studios. Both were looking for something
+  new, a way to use their expertise to create something more meaningful.
+
+
+
+
+  Then they got their inspiration. The newly formed (U.S. Digital Service
+  released its Playbook)[https://playbook.cio.gov/], which outlined 13 key plays
+  to help governments build more successful digital services. For Robert and
+  Ernie, that playbook was the catalyst. Within the year, they founded Agile Six
+  — a company dedicated to helping government put those 13 plays into practice.
+
+
+
+
+  Our team hit some roadblocks along the way, and the biggest was recognizing
+  that federal ecosystems just weren’t ready for digital transformation at
+  scale. But we didn’t give up. We did what agile people do — pivoted and
+  adapted our approach. By adding coaching to our services, we were able to help
+  staff prepare for the changes we could create.
+
+
+
+
+  Since our founding, Agile Six has helped build the civic tech marketplace and
+  quadrupled in size to over 30 employees. We’re now the full-spectrum digital
+  service company we envisioned at our founding, working side-by-side with our
+  civil servant partners to build the better government we all deserve.
 cta:
   cta-description: Get in touch to chat with us about our work.
   cta-label: Get in touch
