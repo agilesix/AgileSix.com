@@ -1,6 +1,6 @@
 ---
 templateKey: team-member
-name: Andrew Wilke
+name: 'Andrew Wilke, MD'
 position: Chief Experience Officer
 bio: ' '
 picture: /img/andrew-wilke.jpg
