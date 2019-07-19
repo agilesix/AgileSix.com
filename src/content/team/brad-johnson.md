@@ -4,6 +4,6 @@ name: Brad Johnson
 position: Engineering
 bio: ' '
 picture: /img/brad-johnson.jpg
-order: 1
+order: 0
 ---
 
