@@ -1,7 +1,7 @@
 ---
 templateKey: team-member
 name: Ernie Ramirez
-position: Chief Operating Officer
+position: Co-Founder & COO
 bio: ' '
 picture: /img/ernie-ramirez.png
 order: 11
