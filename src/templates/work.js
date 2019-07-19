@@ -9,6 +9,7 @@ import CTA from '../components/cta'
 import SEO from '../components/seo'
 import Hero from '../components/hero'
 import Block from '../components/block'
+import Prose from '../components/prose'
 import CaseStudiesBlock from '../components/case-studies'
 
 export const WorkTemplate = ({
@@ -17,7 +18,9 @@ export const WorkTemplate = ({
   cta,
   hero,
   casestudies,
-  preview
+  casestudiestitle,
+  preview,
+  intro
 }) => (
   <div>
     {!preview && (
@@ -28,7 +31,10 @@ export const WorkTemplate = ({
       subtitle={subtitle}
       hero={hero}
     />
-    <Block className={'bg-grey-light'}>
+    <Block className={'bg-grey-light'} title={casestudiestitle}>
+      <Prose>
+        <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: intro}}></div>
+      </Prose>
       {!preview && (
         <CaseStudiesBlock selectedCasestudies={casestudies} />
       )}
@@ -51,7 +57,8 @@ WorkTemplate.propTypes = {
   subtitle: PropTypes.string,
   intro: PropTypes.string,
   cta: PropTypes.object,
-  casestudies: PropTypes.array
+  casestudies: PropTypes.array,
+  casestudiestitle: PropTypes.string
 }
 
 const Work = ({ data }) => {
@@ -66,6 +73,7 @@ const Work = ({ data }) => {
         cta={frontmatter.cta}
         hero={frontmatter.hero.childImageSharp}
         casestudies={frontmatter.casestudies}
+        casestudiestitle={frontmatter.casestudiestitle}
       />
     </Layout>
   )
@@ -90,6 +98,7 @@ export const pageQuery = graphql`
         subtitle
         intro
         casestudies
+        casestudiestitle
         hero {
           childImageSharp {
             fluid(maxWidth: 200) {

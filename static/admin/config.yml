@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: agilesix/agilesix-website-refresh
+  # repo: matthewcrist/agile6
   branch: master
 
 media_folder: "static/img"
@@ -86,8 +87,8 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Hero Image", name: "hero", widget: image}
+          - {label: "Case Studies Title", name: "casestudiestitle", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}
           - {label: "Case Studies", name: "casestudies", widget: "relation", collection: "casestudies", valueField: "title", multiple: true, displayFields: ["title"]}
           - label: "CTA"
