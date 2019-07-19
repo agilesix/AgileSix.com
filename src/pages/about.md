@@ -83,15 +83,11 @@ history-body: >-
   new, a way to use their expertise to create something more meaningful.
 
 
-
-
-  Then they got their inspiration. The newly formed (U.S. Digital Service
-  released its Playbook)[https://playbook.cio.gov/], which outlined 13 key plays
+  Then they got their inspiration. The newly formed [U.S. Digital Service
+  released its Playbook](https://playbook.cio.gov/), which outlined 13 key plays
   to help governments build more successful digital services. For Robert and
   Ernie, that playbook was the catalyst. Within the year, they founded Agile Six
   — a company dedicated to helping government put those 13 plays into practice.
-
-
 
 
   Our team hit some roadblocks along the way, and the biggest was recognizing
@@ -99,8 +95,6 @@ history-body: >-
   scale. But we didn’t give up. We did what agile people do — pivoted and
   adapted our approach. By adding coaching to our services, we were able to help
   staff prepare for the changes we could create.
-
-
 
 
   Since our founding, Agile Six has helped build the civic tech marketplace and
