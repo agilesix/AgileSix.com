@@ -1,41 +1,49 @@
 ---
 templateKey: team
-title: We’ve got your six.
-subtitle: That’s a military term for “we’ve got your back.”
+title: Team
+subtitle: We've got your six
 hero: /img/image2.png
 team-intro: >-
-  At Agile Six, we work as a team. We trust and help each other. And we
-  consciously pull talent from all sorts of different sectors because we want to
-  learn from them — and because different perspectives on a project will make
-  for a better end result. 
+  That’s a military term for “we’ve got your back.” 
 
 
-  Staff hierarchy is overrated. At Agile Six, all of us — from our most recent
-  hires to our founders — are both students and teachers.
+  “We’ve got your six” has been a guiding principle for our team members since
+  the start. Our founder Robert Rasmussen picked it up during his service in the
+  U.S. Navy, and it’s reflected right there in our name.
+
+
+  At Agile Six, we take the one-team approach seriously. No strict hierarchies,
+  no jockeying for status. We’re equally dedicated to the work and to each
+  other. 
 join-title: Join our team
 join-body: >-
-  **What we do matters.**
-
-  We’re deliberate about the projects we take on. If the work doesn’t align with
-  our mission, we won’t do it.
-
-
-  **We’re passionate.**
-
-  We’re a close-knit group bound together by a belief in our mission to help
-  government better serve citizens.
+  Agile Six has offices in San Diego, CA and Baltimore, MD, but most of our
+  staff is remote. That allows our employees a better work-life balance, and
+  offers us the best talent from across the country.
 
 
-  **We let you do your thing.**
+  Why work with us? Because you’ll:
+
+
+  **Do meaningful work**
+
+
+  We’re deliberate about every project we take on. If we’re not passionate about
+  it or it doesn’t align with our values, we won’t do it.
+
+
+  **Be part of something big**
+
+
+  Agile Six is an important player in the larger civic tech community. We’re
+  united by a belief in helping government serve citizens better. 
+
+
+  **Get the freedom to do your thing**
+
 
   People do their best work when they’re challenged with projects that matter
   and given the ownership to find the solution. 
-
-
-  **We’re not in it to boost our egos.**
-
-  On our projects, we don’t single out individuals as heroes or rockstars. We
-  celebrate our successes together.
 cta:
   cta-description: >-
     If you have questions about what it takes to join the Agile Six team (or for
