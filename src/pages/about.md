@@ -2,10 +2,10 @@
 templateKey: about
 title: About Us
 subtitle: >-
-  We think that government technology needs to make day-to-day life for citizens
-  easier. 
+  We think that government technology needs to make day-to-day life easier for
+  citizens.
 hero: /img/header-team.png
-intro: >-
+intro: >
   People depend on government digital services to stay healthy, pay the rent,
   and protect their families. But those services are often frustrating and hard
   to use. Agency employees do their best to help, but they may be fighting the
