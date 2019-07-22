@@ -25,6 +25,9 @@ history-body: >-
   services. Learn how we did it.
 casestudies:
   - VA.gov Modernization
+  - CCSQ Agile Coaching and Digital Transformation
+  - Diffusion Marketplace
+  - Digital Service Coalition
 cta:
   cta-description: 'Get in touch. We’d love to talk. '
   cta-label: Contact Us
