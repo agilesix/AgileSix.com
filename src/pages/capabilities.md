@@ -17,9 +17,11 @@ capabilities-body: >-
   sometimes the best solution is as low-tech as a new process for handling
   incoming paperwork. 
 capabilities:
-  - Devops & Cloud
-  - Human Centered Design
-  - Market Development
+  - Design
+  - 'Product Development '
+  - DevOps & Cloud Infrastructure
+  - Agile Coaching
+  - Research
   - Digital Transformation
 process-title: Industry Information
 process-body: |-
