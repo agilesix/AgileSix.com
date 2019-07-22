@@ -53,13 +53,28 @@ collections:
     label: "Pages"
     files:
       - file: "src/pages/index.md"
-        label: "Landing Page"
+        label: "Homd"
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Hero Image", name: "hero", widget: image}
+          - {label: "Capabilities Title", name: "capabilities-title", widget: "string"}
+          - {label: "Capabilities Body", name: "purpose-body", widget: "markdown"}
+          - {label: "Capabilities", name: "capabilities", widget: "relation", collection: "capabilities", valueField: "title", multiple: true, displayFields: ["title"]}
+          - {label: "Case Study Title", name: "history-title", widget: "string"}
+          - {label: "Case Study Body", name: "history-body", widget: "markdown"}
+          - {label: "Case Studies", name: "casestudies", widget: "relation", collection: "casestudies", valueField: "title", multiple: true, displayFields: ["title"]}
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Visible", name: "cta-visible", widget: "boolean"}
+              - {label: "Title", name: "cta-title", widget: "string"}
+              - {label: "Description", name: "cta-description", widget: "string"}
+              - {label: "Button Label", name: "cta-label", widget: "string"}
+              - {label: "Button URL", name: "cta-url", widget: "string"}
       - file: "src/pages/team.md"
         label: "Team"
         name: "team"
