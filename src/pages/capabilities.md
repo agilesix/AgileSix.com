@@ -21,23 +21,8 @@ capabilities:
   - Human Centered Design
   - Market Development
   - Digital Transformation
-process-title: How we work
-process-body: >-
-  Our seasoned team of agile practitioners brings expertise across the entire
-  acquisition and delivery lifecycle, from budgets and procurement to research,
-  design, and development. We uncover problems and iterate on solutions quickly,
-  so we learn fast and live by incremental improvement. 
-
-
-  We’re certified practitioners, trainers, and coaches in a number of Agile
-  frameworks, such as Scrum, Kanban, and SAFe. More importantly, we truly
-  understand the fundamental principles behind these frameworks, so we can
-  tailor our agile approach based on an organization’s or team’s current level
-  of know-how and adoption. That’s the best way to ensure that digital
-  transformation will stick — and that Agile becomes institutionalized at
-  multiple levels of your organization. 
-
-
+process-title: Industry Information
+process-body: |-
   ### Certifications
 
    * Service Disabled Veteran-Owned Small Business (SDVOSB) - Federal 
