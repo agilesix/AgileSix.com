@@ -1,7 +1,7 @@
 ---
 templateKey: index
-title: We help government work better.
-subtitle: 'We’re Agile Six — a full-spectrum digital development team. '
+title: 'We make digital transformation achievable. '
+subtitle: Better systems for government. Better outcomes for citizens.
 hero: /img/full.png
 ---
 
