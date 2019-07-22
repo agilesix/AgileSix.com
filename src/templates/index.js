@@ -2,17 +2,29 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
+import remark from 'remark'
+import recommended from 'remark-preset-lint-recommended'
+import remarkHtml from 'remark-html'
 import Block from '../components/block'
 import Hero from '../components/hero'
-import Capabilities from '../components/capabilities'
-import CaseStudies from '../components/case-studies'
+import CapabilitiesBlock from '../components/capabilities'
+import CaseStudiesBlock from '../components/case-studies'
 import SEO from '../components/seo'
 import Prose from '../components/prose'
+import CTA from '../components/cta'
 
 export const IndexTemplate = ({
   title,
   subtitle,
-  hero
+  hero,
+  cta,
+  capabilities,
+  capabilities_title,
+  capabilities_body,
+  casestudies,
+  casestudies_title,
+  casestudies_body,
+  preview
 }) => (
   <div>
     <SEO title={title} description={subtitle} />
@@ -23,21 +35,38 @@ export const IndexTemplate = ({
       textClass={`text-white`}
       hero={hero}
     />
-    <Block className={'bg-white'} title={'Capabilities'}>
+    <Block className={'bg-white'} title={capabilities_title}>
       <Prose>
-        <p className={'text-xl md:text-2xl mb-10'}>Agile Six helps government agencies and other clients create customized digital solutions to meet the needs of their users. No matter how much experience you have with digital development or where you are in the process, we can get you where you want to go.</p>
+        <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
       </Prose>
-      <Capabilities featuredOnly={true} />
+      {!preview && (
+        <CapabilitiesBlock selectedCapabilities={capabilities} />
+      )}
       <div class="text-center mt-10">
         <a href="/capabilities" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">Learn about our capabilities</a>
       </div>
     </Block>
-    <Block className={'bg-grey-light'} title={'Recent Work'}>
-      <CaseStudies featuredOnly={true} />
+    <Block className={'bg-grey-light'} title={casestudies_title}>
+      <Prose>
+        <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: casestudies_body}}></div>
+      </Prose>
+      {!preview && (
+        <CaseStudiesBlock selectedCasestudies={casestudies} />
+      )}
       <div class="text-center mt-10">
         <a href="/work" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">See all of our work</a>
       </div>
     </Block>
+    {
+      cta.cta_visible && (
+        <CTA
+          title={cta.cta_title}
+          description={cta.cta_description}
+          label={cta.cta_label}
+          url={cta.cta_url}
+        />
+      )
+    }
   </div>
 )
 
@@ -55,6 +84,13 @@ const Index = ({ data }) => {
         title={frontmatter.title}
         subtitle={frontmatter.subtitle}
         hero={frontmatter.hero.childImageSharp}
+        cta={frontmatter.cta}
+        capabilities={frontmatter.capabilities}
+        capabilities_title={frontmatter.capabilities_title}
+        capabilities_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.capabilities_body).toString()}
+        casestudies={frontmatter.casestudies}
+        casestudies_title={frontmatter.casestudies_title}
+        casestudies_body={remark().use(recommended).use(remarkHtml).processSync(frontmatter.casestudies_body).toString()}
       />
     </Layout>
   )
@@ -77,6 +113,12 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
+        capabilities
+        capabilities_title
+        capabilities_body
+        casestudies
+        casestudies_title
+        casestudies_body
         hero {
           childImageSharp {
             fluid(maxWidth: 200) {

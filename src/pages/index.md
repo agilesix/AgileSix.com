@@ -4,7 +4,7 @@ title: 'We make digital transformation achievable. '
 subtitle: Better systems for government. Better outcomes for citizens.
 hero: /img/full.png
 capabilities-title: Capabilities
-purpose-body: >-
+capabilities-body: >-
   Agile Six works with government agencies to create customized digital
   solutions that meet the needs of their users, both staff and citizens. The end
   goal? Digital products that are as powerful and easy to use as the apps on
@@ -18,11 +18,11 @@ capabilities:
   - Tools that work for real people
   - Product development and devops
   - Pioneers in civic tech
-history-title: We’re proud of our work
-history-body: >-
+casestudies-title: We’re proud of our work
+casestudies-body: >-
   Our team has helped clients like the Centers for Medicaid and Medicare
   Services and the Department of Veterans Affairs revolutionize their digital
-  services. Learn how we did it.
+  services.
 casestudies:
   - VA.gov Modernization
   - CCSQ Agile Coaching and Digital Transformation
