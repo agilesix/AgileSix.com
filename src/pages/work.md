@@ -10,6 +10,9 @@ intro: >-
   we’ve helped.
 casestudies:
   - VA.gov Modernization
+  - CCSQ Agile Coaching and Digital Transformation
+  - Diffusion Marketplace
+  - Digital Service Coalition
 cta:
   cta-description: We want to work with you on your project.
   cta-label: Get in touch
