@@ -14,7 +14,10 @@ purpose-body: >-
   Changing government systems and processes can be tough. Agile Six can help.
   We’ll meet you where you are, then get you where you want to go.
 capabilities:
-  - Devops & Cloud
+  - 'Digital transformation, start to finish'
+  - Tools that work for real people
+  - Product development and devops
+  - Pioneers in civic tech
 history-title: We’re proud of our work
 history-body: >-
   Our team has helped clients like the Centers for Medicaid and Medicare
