@@ -11,13 +11,11 @@ capabilities-body: >-
   government modernization, product delivery, and human-centered design. 
 
 
-  But we’re not just a tech company. We’re a solutions company. While most of
+  But we’re not _just_ a tech company. We’re a solutions company. While most of
   our work is digital, we recognize that some problems can’t be solved by coding
   or new hardware. Our team will work with you to figure out what you need —
   sometimes the best solution is as low-tech as a new process for handling
   incoming paperwork. 
-
-
 capabilities:
   - Devops & Cloud
   - Human Centered Design
