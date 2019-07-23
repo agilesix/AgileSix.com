@@ -7,7 +7,6 @@ shortdescription: >-
   members of the Digital Services Coalition, a collection of 16 design and
   technology firms that have redefined government digital services. We don’t
   just do the work, we help grow the market.
-featuredimage: /img/image2.png
-featured: false
+featuredimage: /img/market-development.png
 ---
 
