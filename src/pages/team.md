@@ -2,7 +2,7 @@
 templateKey: team
 title: Team
 subtitle: We've got your six
-hero: /img/image2.png
+hero: /img/team.png
 team-intro: >-
   That’s a military term for “we’ve got your back.” 
 
