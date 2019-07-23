@@ -2,7 +2,7 @@
 templateKey: index
 title: 'We make digital transformation achievable. '
 subtitle: Better systems for government. Better outcomes for citizens.
-hero: /img/full.png
+hero: /img/we-ve-got-your-6.png
 capabilities-title: Capabilities
 capabilities-body: >-
   Agile Six works with government agencies to create customized digital
