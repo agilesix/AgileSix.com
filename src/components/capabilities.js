@@ -62,11 +62,13 @@ const Capabilities = ({ children, selectedCapabilities, featuredOnly }) => (
               return (
                 <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
                   <div className={'bg-grey-light p-1'}>
-                    <div className={'bg-white mb-3'}>
-                      <div className={'py-10 mx-auto'} style={{maxWidth: 250}}>
-                        <Img fluid={capability.node.frontmatter.featuredimage.childImageSharp.fluid} />
+                    {capability.node.frontmatter.featuredimage && (
+                      <div className={'bg-white mb-3'}>
+                        <div className={'py-10 mx-auto'} style={{maxWidth: 250}}>
+                          <Img fluid={capability.node.frontmatter.featuredimage.childImageSharp.fluid} />
+                        </div>
                       </div>
-                    </div>
+                    )}
                     <div className={'p-8'}>
                       <h2 className={'font-bold text-xl md:text-2xl text-blue-dark leading-tight mb-3'}>{capability.node.frontmatter.title}</h2>
                       <div className={'text-l md:text-xl leading-tight'}>{capability.node.frontmatter.shortdescription}</div>
