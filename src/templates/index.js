@@ -43,7 +43,7 @@ export const IndexTemplate = ({
         <CapabilitiesBlock selectedCapabilities={capabilities} />
       )}
       <div class="text-center mt-10">
-        <a href="/capabilities" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">Learn about our capabilities</a>
+        <a href="/capabilities" className="block md:inline-block px-8 py-3 leading-none border border-transparent text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">Learn about our capabilities</a>
       </div>
     </Block>
     <Block className={'bg-grey-light'} title={casestudies_title}>
@@ -54,7 +54,7 @@ export const IndexTemplate = ({
         <CaseStudiesBlock selectedCasestudies={casestudies} />
       )}
       <div class="text-center mt-10">
-        <a href="/work" className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">See all of our work</a>
+        <a href="/work" className="block md:inline-block px-8 py-3 leading-none border border-transparent text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">See all of our work</a>
       </div>
     </Block>
     {
