@@ -10,7 +10,7 @@ const CTA = ({ title, description, label, url }) => (
         <SectionTitle textColor={'text-white'}>{title}</SectionTitle>
         <Break className={'border-blue-light mx-auto'} />
       </div>
-      <div className={'text-xl md:text-2xl mb-6 text-white max-w-2xl mx-auto'}>{description}</div>
+      <div className={'text-xl md:text-2xl mb-6 text-white max-w-2xl mx-auto -mt-3'}>{description}</div>
       <div className={'mx-auto'} style={{maxWidth: 250}}>
         <a href={url} class="block px-8 py-3 leading-none border-2 border-red bg-red text-white text-center text-xl font-bold mt-4 md:mt-0">{label}</a>
       </div>

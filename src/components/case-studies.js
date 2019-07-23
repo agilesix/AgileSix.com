@@ -68,15 +68,19 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
             if (display) {
               return (
                 <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
-                  <div className={'bg-white p-1'}>
-                    <div className={'bg-white mb-3 relative'}>
-                      <Img fluid={caseStudy.node.frontmatter.background.childImageSharp.fluid} />
-                      <div className={'absolute bottom-0 left-0 top-0 right-0 flex justify-center items-center'}>
-                        <div style={{width: 150}}>
-                          <Img fluid={caseStudy.node.frontmatter.logo.childImageSharp.fluid} />
-                        </div>
+                  <div className={'w-full bg-white p-1'}>
+                    <a href={caseStudy.node.fields.slug} title={caseStudy.node.frontmatter.title}>
+                      <div className={'bg-white mb-3 relative'}>
+                        <Img fluid={caseStudy.node.frontmatter.background.childImageSharp.fluid} style={{maxHeight: 250}} />
+                        {caseStudy.node.frontmatter.logo && (
+                          <div className={'absolute bottom-0 left-0 top-0 right-0 flex justify-center items-center'}>
+                            <div style={{width: '100%', maxWidth: 200}}>
+                              <Img fluid={caseStudy.node.frontmatter.logo.childImageSharp.fluid} />
+                            </div>
+                          </div>
+                        )}
                       </div>
-                    </div>
+                    </a>
                     <div className={'p-8'}>
                       <h2 className={'font-bold text-xl md:text-2xl text-blue-dark leading-tight mb-3'}>
                         <a href={caseStudy.node.fields.slug}>{caseStudy.node.frontmatter.title}</a>

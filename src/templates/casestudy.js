@@ -9,7 +9,6 @@ import Prose from '../components/prose'
 export const CaseStudyTemplate = ({
   title,
   body,
-  background,
   subtitle
 }) => (
   <div>
@@ -63,8 +62,8 @@ CaseStudy.propTypes = {
 export default CaseStudy
 
 export const pageQuery = graphql`
-  query CaseStudyTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "casestudy" } }) {
+  query CaseStudyTemplate($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       fields {
         slug

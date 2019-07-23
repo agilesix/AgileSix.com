@@ -11,9 +11,7 @@ featured: true
 
 Like a lot of federal agencies, the Department of Veterans Affairs had
 accumulated a mix of different, competing technologies and systems over the
-years. 
-
-![Here is the image](/img/photo-1532680678473-a16f2cda8e43.jpeg "Another image")
+years.
 
 The lack of a single content management system (CMS) frustrated staff members, since they had inconsistent editorial workflows and a challenging publication process. And it also frustrated veterans, who struggled with the site’s confusing digital experience.
 

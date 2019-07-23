@@ -5,9 +5,7 @@ subtitle: >-
   Centers for Medicare and Medicaid Services (CMS), Centers for Clinical
   Standards and Quality (CCSQ)
 shortdescription: Empowering the delivery of agile outcomes at scale
-logo: /img/hhslogo.png
 background: /img/image1.png
-featured: false
 ---
 ## The Challenge
 CMS leadership was ready to shift from a traditional waterfall delivery mindset to an Agile environment, but they faced a major challenge: Coordinating their existing vendors. Digital transformation at scale hinges on vendors collaborating as a team of teams. But many didn’t have the culture or past experience to work that way.
