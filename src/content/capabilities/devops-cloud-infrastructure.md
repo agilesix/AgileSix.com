@@ -4,7 +4,6 @@ title: DevOps & Cloud Infrastructure
 shortdescription: >-
   Supporting secure, scalable, and agile ecosystems through CI/CD, automated
   testing, and infrastructure-as-code
-featuredimage: /img/image2.png
-featured: false
+featuredimage: /img/devops.png
 ---
 
