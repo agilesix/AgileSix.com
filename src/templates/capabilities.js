@@ -33,18 +33,20 @@ export const CapabilitiesTemplate = ({
       subtitle={subtitle}
       hero={hero}
     />
-    <Block className={'bg-white'} title={capabilities_title}>
+    <Block className={'bg-white'} title={false}>
       <Prose>
-        <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
+        <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
       </Prose>
+    </Block>
+    <Block className={'bg-grey-light'} title={capabilities_title}>
       {!preview && (
-        <CapabilitiesBlock selectedCapabilities={capabilities} />
+        <CapabilitiesBlock selectedCapabilities={capabilities} cardColor={'white'} />
       )}
       {preview && (
         <div>The capabilities list will display here when deployed</div>
       )}
     </Block>
-    <Block className={'bg-grey-light'} title={process_title}>
+    <Block className={'bg-white'} title={process_title}>
       <Prose>
         <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: process_body}}></div>
       </Prose>

@@ -4,7 +4,7 @@ title: About Us
 subtitle: >-
   We think that government technology needs to make day-to-day life easier for
   citizens.
-hero: /img/header-team.png
+hero: /img/team.png
 intro: >
   People depend on government digital services to stay healthy, pay the rent,
   and protect their families. But those services are often frustrating and hard

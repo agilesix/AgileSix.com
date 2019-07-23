@@ -37,15 +37,17 @@ export const TeamTemplate = ({
       subtitle={subtitle}
       hero={hero}
     />
-    <Block className={'bg-white'} title={'Meet the Team'}>
+    <Block className={'bg-white'} title={false}>
       <Prose>
-        <div className={'mb-10'} dangerouslySetInnerHTML={{__html: team_intro}}></div>
+        <div dangerouslySetInnerHTML={{__html: team_intro}}></div>
       </Prose>
+    </Block>
+    <Block className={'bg-grey-light'} title={'Meet the team'}>
       {!preview && (
         <TeamMembers />
       )}
     </Block>
-    <Block className={'bg-grey-light'} title={join_title}>
+    <Block className={'bg-white'} title={join_title}>
       <Prose>
         <div className={'mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
         {!preview && (

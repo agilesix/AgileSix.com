@@ -31,10 +31,12 @@ export const WorkTemplate = ({
       subtitle={subtitle}
       hero={hero}
     />
-    <Block className={'bg-grey-light'} title={casestudiestitle}>
+    <Block className={'bg-white'} title={false}>
       <Prose>
-        <div className={'text-xl md:text-2xl mb-10'} dangerouslySetInnerHTML={{__html: intro}}></div>
+        <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: intro}}></div>
       </Prose>
+    </Block>
+    <Block className={'bg-grey-light'} title={casestudiestitle}>
       {!preview && (
         <CaseStudiesBlock selectedCasestudies={casestudies} />
       )}
