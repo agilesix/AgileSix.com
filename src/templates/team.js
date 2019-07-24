@@ -52,7 +52,7 @@ export const TeamTemplate = ({
         <div className={'mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
         {!preview && (
           <PostScribe html={`
-            <div class="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Open Positions</div>
+            <div class="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Here’s what’s available now.</div>
             <script>
               function checkVariable() {
                 if (window.whr) {

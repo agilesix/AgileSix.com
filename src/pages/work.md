@@ -2,7 +2,7 @@
 templateKey: work
 title: Work
 subtitle: There’s no one-size-fits-all solution for digital transformation.
-hero: /img/image3.png
+hero: /img/digital-transformation.png
 casestudiestitle: Some of our work
 intro: >-
   Every one of our projects has required a lot of listening, iterating, and
@@ -14,7 +14,7 @@ casestudies:
   - Diffusion Marketplace
   - Digital Service Coalition
 cta:
-  cta-description: We want to work with you on your project.
+  cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
   cta-title: Work with us
   cta-url: /contact

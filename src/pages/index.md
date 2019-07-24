@@ -17,7 +17,7 @@ capabilities:
   - 'Digital transformation, start to finish'
   - Tools that work for real people
   - Product development and devops
-  - Pioneers in civic tech
+  - Pioneering work in civic tech
 casestudies-title: We’re proud of our work
 casestudies-body: >-
   Our team has helped clients like the Centers for Medicaid and Medicare

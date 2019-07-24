@@ -4,7 +4,7 @@ title: Capabilities
 subtitle: >-
   We’ve got the know-how to guide you through every step of digital
   transformation.
-hero: /img/image5.png
+hero: /img/capabilities.png
 capabilities-title: What We Do
 capabilities-body: >-
   Agile Six is a full-spectrum digital services company that combines digital
@@ -45,9 +45,9 @@ process-body: |-
    * **CAGE Code:** 79H77 
    * **NAICS Codes:** 541511, 541512, 541513, 541519, 541611, 611420, 611430
 cta:
-  cta-description: 'We can do a lot, let''s connect and talk about what we can do for you.'
+  cta-description: 'We can help.'
   cta-label: Get in touch
-  cta-title: Learn more about our capabilities
+  cta-title: Tell us what you need
   cta-url: /contact
   cta-visible: true
 ---

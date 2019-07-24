@@ -1,12 +1,9 @@
 ---
 templateKey: team
 title: Team
-subtitle: We've got your six
+subtitle: We’ve got your six. (That’s a military term for “we got your back.”)
 hero: /img/team.png
 team-intro: >-
-  That’s a military term for “we’ve got your back.” 
-
-
   “We’ve got your six” has been a guiding principle for our team members since
   the start. Our founder Robert Rasmussen picked it up during his service in the
   U.S. Navy, and it’s reflected right there in our name.
@@ -44,11 +41,23 @@ join-body: >-
 
   People do their best work when they’re challenged with projects that matter
   and given the ownership to find the solution. 
+
+
+  **Teach us something new**
+
+
+  We hire from across different sectors of the industry because fresh perspectives make our work better. Every one of us, from our newest hire to our founders, is both a student and a teacher. 
+
+
+  **Create the job you want**
+
+
+  For a start, we offer flexible schedules, paid personal time off, profit sharing, and financial help with career development and certifications.
+
 cta:
   cta-description: >-
-    If you have questions about what it takes to join the Agile Six team (or for
-    pictures of the dogs), drop us a line.
-  cta-label: Get in touch
+    Don’t see any listings that fit your skill set?
+  cta-label: Drop us a line
   cta-title: Learn more
   cta-url: /contact
   cta-visible: true

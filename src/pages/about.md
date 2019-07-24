@@ -4,7 +4,7 @@ title: About Us
 subtitle: >-
   We think that government technology needs to make day-to-day life easier for
   citizens.
-hero: /img/team.png
+hero: /img/about.png
 intro: >
   People depend on government digital services to stay healthy, pay the rent,
   and protect their families. But those services are often frustrating and hard
@@ -13,7 +13,7 @@ intro: >
 
 
   Agile Six was founded to help fix this problem, one agency at a time. 
-purpose-title: Here’s what we’re about
+purpose-title: Here’s what we believe in
 purpose-body: >-
   **Progress, not disruption**
 
@@ -89,9 +89,9 @@ history-body: >-
   service company we envisioned at our founding, working side-by-side with our
   civil servant partners to build the better government we all deserve.
 cta:
-  cta-description: Get in touch to chat with us about our work.
+  cta-description: How can we help you?
   cta-label: Get in touch
-  cta-title: Learn about us
+  cta-title: But enough about us...
   cta-url: /contact
   cta-visible: true
 ---
