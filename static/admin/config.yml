@@ -57,7 +57,6 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Hero Image", name: "hero", widget: image}
-          - {label: "Capabilities Title", name: "capabilities-title", widget: "string"}
           - {label: "Capabilities Body", name: "capabilities-body", widget: "markdown"}
           - {label: "Capabilities", name: "capabilities", widget: "relation", collection: "capabilities", valueField: "title", multiple: true, displayFields: ["title"]}
           - {label: "Case Study Title", name: "casestudies-title", widget: "string"}
