@@ -38,7 +38,7 @@ export const CapabilitiesTemplate = ({
         <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: capabilities_body}}></div>
       </Prose>
     </Block>
-    <Block className={'bg-grey-light'} title={capabilities_title}>
+    <Block className={'bg-grey-light'} title={false}>
       {!preview && (
         <CapabilitiesBlock selectedCapabilities={capabilities} cardColor={'white'} />
       )}
