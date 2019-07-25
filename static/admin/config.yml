@@ -43,8 +43,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sub-Title", name: "subtitle", widget: "string"}
       - {label: "Short Description", name: "shortdescription", widget: "string"}
-      - {label: "Logo", name: "logo", widget: image}
-      - {label: "Background", name: "background", widget: image}
+      - {label: "Image", name: "background", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"
