@@ -3,9 +3,7 @@ templateKey: casestudy
 title: Digital Service Coalition
 subtitle: Civic Tech Market Development
 shortdescription: Building a dynamic government that improves the lives of everyday people.
-logo: /img/dsc-logo.793c682e.png
-background: /img/screen-shot-2019-07-21-at-10.00.44-pm.png
-featured: false
+background: /img/dsc.jpeg
 ---
 ## The Challenge
 
