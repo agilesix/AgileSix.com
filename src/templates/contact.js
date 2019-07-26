@@ -111,7 +111,7 @@ export const pageQuery = graphql`
         subtitle
         hero {
           childImageSharp {
-            fluid(maxWidth: 200) {
+            fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
             }
           }

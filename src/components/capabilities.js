@@ -28,7 +28,7 @@ const Capabilities = ({ children, selectedCapabilities, featuredOnly, cardColor 
                 featured
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 200) {
+                    fluid(maxWidth: 800) {
                     ...GatsbyImageSharpFluid
                     }
                   }

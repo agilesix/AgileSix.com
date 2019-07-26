@@ -131,7 +131,7 @@ export const pageQuery = graphql`
         join_body
         hero {
           childImageSharp {
-            fluid(maxWidth: 200) {
+            fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
             }
           }
