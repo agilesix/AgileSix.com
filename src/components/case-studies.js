@@ -33,13 +33,6 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
                     }
                   }
                 }
-                logo {
-                  childImageSharp {
-                    fluid(maxWidth: 300) {
-                    ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
               }
             }
           }
@@ -72,13 +65,6 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
                     <a href={caseStudy.node.fields.slug} title={caseStudy.node.frontmatter.title}>
                       <div className={'bg-white relative'}>
                         <Img fluid={caseStudy.node.frontmatter.background.childImageSharp.fluid} style={{maxHeight: 250}} />
-                        {caseStudy.node.frontmatter.logo && (
-                          <div className={'absolute bottom-0 left-0 top-0 right-0 flex justify-center items-center'}>
-                            <div style={{width: '100%', maxWidth: 200}}>
-                              <Img fluid={caseStudy.node.frontmatter.logo.childImageSharp.fluid} />
-                            </div>
-                          </div>
-                        )}
                       </div>
                     </a>
                     <div className={'p-8 border-t-2 border-grey-light'}>
