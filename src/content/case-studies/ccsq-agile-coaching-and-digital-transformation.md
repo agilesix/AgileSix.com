@@ -5,8 +5,7 @@ subtitle: >-
   Centers for Medicare and Medicaid Services (CMS), Centers for Clinical
   Standards and Quality (CCSQ)
 shortdescription: Empowering the delivery of agile outcomes at scale
-logo: /img/we-ve-got-your-6.png
-background: /img/image1.png
+background: /img/ccsq-qpp.jpeg
 ---
 ## The Challenge
 
