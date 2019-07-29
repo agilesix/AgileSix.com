@@ -3,7 +3,7 @@ templateKey: casestudy
 title: Diffusion Marketplace
 subtitle: 'Veterans Health Administration, Center for Innovation, Diffusion of Excellence'
 shortdescription: Helping the VA share best practices to save lives
-background: /img/dm.jpeg
+background: /img/diffusion.png
 ---
 ## The Challenge
 

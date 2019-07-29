@@ -3,7 +3,7 @@ templateKey: casestudy
 title: VA.gov Modernization
 subtitle: 'Department of Veterans Affairs, OIT, Digital Service at VA'
 shortdescription: Creating a better digital experience for veterans — and VA staff
-background: /img/vagov.jpeg
+background: /img/va.gov.png
 ---
 ## The Challenge
 
