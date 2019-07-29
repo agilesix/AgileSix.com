@@ -28,7 +28,7 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
                 featured
                 background {
                   childImageSharp {
-                    fluid(maxWidth: 300) {
+                    fluid(maxWidth: 900) {
                     ...GatsbyImageSharpFluid
                     }
                   }
