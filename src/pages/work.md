@@ -12,7 +12,7 @@ casestudies:
   - VA.gov Modernization
   - CCSQ Agile Coaching and Digital Transformation
   - Diffusion Marketplace
-  - Digital Service Coalition
+  - Digital Services Coalition
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
