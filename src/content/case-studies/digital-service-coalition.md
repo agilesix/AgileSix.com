@@ -7,7 +7,7 @@ background: /img/dsc.png
 ---
 ## The Challenge
 
-Traditionally, people have viewed the relationship between government and industry in the digital service market as inherently antagonistic and zero sum. For a digital services vendor to win — and milk every dollar from its contract — the government  has to lose. That mindset led to poor outcomes for taxpayers, users, and government employees.
+Traditionally, people have viewed the relationship between government and industry in the digital services market as inherently antagonistic and zero sum. For a digital services vendor to win — and milk every dollar from its contract — the government  has to lose. That mindset led to poor outcomes for taxpayers, users, and government employees.
 
 ## The Solution
 
