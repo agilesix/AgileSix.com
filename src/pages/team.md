@@ -14,7 +14,7 @@ team-intro: >-
   other. 
 join-title: Join our team
 join-body: >-
-  Agile Six has offices in San Diego, CA, Washington, DC and Baltimore, MD, but
+  Agile Six has offices in San Diego, CA, Washington, DC, and Baltimore, MD, but
   most of our staff is remote. That allows our employees a better work-life
   balance, and offers us the best talent from across the country.
 
