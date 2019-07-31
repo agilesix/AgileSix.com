@@ -26,11 +26,12 @@ export const TeamTemplate = ({
 }) => (
   <div>
     {!preview && (
-        <SEO title={title} description={subtitle}>
+        <div>
+          <SEO title={title} description={subtitle}></SEO>
           <Helmet>
             <script src="https://www.workable.com/assets/embed.js" type="text/javascript"></script>
           </Helmet>
-        </SEO>
+        </div>
     )}
     <Hero
       title={title}

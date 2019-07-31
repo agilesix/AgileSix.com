@@ -84,10 +84,10 @@ const CaseStudies = ({ children }) => (
                   <Link to={'/contact'}>Hire Us</Link>
                 </div>
                 <div className={'mb-6'}>
-                  <Link to={'https://www.github.com/agilesix/'}>GitHub</Link>
+                  <a href={'https://www.github.com/agilesix/'}>GitHub</a>
                 </div>
                 <div className={'mb-6'}>
-                  <Link to={'https://www.linkedin.com/company/agilesix/'}>LinkedIn</Link>
+                  <a href={'https://www.linkedin.com/company/agilesix/'}>LinkedIn</a>
                 </div>
               </div>
             </div>
