@@ -28,7 +28,7 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
                 featured
                 background {
                   childImageSharp {
-                    fluid(maxWidth: 300) {
+                    fluid(maxWidth: 900) {
                     ...GatsbyImageSharpFluid
                     }
                   }
@@ -64,7 +64,7 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
                   <div className={'w-full bg-white'}>
                     <a href={caseStudy.node.fields.slug} title={caseStudy.node.frontmatter.title}>
                       <div className={'bg-white relative'}>
-                        <Img fluid={caseStudy.node.frontmatter.background.childImageSharp.fluid} style={{maxHeight: 250}} />
+                        <Img fluid={caseStudy.node.frontmatter.background.childImageSharp.fluid} style={{maxHeight: 400}} />
                       </div>
                     </a>
                     <div className={'p-8 border-t-2 border-grey-light'}>

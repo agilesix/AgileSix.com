@@ -14,9 +14,9 @@ team-intro: >-
   other. 
 join-title: Join our team
 join-body: >-
-  Agile Six has offices in San Diego, CA and Baltimore, MD, but most of our
-  staff is remote. That allows our employees a better work-life balance, and
-  offers us the best talent from across the country.
+  Agile Six has offices in San Diego, CA, Washington, DC, and Baltimore, MD, but
+  most of our staff is remote. That allows our employees a better work-life
+  balance, and offers us the best talent from across the country.
 
 
   Why work with us? Because you’ll:
@@ -46,17 +46,18 @@ join-body: >-
   **Teach us something new**
 
 
-  We hire from across different sectors of the industry because fresh perspectives make our work better. Every one of us, from our newest hire to our founders, is both a student and a teacher. 
+  We hire from across different sectors of the industry because fresh
+  perspectives make our work better. Every one of us, from our newest hire to
+  our founders, is both a student and a teacher. 
 
 
   **Create the job you want**
 
 
-  For a start, we offer flexible schedules, paid personal time off, profit sharing, and financial help with career development and certifications.
-
+  For a start, we offer flexible schedules, paid personal time off, profit
+  sharing, and financial help with career development and certifications.
 cta:
-  cta-description: >-
-    Don’t see any listings that fit your skill set?
+  cta-description: Don’t see any listings that fit your skill set?
   cta-label: Drop us a line
   cta-title: Learn more
   cta-url: /contact

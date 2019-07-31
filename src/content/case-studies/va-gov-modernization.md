@@ -3,7 +3,7 @@ templateKey: casestudy
 title: VA.gov Modernization
 subtitle: 'Department of Veterans Affairs, OIT, Digital Service at VA'
 shortdescription: Creating a better digital experience for veterans — and VA staff
-background: /img/vagov.jpeg
+background: /img/va.gov.png
 ---
 ## The Challenge
 
@@ -19,4 +19,4 @@ Through the US Digital Service at the VA, we’re consolidating all of VA.gov on
 
 This will streamline the editorial process for VA editors across the country and help create a single, consistent voice for the VA online. 
 
-By creating a standard content model and design system, we’re also helping VA.gov become a simpler, more intuitive — so it’s easier for veterans to access the services and support they deserve.
+By creating a standard content model and design system, we’re also helping VA.gov become a simpler, more intuitive experience — so it’s easier for veterans to access the services and support they deserve.

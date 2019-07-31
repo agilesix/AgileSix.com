@@ -3,7 +3,6 @@ templateKey: index
 title: 'We make digital transformation achievable. '
 subtitle: Better systems for government. Better outcomes for citizens.
 hero: /img/we-ve-got-your-6.png
-capabilities-title: Capabilities
 capabilities-body: >-
   Agile Six works with government agencies to create customized digital
   solutions that meet the needs of their users, both staff and citizens. The end
@@ -27,7 +26,7 @@ casestudies:
   - VA.gov Modernization
   - CCSQ Agile Coaching and Digital Transformation
   - Diffusion Marketplace
-  - Digital Service Coalition
+  - Digital Services Coalition
 cta:
   cta-description: 'Get in touch. We’d love to talk. '
   cta-label: Contact Us
