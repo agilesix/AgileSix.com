@@ -69,34 +69,30 @@ const CaseStudies = ({ children }) => (
               <div className={'md:w-1/4 md:px-4 mt-10 md:mt-0'}>
                 <div className={'uppercase font-bold mb-4'}>Learn About</div>
                 <div className={'mb-6'}>
-                  <Link to={'/'}>Agile Six</Link>
+                  <Link to={'/about'}>Agile Six</Link>
                 </div>
                 <div className={'mb-6'}>
-                  <Link to={'/'}>Our Capabilities</Link>
+                  <Link to={'/capabilities'}>Our Capabilities</Link>
                 </div>
                 <div className={'mb-6'}>
-                  <Link to={'/'}>The Team</Link>
+                  <Link to={'/team'}>The Team</Link>
                 </div>
               </div>
               <div className={'md:w-1/4 md:px-4 mt-10 md:mt-0'}>
                 <div className={'uppercase font-bold mb-4'}>Contact</div>
                 <div className={'mb-6'}>
-                  <Link to={'/'}>Hire Us</Link>
+                  <Link to={'/contact'}>Hire Us</Link>
                 </div>
                 <div className={'mb-6'}>
-                  <Link to={'/'}>GitHub</Link>
+                  <Link to={'https://www.github.com/agilesix/'}>GitHub</Link>
                 </div>
                 <div className={'mb-6'}>
-                  <Link to={'/'}>LinkedIn</Link>
+                  <Link to={'https://www.linkedin.com/company/agilesix/'}>LinkedIn</Link>
                 </div>
               </div>
             </div>
             <div className={'border-t-2 border-grey-light pt-8 mt-8'}>
               <div className={'text-md'}>Copyright © 2019 Agile Six Applications, Inc.</div>
-              <div className={'text-md'}>
-                <a href="/privacy" className={'text-blue-dark mr-2 underline'}>Privacy Policy</a>
-                <a href="/purpose" className={'text-blue-dark underline'}>Purpose</a>
-              </div>
             </div>
           </Block>
         </footer>
