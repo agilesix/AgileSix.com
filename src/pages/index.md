@@ -19,7 +19,7 @@ capabilities:
   - Pioneering work in civic tech
 casestudies-title: We’re proud of our work
 casestudies-body: >-
-  Our team has helped clients like the Centers for Medicaid and Medicare
+  Our team has helped clients like the Centers for Medicare and Medicaid
   Services and the Department of Veterans Affairs revolutionize their digital
   services.
 casestudies:
