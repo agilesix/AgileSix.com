@@ -1,4 +1,4 @@
-# Agile Six Site
+# Agile6.com
 
 This site uses Gatsby to compile. To get up and running:
 
