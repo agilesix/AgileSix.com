@@ -62,7 +62,7 @@ export const ContactTemplate = ({
         </div>
         <div class="w-full px-3 mb-6">
           <label class="block uppercase tracking-wide text-gray-700 text-xs mb-2" for="email"><strong>Message</strong></label>
-          <textarea rows="10" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" id="message" type="message" placeholder="" required></textarea>
+          <textarea rows="10" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-dark" name="message" id="message" type="message" placeholder="" required></textarea>
           <div class="text-center mt-10">
             <button className="block md:inline-block px-8 py-3 leading-none border text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0">Send it</button>
           </div>
