@@ -4,6 +4,6 @@ name: Germaine Irwin
 position: Experience
 bio: Experience
 picture: /img/germaine.jpg
-order: 8
+order: 14
 ---
 
