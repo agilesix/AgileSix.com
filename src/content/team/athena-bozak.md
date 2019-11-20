@@ -2,8 +2,8 @@
 templateKey: team-member
 name: Athena Bozak
 position: Operations
-bio: ' '
-picture: /img/self.jpg
-order: 0
+bio: ' Operations'
+picture: /img/thena.jpg
+order: 1
 ---
 
