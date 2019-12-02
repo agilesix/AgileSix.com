@@ -3,7 +3,7 @@ templateKey: team-member
 name: Athena Bozak
 position: Operations
 bio: ' Operations'
-picture: /img/thena.jpg
+picture: /img/ab.jpg-1.jpg
 order: 1
 ---
 
