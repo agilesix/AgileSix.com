@@ -1,6 +1,6 @@
 ---
 templateKey: team-member
-name: 'Nick Bloom, PhD'
+name: Nick Bloom
 position: Experience
 bio: Experience
 picture: /img/nick-bloom.jpg
