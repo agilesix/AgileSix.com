@@ -85,7 +85,7 @@ history-body: >-
 
 
   Since our founding, Agile Six has helped build the civic tech marketplace and
-  quadrupled in size to over 30 employees. We’re now the full-spectrum digital
+  quadrupled in size to over 40 employees. We’re now the full-spectrum digital
   service company we envisioned at our founding, working side-by-side with our
   civil servant partners to build the better government we all deserve.
 cta:
