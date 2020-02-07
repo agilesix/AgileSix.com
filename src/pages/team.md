@@ -1,7 +1,7 @@
 ---
 templateKey: team
 title: Team
-subtitle: We’ve got your six. (That’s a military term for “we got your back.”)
+subtitle: We’ve got your six. (That’s a military term for “we've got your back.”)
 hero: /img/team.png
 team-intro: >-
   “We’ve got your six” has been a guiding principle for our team members since
