@@ -1,6 +1,6 @@
 # Agile6.com
 
-This site uses Gatsby to compile. To get up and running:
+This site uses GatsbyJS to compile. To get up and running:
 
 ```
 yarn install
