@@ -1,6 +1,6 @@
 ---
 templateKey: team-member
-name: 'Ann Aly, PhD'
+name: Ann Aly
 position: Experience
 bio: Experience
 picture: /img/ann-3.jpg
