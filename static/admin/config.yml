@@ -4,6 +4,8 @@ backend:
   # repo: matthewcrist/agile6
   branch: master
 
+local_backend: true
+
 media_folder: "static/img"
 public_folder: "/img"
 
@@ -80,6 +82,26 @@ collections:
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Hero Image", name: "hero", widget: image}
           - {label: "Team Intro", name: "team-intro", widget: "markdown"}
+          - {label: "Join Team Title", name: "join-title", widget: "string"}
+          - {label: "Join Team Body", name: "join-body", widget: "markdown"}
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Visible", name: "cta-visible", widget: "boolean"}
+              - {label: "Title", name: "cta-title", widget: "string"}
+              - {label: "Description", name: "cta-description", widget: "string"}
+              - {label: "Button Label", name: "cta-label", widget: "string"}
+              - {label: "Button URL", name: "cta-url", widget: "string"}
+      - file: "src/pages/careers.md"
+        label: "Careers"
+        name: "careers"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "careers"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Image", name: "hero", widget: image}
+          - {label: "Careers Intro", name: "careers-intro", widget: "markdown"}
           - {label: "Join Team Title", name: "join-title", widget: "string"}
           - {label: "Join Team Body", name: "join-body", widget: "markdown"}
           - label: "CTA"
