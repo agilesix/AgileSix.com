@@ -24,6 +24,18 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Agile Six`,
+        short_name: `Agile Six`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `minimal-ui`,
+        icon: `src/images/agile-six-icon.png`, // This path is relative to the root of the site.
+      }
+    },
+    {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
@@ -95,18 +107,6 @@ module.exports = {
       },
     },
     `gatsby-remark-relative-images`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Agile Six`,
-        short_name: `Agile Six`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#ffffff`,
-        display: `minimal-ui`,
-        icon: `src/images/agile-six-icon.png`, // This path is relative to the root of the site.
-      }
-    },
     `gatsby-plugin-offline`
   ],
 }
