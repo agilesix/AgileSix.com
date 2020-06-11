@@ -4,6 +4,8 @@ backend:
   # repo: matthewcrist/agile6
   branch: dhm/careers-page # TODO - Change back to master before PR merge
 
+local_backend: true
+
 media_folder: "static/img"
 public_folder: "/img"
 
