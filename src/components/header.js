@@ -33,6 +33,7 @@ class Header extends React.Component  {
               <Link to="/work" className="block mt-4 md:inline-block md:mt-0 text-blue-dark md:ml-5 border-transparent border-b-2 hover:border-blue-light">Work</Link>
               <Link to="/about" className="block mt-4 md:inline-block md:mt-0 text-blue-dark md:ml-5 border-transparent border-b-2 hover:border-blue-light">About</Link>
               <Link to="/team" className="block mt-4 md:inline-block md:mt-0 text-blue-dark md:ml-5 border-transparent border-b-2 hover:border-blue-light">Team</Link>
+              <Link to="/careers" className="block mt-4 md:inline-block md:mt-0 text-blue-dark md:ml-5 border-transparent border-b-2 hover:border-blue-light">Careers</Link>
             </div>
             <div>
               <a href="/contact" className="block md:inline-block px-4 py-3 leading-none border text-blue-dark text-center border-blue-dark hover:border-transparent hover:text-white hover:bg-blue-dark mt-4 md:mt-0">Contact Us</a>
