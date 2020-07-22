@@ -4,8 +4,6 @@ import remark from 'remark'
 import recommended from 'remark-preset-lint-recommended'
 import remarkHtml from 'remark-html'
 import { graphql } from 'gatsby'
-import Helmet from  'react-helmet'
-import { PostScribe } from 'react-postscribe'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Block from '../components/block'
@@ -26,12 +24,9 @@ export const TeamTemplate = ({
 }) => (
   <div>
     {!preview && (
-        <div>
-          <SEO title={title} description={subtitle}></SEO>
-          <Helmet>
-            <script src="https://www.workable.com/assets/embed.js" type="text/javascript"></script>
-          </Helmet>
-        </div>
+      <div>
+        <SEO title={title} description={subtitle}></SEO>
+      </div>
     )}
     <Hero
       title={title}
@@ -52,21 +47,11 @@ export const TeamTemplate = ({
       <Prose>
         <div className={'mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
         {!preview && (
-          <PostScribe html={`
-            <div class="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Here’s what’s available now.</div>
-            <script>
-              function checkVariable() {
-                if (window.whr) {
-                  whr(document).ready(function(){whr_embed(357587, {detail: 'titles', base: 'jobs', zoom: 'country', grouping: 'none'});});
-                } else {
-                  setTimeout(checkVariable, 1000);
-                }
-              }
-
-              setTimeout(checkVariable, 50);
-            </script>
-            <div id='whr_embed_hook'></div>
-          `} />
+          <>
+            <div className="text-2xl font-semibold pb-1 mb-4 border-b border-grey">Here’s what’s available now.</div>
+            <div id="grnhse_app" />
+            <script src="https://boards.greenhouse.io/embed/job_board/js?for=agilesix"></script>
+          </>
         )}
       </Prose>
     </Block>
