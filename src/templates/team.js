@@ -48,7 +48,12 @@ export const TeamTemplate = ({
         <div className={'mb-10'} dangerouslySetInnerHTML={{__html: join_body}}></div>
         {!preview && (
           <>
-            <a href="https://boards.greenhouse.io/agilesix">Browse Open Positions</a>
+            <p>
+              <strong>Apply to work at Agile Six</strong>
+            </p>
+            <p>
+              <a style={{fontSize: '1.5rem'}} href="https://boards.greenhouse.io/agilesix">Browse Current Open Positions</a>
+            </p>
           </>
         )}
       </Prose>
