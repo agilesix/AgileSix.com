@@ -3,7 +3,7 @@ templateKey: team-member
 name: Oksana Cyrwus
 position: Engineering
 bio: Engineering
-picture: /img/oksana.jpg
+picture: /img/image-from-ios.jpg
 order: 2
 ---
 
