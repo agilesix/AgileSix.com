@@ -23,3 +23,9 @@ For deployments, you can run:
 ```
 yarn run deploy:github
 ```
+
+To run Storybook locally, first start local development server (`yarn start`), then run:
+
+```
+yarn storybook
+```
