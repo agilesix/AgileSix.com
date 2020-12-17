@@ -1,7 +1,7 @@
 ---
 templateKey: team-member
 name: Brian Derfer
-position: Chief Technology Officer
+position: Chief Innovation Officer
 bio: ' '
 picture: /img/brianfishing.jpg
 order: 0
