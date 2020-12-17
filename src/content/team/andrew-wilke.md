@@ -1,7 +1,7 @@
 ---
 templateKey: team-member
 name: 'Andrew Wilke, MD'
-position: Chief Clinical Experience Officer
+position: Senior Medical Advisor
 bio: ' '
 picture: /img/andrew-wilke.jpg
 order: 0
