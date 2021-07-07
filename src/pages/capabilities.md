@@ -24,28 +24,42 @@ capabilities:
   - Research
   - Digital Transformation
 process-title: Industry Information
-process-body: |-
+process-body: >-
   ### Certifications
 
-   * Service Disabled Veteran-Owned Small Business (SDVOSB) - Federal 
-   * Disabled Veteran Small Business Enterprise (SB/DVBE) - State of California 
 
-  ### Contract Vehicles (Prime) 
+  * Service Disabled Veteran-Owned Small Business (SDVOSB) - Federal 
 
-   * GSA IT-70 (GS-35F-004GA) 
-   * CMS - Enterprise Agile Transformation Services (EATS) BPA (HHSM-500-2017-00004B)
-   * CMS - Medicare Payment Systems Modernization (MPSM) BPA (75FCMC19A0006)
-   * Dept of VA - T4NG IDIQ (VA118-16-D-1011)
-   * State of California PQVP AD-DS and CMAS (3-18-70-3581A) 
+  * Disabled Veteran Small Business Enterprise (SB/DVBE) - State of California 
 
-  ### Industry Information 
 
-   * **Legal Name:** Agile Six Applications, Inc. 
-   * **DUNS Number:** 079622664 
-   * **CAGE Code:** 79H77 
-   * **NAICS Codes:** 541511, 541512, 541513, 541519, 541611, 611420, 611430
+  ### Contract Vehicles (Prime)
+
+
+  * GSA IT-70 (GS-35F-004GA) 
+
+  * CMS - Enterprise Agile Transformation Services (EATS) BPA
+  (HHSM-500-2017-00004B)
+
+  * CMS - Medicare Payment Systems Modernization (MPSM) BPA (75FCMC19A0006)
+
+  * VA - Customer  Experience, DevOps, Agile Releases (CEDAR) (36C10B21D0006)
+
+  * State of California PQVP AD-DS and CMAS (3-18-70-3581A) 
+
+
+  ### Industry Information
+
+
+  * **Legal Name:** Agile Six Applications, Inc. 
+
+  * **DUNS Number:** 079622664 
+
+  * **CAGE Code:** 79H77 
+
+  * **NAICS Codes:** 541511, 541512, 541513, 541519, 541611, 611420, 611430
 cta:
-  cta-description: 'We can help.'
+  cta-description: We can help.
   cta-label: Get in touch
   cta-title: Tell us what you need
   cta-url: /contact
