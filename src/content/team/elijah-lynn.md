@@ -1,7 +1,7 @@
 ---
 templateKey: team-member
 name: Elijah Lynn
-position: Open Source Software Engineer
+position: Engineering
 bio: ' '
 picture: /img/elijah-lynn.jpg
 order: 0
