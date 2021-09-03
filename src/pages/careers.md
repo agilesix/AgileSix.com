@@ -1,47 +1,64 @@
 ---
 templateKey: careers
 title: Careers
-subtitle: TODO - careers subtitle goes here
+subtitle: Come be a Sixer!
 hero: /img/team.png
-careers-intro: TODO - careers intro
+careers-intro: >-
+  The relationship between employer and employee or government and industry is
+  often antagonistic and viewed as zero-sum. For an employee or vendor to win,
+  the company or government must lose, which results in poor outcomes for
+  people’s health and wellbeing, taxpayers, system users and government
+  employees. 
+
+
+  We grew tired of being sold these false choices of what it takes to “get ahead,” which often includes climbing a never ending ladder or being forced to make impossible tradeoffs between family, health, and a career. Choices forced upon us in service to the remorseless quest for endless profits and growth.
+
+
+  <!--StartFragment-->
+
+
+  **We’ve always believed you can put humans and integrity first, and you can also have a thriving business.**
+
+
+  <!--EndFragment-->
 join-title: Join our team
 join-body: >-
-  Agile Six has offices in San Diego, CA, Washington, DC, and Baltimore, MD, but
-  most of our staff is remote. That allows our employees a better work-life
-  balance, and offers us the best talent from across the country.
+  At Agile Six, we’re about purpose over profit. We believe in our people—that
+  they are most capable of self-managing and making decisions within their daily
+  lives.  
 
 
-  Why work with us? Because you’ll:
+  We’re committed to our employees by building in these non-negotiables:
 
 
-  **Do meaningful work**
+  **Purposeful work**
 
 
-  We’re deliberate about every project we take on. If we’re not passionate about it or it doesn’t align with our values, we won’t do it.
+  We only support a project if we’re all-in. This has led us to support missions like Pandemic Readiness at the CDC, improving veteran-facing services at the VA, and modernizing the medicare payment systems at CMS.
 
 
-  **Be part of something big**
+  **Part of the solution**
 
 
-  Agile Six is an important player in the larger civic tech community. We’re united by a belief in helping government serve citizens better. 
+  We’ll never sell out for a quick profit, and have built our company based on relationships and organic growth rather than a predatory capture mindset that’s the status quo for most of the industry. 
 
 
-  **Get the freedom to do your thing**
+  **Putting wholeness and wellbeing first**
 
 
-  People do their best work when they’re challenged with projects that matter and given the ownership to find the solution. 
+  Working or answering emails on vacation, late at night, or on the weekends shouldn’t be glorified. 
 
 
-  **Teach us something new**
+  **No middle management**
 
 
-  We hire from across different sectors of the industry because fresh perspectives make our work better. Every one of us, from our newest hire to our founders, is both a student and a teacher. 
+  We provide coaching, training, professional and personal development, and other support to teams. We empower our employees to make decisions at a level where the information resides. 
 
 
-  **Create the job you want**
+  **Incentivize behaviors that align with our Just Cause and integrity**
 
 
-  For a start, we offer flexible schedules, paid personal time off, profit sharing, and financial help with career development and certifications.
+  We refuse to perpetuate a broken system and participate in the ethical fading that comes with justifying this behavior.
 cta:
   cta-description: Don’t see any listings that fit your skill set?
   cta-label: Drop us a line
