@@ -6,4 +6,3 @@ bio: .
 picture: /img/adrianb.jpeg
 order: 0
 ---
-
