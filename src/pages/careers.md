@@ -21,6 +21,9 @@ careers-intro: >-
 
 
   <!--EndFragment-->
+
+
+  ![](/img/header-team.png)
 join-title: Join our team
 join-body: >-
   At Agile Six, we’re about purpose over profit. We believe in our people—that
