@@ -44,7 +44,7 @@ join-body: >-
 
   We intentionally build structures that incentivize behaviors aligning with our Just Cause and integrity. For us to win, the Government, users and taxpayers must also win.
 cta:
-  cta-description: Don’t see any listings that fit your skill set?
+  cta-description: Have questions about working with Agile Six?
   cta-label: Drop us a line
   cta-title: Learn more
   cta-url: /contact
