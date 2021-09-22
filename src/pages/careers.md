@@ -2,42 +2,23 @@
 templateKey: careers
 title: Careers
 subtitle: Come be a Sixer!
-hero: /img/team.png
+hero: /img/header-team.png
 careers-intro: >-
-  The relationship between employer and employee or government and industry is
-  often antagonistic and viewed as zero-sum. For an employee or vendor to win,
-  the company or government must lose, which results in poor outcomes for
-  people’s health and wellbeing, taxpayers, system users and government
-  employees. 
-
-
-  We grew tired of being sold these false choices of what it takes to “get ahead,” which often includes climbing a never ending ladder or being forced to make impossible tradeoffs between family, health, and a career. Choices forced upon us in service to the remorseless quest for endless profits and growth.
-
-
-  <!--StartFragment-->
-
-
-  **We’ve always believed you can put humans and integrity first, and you can also have a thriving business.**
-
-
-  <!--EndFragment-->
-
-
-  ![](/img/header-team.png)
-join-title: Join our team
-join-body: >-
   At Agile Six, we’re about purpose over profit. We believe in our people—that
   they are most capable of self-managing and making decisions within their daily
   lives.  
 
 
+  **We’ve always believed you can put humans and integrity first, and you can also have a thriving business.**
+join-title: Join our team
+join-body: >-
   We’re committed to our employees by building in these non-negotiables:
 
 
   **Purposeful work**
 
 
-  We only support a project if we’re all-in. This has led us to support missions like Pandemic Readiness at the CDC, improving veteran-facing services at the VA, and modernizing the medicare payment systems at CMS.
+  We only support a project if we’re all-in. This has led us to support missions like pandemic readiness at the CDC, improving veteran-facing services at the VA, and modernizing the Medicare payment systems at CMS.
 
 
   **Part of the solution**
@@ -49,7 +30,7 @@ join-body: >-
   **Putting wholeness and wellbeing first**
 
 
-  Working or answering emails on vacation, late at night, or on the weekends shouldn’t be glorified. 
+  We don't glorify working or answering emails on vacation, late at night, or on the weekends. We trust you to make decisions that help you do your job, be fulfilled and whole.
 
 
   **No middle management**
@@ -61,7 +42,7 @@ join-body: >-
   **Incentivize behaviors that align with our Just Cause and integrity**
 
 
-  We refuse to perpetuate a broken system and participate in the ethical fading that comes with justifying this behavior.
+  We intentionally build structures that incentivize behaviors aligning with our Just Cause and integrity. For us to win, the Government, users and taxpayers must also win.
 cta:
   cta-description: Don’t see any listings that fit your skill set?
   cta-label: Drop us a line
