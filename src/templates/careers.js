@@ -7,76 +7,87 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Hero from "../components/hero"
 import Block from "../components/block"
-import TeamMembers from "../components/team-members"
 import CTA from "../components/cta"
 import Prose from "../components/prose"
 import SEO from "../components/seo"
 
-export const TeamTemplate = ({
+export const CareersTemplate = ({
   title,
   subtitle,
-  team_intro,
+  careers_intro,
   join_title,
   join_body,
   cta,
   hero,
   preview,
-}) => (
-  <div>
-    {!preview && (
-      <div>
-        <SEO title={title} description={subtitle}></SEO>
-      </div>
-    )}
-    <Hero title={title} subtitle={subtitle} hero={hero} />
-    <Block className={"bg-white"} title={false}>
-      <Prose>
-        <div dangerouslySetInnerHTML={{ __html: team_intro }}></div>
-      </Prose>
-    </Block>
-    <Block className={"bg-grey-light"} title={"Meet the team"}>
-      {!preview && <TeamMembers />}
-    </Block>
-    <Block className={"bg-white"} title={join_title}>
-      <Prose>
-        <div
-          className={"mb-10"}
-          dangerouslySetInnerHTML={{ __html: join_body }}
+}) => {
+  return (
+    <div>
+      {!preview && (
+        <div>
+          <SEO title={title} description={subtitle} />
+        </div>
+      )}
+      <Hero title={title} subtitle={subtitle} hero={hero} />
+      <Block className={"bg-white"} title={false}>
+        <Prose>
+          <div dangerouslySetInnerHTML={{ __html: careers_intro }} />
+        </Prose>
+      </Block>
+      <Block className={"bg-white pt-0 md:pt-0"} title={join_title}>
+        <Prose>
+          <div
+            className={"mb-10"}
+            dangerouslySetInnerHTML={{ __html: join_body }}
+          />
+          {!preview && (
+            <>
+              <div className="text-2xl font-semibold pb-1 mb-4 border-b border-grey" />
+              <div>
+                <a
+                  style={{ fontSize: "1.5rem" }}
+                  href="https://boards.greenhouse.io/agilesix"
+                >
+                  Browse Current Open Positions
+                </a>
+              </div>
+            </>
+          )}
+        </Prose>
+      </Block>
+      {cta.cta_visible && (
+        <CTA
+          title={cta.cta_title}
+          description={cta.cta_description}
+          label={cta.cta_label}
+          url={cta.cta_url}
         />
-      </Prose>
-    </Block>
-    {cta.cta_visible && (
-      <CTA
-        title={cta.cta_title}
-        description={cta.cta_description}
-        label={cta.cta_label}
-        url={cta.cta_url}
-      />
-    )}
-  </div>
-)
+      )}
+    </div>
+  )
+}
 
-TeamTemplate.propTypes = {
+CareersTemplate.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  team_intro: PropTypes.string,
+  careers_intro: PropTypes.string,
   join_title: PropTypes.string,
   join_body: PropTypes.string,
   cta: PropTypes.object,
 }
 
-const Team = ({ data }) => {
+const Careers = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <TeamTemplate
+      <CareersTemplate
         title={frontmatter.title}
         subtitle={frontmatter.subtitle}
-        team_intro={remark()
+        careers_intro={remark()
           .use(recommended)
           .use(remarkHtml)
-          .processSync(frontmatter.team_intro)
+          .processSync(frontmatter.careers_intro)
           .toString()}
         join_title={frontmatter.join_title}
         join_body={remark()
@@ -91,7 +102,7 @@ const Team = ({ data }) => {
   )
 }
 
-Team.propTypes = {
+Careers.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -99,16 +110,16 @@ Team.propTypes = {
   }),
 }
 
-export default Team
+export default Careers
 
 export const pageQuery = graphql`
-  query TeamTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "team" } }) {
+  query CareersTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "careers" } }) {
       html
       frontmatter {
         title
         subtitle
-        team_intro
+        careers_intro
         join_title
         join_body
         hero {
