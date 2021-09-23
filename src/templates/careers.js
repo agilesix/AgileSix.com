@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import remark from "remark"
 import recommended from "remark-preset-lint-recommended"
@@ -21,22 +21,6 @@ export const CareersTemplate = ({
   hero,
   preview,
 }) => {
-  useEffect(() => {
-    if (!document) return
-
-    const oldScript = document.getElementById("grnhse_script")
-    if (oldScript) {
-      document.getElementById("grnhse_script_embed").removeChild(oldScript)
-    }
-
-    const ghScript = document.createElement("script")
-    ghScript.src =
-      "https://boards.greenhouse.io/embed/job_board/js?for=agilesix"
-    ghScript.id = "grnhse_script"
-    document.getElementById("grnhse_script_embed").appendChild(ghScript)
-    console.log("embedded script!")
-  }, [])
-
   return (
     <div>
       {!preview && (
@@ -50,7 +34,7 @@ export const CareersTemplate = ({
           <div dangerouslySetInnerHTML={{ __html: careers_intro }} />
         </Prose>
       </Block>
-      <Block className={"bg-white"} title={join_title}>
+      <Block className={"bg-white pt-0 md:pt-0"} title={join_title}>
         <Prose>
           <div
             className={"mb-10"}
@@ -58,10 +42,8 @@ export const CareersTemplate = ({
           />
           {!preview && (
             <>
-              <div className="text-2xl font-semibold pb-1 mb-4 border-b border-grey">
-                Here’s what’s available now.
-              </div>
-              <div id="grnhse_app">
+              <div className="text-2xl font-semibold pb-1 mb-4 border-b border-grey" />
+              <div>
                 <a
                   style={{ fontSize: "1.5rem" }}
                   href="https://boards.greenhouse.io/agilesix"
@@ -69,7 +51,6 @@ export const CareersTemplate = ({
                   Browse Current Open Positions
                 </a>
               </div>
-              <div id="grnhse_script_embed" />
             </>
           )}
         </Prose>
