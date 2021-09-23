@@ -2,7 +2,7 @@ backend:
   name: github
   repo: agilesix/AgileSix.com
   # repo: matthewcrist/agile6
-  branch: dhm/careers-page # TODO - Change back to master before PR merge
+  branch: master
 
 media_folder: "static/img"
 public_folder: "/img"
