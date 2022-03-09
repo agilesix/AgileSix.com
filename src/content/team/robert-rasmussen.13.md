@@ -6,4 +6,3 @@ bio: Here is a short bio. It should be 1-2 sentences long.
 picture: /img/robert.jpg
 order: -20
 ---
-
