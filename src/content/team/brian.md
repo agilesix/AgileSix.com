@@ -1,6 +1,6 @@
 ---
 templateKey: team-member
-name: Brian
+name: Brian Andrews
 position: Experience
 bio: Experience
 picture: /img/brian-1.jpg
