@@ -2,8 +2,7 @@
 templateKey: team-member
 name: Kiel McLaughlin
 position: Experience
-bio: .
+bio: Experience
 picture: /img/abe.jpeg
-order: 0
+order: 1
 ---
-
