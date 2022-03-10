@@ -29,7 +29,6 @@ const TeamMembers = ({ children }) => (
               frontmatter {
                 name
                 position
-                bio
                 picture {
                   childImageSharp {
                     fluid(maxWidth: 600, maxHeight: 600) {
