@@ -4,5 +4,5 @@ name: Lydia Hooper
 position: Experience
 bio: Experience
 picture: /img/lydiahooper.jpg
-order: 20
+order: 5
 ---
