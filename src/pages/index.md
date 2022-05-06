@@ -5,7 +5,7 @@ subtitle: Better systems for government. Better outcomes for citizens.
 hero: /img/we-ve-got-your-6.png
 capabilities-body: >-
   At Agile Six, we use modern technology and user-friendly, inclusive design to
-  build better government services for everyone. 
+  build better government services for everyone.
 
 
   Agile Six works with government agencies to create customized digital solutions that meet the needs of their users, both staff and citizens. The end goal? Digital products that are as powerful and easy to use as the apps on your phone.
