@@ -3,15 +3,9 @@ templateKey: careers
 title: Careers
 subtitle: Come be a Sixer!
 hero: /img/header-team.png
-careers-intro: >-
-  At Agile Six, we’re about purpose over profit. We believe in our people—that
-  they are most capable of self-managing and making decisions within their daily
-  lives.  
-
-
-  **We’ve always believed you can put humans and integrity first, and you can also have a thriving business.**
+careers-intro: "At Agile Six, we built better by putting people first. "
 join-title: Join our team
-join-body: >-
+join-body: >
   We’re committed to our employees by building in these non-negotiables:
 
 
@@ -43,6 +37,59 @@ join-body: >-
 
 
   We intentionally build structures that incentivize behaviors aligning with our Just Cause and integrity. For us to win, the Government, users and taxpayers must also win.
+
+
+  ### Benefits
+
+
+  Agile Six offers strong support for the people that work here, and part of that includes a great list of benefits.
+
+
+  **Fully Remote**
+
+  - Work-life balance + flexibility 
+
+
+  **Financial Wellness**
+
+  - Competitive and equitable salary
+
+  - 401K matching: 100% matching up to 4% of your salary 
+
+  - Tenure-based profit sharing
+
+  - Employee Stock Ownership Plan (ESOP) for all employees!
+
+
+  **Health Insurance**
+
+  - Medical, Dental, Vision:
+
+  Agile Six pays 90% of your premiums and 80% for all enrolled family members.
+
+
+  **Life & Disability Insurance** 
+
+  - Employer-paid life insurance (1x your salary)
+
+  - Employer-paid short and long term disability insurance
+
+
+  **Paid Time Off**
+
+  - 30+ vacation days: 18 accrued days per year + 12 paid holidays + Election Day off
+
+  - Flexible wellness days, to disconnect, recharge, recover, and recuperate. 
+
+
+  **Parental Leave**
+
+  - Company-paid leave for all new parents by birth or adoption.
+
+
+  **Continuing Education**
+
+  - Company-paid, self-managed professional development 
 cta:
   cta-description: Have questions about working with Agile Six?
   cta-label: Drop us a line
