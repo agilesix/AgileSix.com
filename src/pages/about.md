@@ -13,39 +13,33 @@ intro: >
 
   Agile Six was founded to help fix this problem, one agency at a time. 
 purpose-title: Here’s what we believe in
-purpose-body: >-
-  **Progress, not disruption**
+purpose-body: >+
+  ### Our Just Cause
 
 
-  We’re not here to “save” you, blow up your current system, and leave you stranded with some off-the-shelf software your staff doesn’t understand. That’s straight-up malpractice. Instead, we’ll listen to your needs and customize a solution that staff and stakeholders can support and use.
+  We build better by putting people first.
 
 
-
-  **Changing systems, changing minds**
-
-
-  Adopting a new workflow isn’t as easy as upgrading your software — it’s a process. So we’re more than just developers, we’re guides and teachers. We lead staff trainings to answer questions and build confidence. When the project wraps up, you’ll be ready to take the reins.
+  ### Our Core Values
 
 
-
-  **Simple solutions**
-
-
-  Sure, some projects do require an outside-the-box, high-tech solution (we’ve come up with plenty). But if a simple fix does the job, we’ll choose it every time. Why spend time and money on complexity you don’t need?
+  **Purpose:** We pursue work that matters.
 
 
-
-  **True agility**
-
-
-  Lots of companies “do Agile” — they use the lingo, perform the ceremonies, follow the process. But that’s just the start. Agile isn’t really a system you impose. It’s more about awareness, listening and being ready to respond to change. We don’t just do Agile. We are agile. 
+  **Wholeness:**  We hold space for people to be their complete and authentic selves.
 
 
+  **Trust:**  We build relationships based on trust – among teammates, customers, and partners.
 
-  **Work that matters**
+
+  **Self-Management:**  We reinforce autonomy and local decision-making in individuals and teams. 
 
 
-  We’re dedicated to purpose over profit. We’ve turned down big contracts because we didn’t believe in the work, or because we would have been forced to turn into the sort of giant, impersonal company we never want to be. Staying small and selective keeps us agile and able to do meaningful work.
+  **Inclusion:**  We see, hear, and value people.
+
+
+  A better place to work. Better work to do.
+   
 history-title: How we got here
 history-body: >-
   In 2014, Robert Rasmussen was working as an IT contractor after having worked
