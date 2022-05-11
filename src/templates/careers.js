@@ -32,17 +32,9 @@ export const CareersTemplate = ({
       <Block className={"bg-white"} title={false}>
         <Prose>
           <div dangerouslySetInnerHTML={{ __html: careers_intro }} />
-        </Prose>
-      </Block>
-      <Block className={"bg-white pt-0 md:pt-0"} title={join_title}>
-        <Prose>
-          <div
-            className={"mb-10"}
-            dangerouslySetInnerHTML={{ __html: join_body }}
-          />
           {!preview && (
             <>
-              <div className="text-2xl font-semibold pb-1 mb-4 border-b border-grey" />
+              <div className="text-2xl font-semibold pb-1 my-4 border-b border-grey" />
               <div>
                 <a
                   style={{ fontSize: "1.5rem" }}
@@ -53,6 +45,14 @@ export const CareersTemplate = ({
               </div>
             </>
           )}
+        </Prose>
+      </Block>
+      <Block className={"bg-white pt-0 md:pt-0"} title={join_title}>
+        <Prose>
+          <div
+            className={"mb-10"}
+            dangerouslySetInnerHTML={{ __html: join_body }}
+          />
         </Prose>
       </Block>
       {cta.cta_visible && (
