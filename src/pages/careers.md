@@ -3,7 +3,7 @@ templateKey: careers
 title: Careers
 subtitle: Come be a Sixer!
 hero: /img/header-team.png
-careers-intro: "At Agile Six, we built better by putting people first. "
+careers-intro: At Agile Six, we build better by putting people first.
 join-title: Join our team
 join-body: >
   We’re committed to our employees by building in these non-negotiables:
