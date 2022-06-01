@@ -5,7 +5,7 @@ subtitle: Come be a Sixer!
 hero: /img/header-team.png
 careers-intro: At Agile Six, we build better by putting people first.
 join-title: Join our team
-join-body: >
+join-body: >-
   We’re committed to our employees by building in these non-negotiables:
 
 
@@ -47,49 +47,54 @@ join-body: >
 
   **Fully Remote**
 
-  - Work-life balance + flexibility 
+
+  * Work-life balance + flexibility 
 
 
   **Financial Wellness**
 
-  - Competitive and equitable salary
 
-  - 401K matching: 100% matching up to 4% of your salary 
+  * Competitive and equitable salary
 
-  - Tenure-based profit sharing
+  * 401K matching: 100% matching up to 4% of your salary 
 
-  - Employee Stock Ownership Plan (ESOP) for all employees!
+  * Tenure-based profit sharing
+
+  * Employee Stock Ownership Plan (ESOP) for all employees!
 
 
   **Health Insurance**
 
-  - Medical, Dental, Vision:
 
-  Agile Six pays 90% of your premiums and 80% for all enrolled family members.
+  * Medical, Dental, Vision: Agile Six pays 90% of your premiums and 80% for all enrolled family members.
 
 
   **Life & Disability Insurance** 
 
-  - Employer-paid life insurance (1x your salary)
 
-  - Employer-paid short and long term disability insurance
+  * Employer-paid life insurance (1x your salary)
+
+  * Employer-paid short and long term disability insurance
 
 
   **Paid Time Off**
 
-  - 30+ vacation days: 18 accrued days per year + 12 paid holidays + Election Day off
 
-  - Flexible wellness days, to disconnect, recharge, recover, and recuperate. 
+  * 30+ vacation days: 18 accrued days per year + 11 paid holidays + 1 Floating Holiday
+
+  * Flexible wellness days, to disconnect, recharge, recover, and recuperate. 
 
 
   **Parental Leave**
 
-  - Company-paid leave for all new parents by birth or adoption.
+
+  * Company-paid leave for all new parents by birth or adoption.
 
 
   **Continuing Education**
 
-  - Company-paid, self-managed professional development 
+
+  * Company-paid, self-managed professional development
 cta:
   cta-description: Have questions about working with Agile Six?
   cta-label: Drop us a line
