@@ -1,9 +1,8 @@
 ---
 templateKey: team-member
 name: Sara Quagliaroli
-position: Experience
-bio: ' '
+position: Coaching
+bio: " "
 picture: /img/sara-original.jpg
 order: 0
 ---
-
