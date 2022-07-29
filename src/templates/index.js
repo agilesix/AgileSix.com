@@ -87,7 +87,6 @@ IndexTemplate.propTypes = {
 
 const Index = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-  console.log(frontmatter)
   return (
     <Layout>
       <IndexTemplate
