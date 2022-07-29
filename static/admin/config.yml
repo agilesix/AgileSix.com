@@ -100,7 +100,8 @@ collections:
               name: "capabilities",
               widget: "relation",
               collection: "capabilities",
-              valueField: "title",
+              value_field: "title",
+              search_fields: ["title"],
               multiple: true,
               displayFields: ["title"],
             }
@@ -119,7 +120,8 @@ collections:
               name: "casestudies",
               widget: "relation",
               collection: "casestudies",
-              valueField: "title",
+              value_field: "title",
+              search_fields: ["title"],
               multiple: true,
               displayFields: ["title"],
             }
@@ -222,7 +224,8 @@ collections:
               name: "casestudies",
               widget: "relation",
               collection: "casestudies",
-              valueField: "title",
+              value_field: "title",
+              search_fields: ["title"],
               multiple: true,
               displayFields: ["title"],
             }
@@ -298,7 +301,8 @@ collections:
               name: "capabilities",
               widget: "relation",
               collection: "capabilities",
-              valueField: "title",
+              value_field: "title",
+              search_fields: ["title"],
               multiple: true,
               displayFields: ["title"],
             }

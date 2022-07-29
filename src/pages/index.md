@@ -1,6 +1,6 @@
 ---
 templateKey: index
-title: 'We make digital transformation achievable. '
+title: "We make digital transformation achievable. "
 subtitle: Better systems for government. Better outcomes for citizens.
 hero: /img/we-ve-got-your-6.png
 capabilities-body: >-
@@ -24,7 +24,7 @@ capabilities-body: >-
   Changing government systems and processes can be tough. Agile Six can help.
   We’ll meet you where you are, then get you where you want to go.
 capabilities:
-  - 'Digital transformation, start to finish'
+  - "Digital transformation, start to finish"
   - Tools that work for real people
   - Product development and devops
   - Pioneering work in civic tech
@@ -39,10 +39,9 @@ casestudies:
   - Diffusion Marketplace
   - Digital Services Coalition
 cta:
-  cta-description: 'Get in touch. We’d love to talk. '
+  cta-description: "Get in touch. We’d love to talk. "
   cta-label: Contact Us
   cta-title: Interested in what we do?
   cta-url: /contact
   cta-visible: true
 ---
-
