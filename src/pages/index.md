@@ -1,38 +1,29 @@
 ---
 templateKey: index
 title: "We make digital transformation achievable. "
-subtitle: Better systems for government. Better outcomes for citizens.
+subtitle: Better systems for government. Better outcomes for people.
 hero: /img/we-ve-got-your-6.png
 capabilities-body: >-
   At Agile Six, we use modern technology and user-friendly, inclusive design to
   build better government services for everyone. 
 
 
-  <iframe class="pt-6" width="1237" height="696" style="aspect-ratio: 16 / 9;
-  height: 100%; width: 100%;" src="https://www.youtube.com/embed/9CW204239Es"
-  title="Why We Choose the Work We Do" frameborder="0" allow="accelerometer;
-  autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
+  <iframe class="pt-6" width="1237" height="696" style="aspect-ratio: 16 / 9; height: 100%; width: 100%;" src="https://www.youtube.com/embed/9CW204239Es" title="Why We Choose the Work We Do" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-  Agile Six works with government agencies to create customized digital
-  solutions that meet the needs of their users, both staff and citizens. The end
-  goal? Digital products that are as powerful and easy to use as the apps on
-  your phone.
+  Agile Six works with government agencies to create customized digital solutions that meet the needs of their users. The end goal? Digital products that are as powerful and easy to use as the apps on your phone.
 
 
-  Changing government systems and processes can be tough. Agile Six can help.
-  We’ll meet you where you are, then get you where you want to go.
+  Changing government systems and processes can be tough. Agile Six can help. We’ll meet you where you are, then get you where you want to go.
 capabilities:
-  - "Digital transformation, start to finish"
+  - Digital transformation, start to finish
   - Tools that work for real people
   - Product development and devops
   - Pioneering work in civic tech
 casestudies-title: We’re proud of our work
-casestudies-body: >-
-  Our team has helped clients like the Centers for Medicare and Medicaid
-  Services and the Department of Veterans Affairs revolutionize their digital
-  services.
+casestudies-body: Our team has helped clients like the Centers for Medicare and
+  Medicaid Services and the Department of Veterans Affairs revolutionize their
+  digital services.
 casestudies:
   - VA.gov Modernization
   - CCSQ Agile Coaching and Digital Transformation
