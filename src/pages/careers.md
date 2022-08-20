@@ -66,7 +66,7 @@ join-body: >-
   **Health Insurance**
 
 
-  * Medical, Dental, Vision: Agile Six pays 90% of your premiums and 80% for all enrolled family members.
+  * Medical, Dental, Vision: Agile Six pays 90% of your premiums and 80% for all enrolled family members
 
 
   **Life & Disability Insurance** 
@@ -82,13 +82,13 @@ join-body: >-
 
   * 30+ vacation days: 18 accrued days per year + 11 paid holidays + 1 Floating Holiday
 
-  * Flexible wellness days, to disconnect, recharge, recover, and recuperate. 
+  * Flexible wellness days, to disconnect, recharge, recover, and recuperate 
 
 
   **Parental Leave**
 
 
-  * Company-paid leave for all new parents by birth or adoption.
+  * Company-paid leave for all new parents by birth or adoption
 
 
   **Continuing Education**
