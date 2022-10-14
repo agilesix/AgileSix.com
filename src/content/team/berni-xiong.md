@@ -1,9 +1,8 @@
 ---
 templateKey: team-member
 name: Berni Xiong
-position: Instructional Design
-bio: '. '
-picture: /img/berni-xiong-headshot-2.jpeg
+position: Delivery
+bio: ". "
+picture: /img/img_5407.jpg
 order: 0
 ---
-
