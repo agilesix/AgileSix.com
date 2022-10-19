@@ -7,7 +7,6 @@ module.exports = {
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-postcss`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
@@ -108,5 +107,19 @@ module.exports = {
     },
     `gatsby-remark-relative-images`,
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require("tailwindcss"), require("autoprefixer")]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: false,
+        develop: false,
+        tailwind: true,
+      },
+    }
   ],
 }
