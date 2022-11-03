@@ -9,7 +9,7 @@ import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 import Block from "./block"
 
-const social = [
+export const socialLinks = [
   {
     name: 'LinkedIn',
     href: 'https://www.linkedin.com/company/agilesix/',
@@ -37,7 +37,6 @@ const social = [
     ),
   },
 ]
-
 
 const CaseStudies = ({ children }) => (
   <StaticQuery
@@ -112,21 +111,17 @@ const CaseStudies = ({ children }) => (
                 <div className={'mb-6'}>
                   <Link to={'/contact'}>Hire Us</Link>
                 </div>  
-                <div className={'mb-6'}>
-                {social.map((item) => (
+                {socialLinks.map((item) => (
                   <div className={'mb-6'}>
                   <a key={item.name} href={item.href} className="text-warm-gray-400 hover:text-warm-gray-300">
                     <span className="sr-only">{item.name}</span>
                     <item.icon className="h-6 w-6" aria-hidden="true" />
-                  
                   </a>
                   </div>
-                  
                 ))}
                </div>
               </div>
-            </div>
-            <div className={'md:flex md:items-center md:justify-between border-t-2 border-grey-light pt-8 mt-8'}>
+            <div className='border-t-2 border-grey-light pt-8 mt-8'>
               <div className={'flex text-md md:order-1'}>Copyright © 2022 Agile Six Applications, Inc.</div>
             </div>
           </Block>
@@ -137,3 +132,5 @@ const CaseStudies = ({ children }) => (
 )
 
 export default CaseStudies
+
+
