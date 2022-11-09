@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Sixer Blog
 subtitle: There’s no one-size-fits-all solution for digital transformation.
 hero: /img/digital-transformation.png
 spotlightheader: Sixer Spotlights
