@@ -122,7 +122,7 @@ const CaseStudies = ({ children }) => (
                </div>
               </div>
             <div className='border-t-2 border-grey-light pt-8 mt-8'>
-              <div className={'flex text-md md:order-1'}>Copyright © 2022 Agile Six Applications, Inc.</div>
+              <div className={'text-md'}>Copyright © 2022 Agile Six Applications, Inc.</div>
             </div>
           </Block>
         </footer>
