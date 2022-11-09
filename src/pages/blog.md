@@ -3,6 +3,7 @@ title: Blog
 subtitle: There’s no one-size-fits-all solution for digital transformation.
 hero: /img/digital-transformation.png
 spotlightheader: Sixer Spotlights
+blogSubheadline: Sixer Spotlight Series
 intro: |-
   Every one of our projects has required a lot of listening, iterating, and
 
