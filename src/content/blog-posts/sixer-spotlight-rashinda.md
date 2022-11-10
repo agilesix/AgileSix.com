@@ -7,6 +7,7 @@ shortdescription: After a decade of working in the corporate world, Rakshinda
   Find out how Agile Six’s commitment to self-management and personal wholeness
   sparked her interest and how this career move has changed her life.
 background: /img/1664651450008.png
+audio: https://player.simplecast.com/87f852fd-105d-474b-b08a-23b2b6429a3e?dark=false
 ---
 ![Spotlight interview with Rakshinda](/img/1664651450008.png)
 
