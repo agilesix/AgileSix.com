@@ -9,8 +9,6 @@ shortdescription: After a decade of working in the corporate world, Rakshinda
 background: /img/1664651450008.png
 audio: https://player.simplecast.com/87f852fd-105d-474b-b08a-23b2b6429a3e?dark=false
 ---
-![Spotlight interview with Rakshinda](/img/1664651450008.png)
-
 ## Meet Rakshinda Aslam
 
 After a decade of working in the corporate world, [Rakshinda Aslam](https://www.linkedin.com/in/rakshinda-aslam?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAElhkUBlRARu8IdpG2TfVGaHkdmhSYa9Qg) shares her journey to finding purposeful work and work-life balance. Find out how Agile Six’s commitment to self-management and personal wholeness sparked her interest and how this career move has changed her life.
