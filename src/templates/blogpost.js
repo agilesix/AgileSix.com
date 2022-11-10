@@ -6,10 +6,12 @@ import Block from '../components/block'
 import Break from '../components/break'
 import Prose from '../components/prose'
 
+
 export const BlogPostTemplate = ({
   title,
   body,
-  subtitle
+  subtitle,
+  audio,
 }) => (
   <div>
     <Block 
@@ -23,6 +25,9 @@ export const BlogPostTemplate = ({
           <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-1'}>{title}</h1>
           <div className={'text-xl md:text-2xl leading-tight mb-5'}>{subtitle}</div>
           <Break />
+          {audio && (
+              <iframe height="200px" width="100%" title="Audio Player" frameborder="no" scrolling="no" seamless src={audio}></iframe>
+          )}
         </div>
         <div className={'agile-prose'} dangerouslySetInnerHTML={{__html: body}}></div>
       </Prose>
@@ -33,6 +38,7 @@ export const BlogPostTemplate = ({
 BlogPostTemplate.propTypes = {
   title: PropTypes.string,
   body: PropTypes.string,
+  audio: PropTypes.string,
   subtitle: PropTypes.string
 }
 
@@ -45,6 +51,7 @@ const BlogPost = ({ data }) => {
         title={frontmatter.title}
         subtitle={frontmatter.subtitle}
         body={html}
+        audio={frontmatter?.audio}
         background={frontmatter.background}
       />
     </Layout>
@@ -72,6 +79,7 @@ export const pageQuery = graphql`
         title
         subtitle
         shortdescription
+        audio
         background {
           childImageSharp {
             fluid(maxWidth: 800) {

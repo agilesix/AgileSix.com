@@ -14,6 +14,7 @@ const BlogPostPagePreview = ({ entry, getAsset }) => {
           subtitle={data.subtitle}
           hero={data.hero}
           body={remark().use(recommended).use(remarkHtml).processSync(data.body).toString()}
+          audio={data?.audio}
           background={data.background}
       />
     )

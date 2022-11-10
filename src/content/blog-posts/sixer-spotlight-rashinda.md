@@ -2,6 +2,7 @@
 templateKey: blogpost
 title: Sixer Spotlight Rashinda
 subtitle: Finding Purpose and Balance
+audio: https://player.simplecast.com/87f852fd-105d-474b-b08a-23b2b6429a3e?dark=false
 shortdescription: After a decade of working in the corporate world, Rakshinda
   Aslam shares her journey to finding purposeful work and work-life balance.
   Find out how Agile Six’s commitment to self-management and personal wholeness
