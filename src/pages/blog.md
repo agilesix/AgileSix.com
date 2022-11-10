@@ -16,5 +16,4 @@ cta:
   cta-title: Work with us
   cta-url: /contact
   cta-visible: true
----
 
