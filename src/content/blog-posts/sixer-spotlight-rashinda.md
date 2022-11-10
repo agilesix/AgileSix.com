@@ -8,7 +8,7 @@ shortdescription: After a decade of working in the corporate world, Rakshinda
   sparked her interest and how this career move has changed her life.
 background: /img/1664651450008.png
 ---
-![Spotlight interview with Rakshinda](/img/player-example.png)
+![Spotlight interview with Rakshinda](/img/1664651450008.png)
 
 ## Meet Rakshinda Aslam
 
