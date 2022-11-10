@@ -11,6 +11,7 @@ export const BlogPostTemplate = ({
   title,
   body,
   subtitle,
+  background,
   audio,
 }) => (
   <div>
@@ -24,9 +25,10 @@ export const BlogPostTemplate = ({
           </div>
           <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-1'}>{title}</h1>
           <div className={'text-xl md:text-2xl leading-tight mb-5'}>{subtitle}</div>
+          <img src={background} className={'w-full mb-5'} />
           <Break />
           {audio && (
-              <iframe height="200px" width="100%" title="Audio Player" frameborder="no" scrolling="no" seamless src={audio}></iframe>
+              <iframe height="52px" width="100%" title="Audio Player" frameborder="no" scrolling="no" seamless  src={audio}></iframe>
           )}
         </div>
         <div className={'agile-prose'} dangerouslySetInnerHTML={{__html: body}}></div>
