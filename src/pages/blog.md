@@ -12,6 +12,7 @@ intro: |-
   we’ve helped.
 blogposts:
   - Sixer Spotlight Rashinda
+  - Test Blog Post
 cta:
   cta-visible: true
   cta-title: Work with us
