@@ -11,10 +11,7 @@ intro: |-
 
   we’ve helped.
 blogposts:
-  - VA.gov Modernization
-  - Diffusion Marketplace
-  - Digital Services Coalition
-  - CCSQ Agile Coaching and Digital Transformation
+  - Sixer Spotlight Rashinda
 cta:
   cta-visible: true
   cta-title: Work with us
