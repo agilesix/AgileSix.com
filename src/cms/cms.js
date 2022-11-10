@@ -10,6 +10,8 @@ import ContactPagePreview from './preview-templates/ContactPagePreview'
 import TeamMemberPreview from './preview-templates/TeamMemberPreview'
 import CapabilityPreview from './preview-templates/CapabilityPreview'
 import CareersPagePreview from './preview-templates/CareersPagePreview'
+import BlogPagePreview from './preview-templates/BlogPagePreview'
+import BlogPostPagePreview from './preview-templates/BlogPostPagePreview'
 
 CMS.registerPreviewTemplate('work', WorkPagePreview)
 CMS.registerPreviewTemplate('team', TeamPagePreview)
@@ -21,3 +23,5 @@ CMS.registerPreviewTemplate('capabilities', CapabilityPreview)
 CMS.registerPreviewTemplate('casestudies', CaseStudyPagePreview)
 CMS.registerPreviewTemplate('people', TeamMemberPreview)
 CMS.registerPreviewTemplate('careers', CareersPagePreview)
+CMS.registerPreviewTemplate('blog', BlogPagePreview)
+CMS.registerPreviewTemplate('blogposts', BlogPostPagePreview)

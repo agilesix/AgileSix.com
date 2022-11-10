@@ -110,6 +110,12 @@ class Header extends React.Component {
               >
                 Careers
               </Link>
+              <Link
+                to="/blog"
+                className="block mt-4 md:inline-block md:mt-0 text-blue-dark md:ml-5 border-transparent border-b-2 hover:border-blue-light"
+              >
+                Blog
+              </Link>
             </div>
             <div>
               <a
