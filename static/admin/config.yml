@@ -2,7 +2,7 @@ backend:
   name: github
   repo: agilesix/AgileSix.com
   # repo: matthewcrist/agile6
-  branch: master
+  branch: A6-004-spotlight-blog
 
 media_folder: "static/img"
 public_folder: "/img"
