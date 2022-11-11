@@ -1,6 +1,6 @@
 ---
 templateKey: blogpost
-title: Sixer Spotlight Rashinda
+title: Sixer Spotlight With Rakshinda Aslam
 subtitle: Finding Purpose and Balance
 shortdescription: After a decade of working in the corporate world, Rakshinda
   Aslam shares her journey to finding purposeful work and work-life balance.
