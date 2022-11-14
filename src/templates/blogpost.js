@@ -26,7 +26,7 @@ export const BlogPostTemplate = ({
           <h1 className={'text-blue-dark text-4xl md:text-5xl leading-none font-bold mb-1'}>{title}</h1>
           <div className={'text-xl md:text-2xl leading-tight mb-5'}>{subtitle}</div>
           <Break />
-          <img src={background?.childImageSharp?.fluid?.src} className={'w-full mb-5'} />
+          <img aria-hidden="true" src={background?.childImageSharp?.fluid?.src} className={'w-full mb-5'} />
           {audio && (
               <iframe height="52px" width="100%" title="Audio Player" frameborder="no" seamless  src={audio}></iframe>
           )}
