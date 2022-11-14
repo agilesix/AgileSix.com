@@ -126,6 +126,7 @@ module.exports = {
         printRejected: false,
         develop: false,
         tailwind: true,
+        ignore: ['/css'], // Ignore files/folders
       },
     }
   ],

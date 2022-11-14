@@ -28,7 +28,7 @@ export const BlogPostTemplate = ({
           <Break />
           <img src={background?.childImageSharp?.fluid?.src} className={'w-full mb-5'} />
           {audio && (
-              <iframe height="52px" width="100%" title="Audio Player" frameborder="no" scrolling="no" seamless  src={audio}></iframe>
+              <iframe height="52px" width="100%" title="Audio Player" frameborder="no" seamless  src={audio}></iframe>
           )}
         </div>
         <div className={'agile-prose'} dangerouslySetInnerHTML={{__html: body}}></div>
