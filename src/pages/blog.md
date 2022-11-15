@@ -1,7 +1,7 @@
 ---
 templateKey: blog
-title: Blog
-subtitle: There’s no one-size-fits-all solution for digital transformation.
+title: We're Agile Six.
+subtitle: Better Place to Work. Better work to do.
 hero: /img/digital-transformation.png
 blogSubheadline: Sixer Spotlights
 intro: Every one of our projects has required a lot of listening, iterating, and
