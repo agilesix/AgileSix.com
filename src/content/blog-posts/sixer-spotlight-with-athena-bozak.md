@@ -1,6 +1,6 @@
 ---
 templateKey: blogpost
-title: Sixer Spotlight with Athena Bozak
+title: " Sixer Spotlight with Athena Bozak"
 subtitle: Veterans helping Veterans
 shortdescription: After four years of active duty service in the U.S Air Force,
   Athena Bozak shares her journey to Agile Six, how she transitioned into the
