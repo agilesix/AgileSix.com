@@ -8,7 +8,6 @@ intro: Every one of our projects has required a lot of listening, iterating, and
   custom-tailoring. Check out some of the problems we’ve solved and clients
   we’ve helped.
 blogposts:
-  - Welcome Charlie Day
   - Sixer Spotlight With Rakshinda Aslam
   - Sixer Spotlight with Athena Bozak
   - A Veterans Day Message from Agile Six CEO Robert Rasmussen
