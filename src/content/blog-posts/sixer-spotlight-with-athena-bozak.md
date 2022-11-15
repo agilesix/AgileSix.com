@@ -10,7 +10,7 @@ shortdescription: After four years of active duty service in the U.S Air Force,
 background: /img/athena-bozak.png
 audio: https://player.simplecast.com/ae74b959-9e44-4cfd-a130-d765898f15c8?dark=false
 ---
-# Meet Athena Bozak 
+## Meet Athena Bozak 
 
 After four years of active duty service in the U.S Air Force, [Athena Bozak](https://www.linkedin.com/in/athenab84/)shares her journey to Agile Six and how she transitioned into the tech world, found wholeness, learned self-management, and found a place where she continues to support Veterans through the impactful work she is doing in user experience research.
 
