@@ -12,11 +12,10 @@ audio: https://player.simplecast.com/ae74b959-9e44-4cfd-a130-d765898f15c8?dark=f
 ---
 # Meet Athena Bozak 
 
-After four years of active duty service in the U.S Air Force, [Athena Bozak ](https://www.linkedin.com/in/athenab84/)shares her journey to Agile Six and how she transitioned into the tech world, found wholeness, learned self-management, and found a place where she continues to support Veterans through the impactful work she is doing in user experience research.
+After four years of active duty service in the U.S Air Force, [Athena Bozak](https://www.linkedin.com/in/athenab84/)shares her journey to Agile Six and how she transitioned into the tech world, found wholeness, learned self-management, and found a place where she continues to support Veterans through the impactful work she is doing in user experience research.
 
 ## Tell us about your Journey to Agile Six.
 
-\
 I served in the Air Force from 2003 to 2007.  I was stationed in Biloxi, Mississippi, and Travis Air Force Base in California, where I served as a Nutritional Medicine Technician. In 2004, I met my husband, who is now a 20-year retired Air Force Veteran. After having our first child in 2007, I left the service and then joined the Department of Defense, where I worked for the Navy and the Air Force until 2016. I then transitioned to the tech world with Agile Six supporting our Veterans. 
 
 ## My first role at Agile Six.
@@ -45,11 +44,9 @@ Wholeness stands out to me a little more just because I have never felt that in 
 
 ## Q. What was the biggest challenge you tackled coming over to Agile Six?
 
-My biggest challenge was coming from a very structured environment, both in the military and in the government, where there was a hierarchy, managers, and micromanaging, to a teal organization where everything is self-managed. You're accountable for your actions with your team and with yourself. That was a big transition. 
-
+My biggest challenge was coming from a very structured environment, both in the military and in the government, where there was a hierarchy, managers, and micromanaging, to a teal organization where everything is self-managed. You're accountable for your actions with your team and with yourself. That was a big transition. \
 \
-After years and years of having a set way of doing something very structured, your company suddenly has complete trust in you; how do you work with that? 
-
+After years and years of having a set way of doing something very structured, your company suddenly has complete trust in you; how do you work with that? \
 \
 The transition was a little difficult because I've always been waiting for someone to tell me what to do or how to do it, and that never came.  It wasn't because I was being left behind or ignored. It was because I was trusted to make the decisions independently and use my best judgment. Agile Six helped instill those values and show me the way.\
 \
@@ -61,8 +58,7 @@ It's a great place for Veterans. The military itself is very diverse in the peop
 
 ## Q. What has surprised you the most about working here?
 
-What surprised me the most was the amount of support and encouragement I get here to improve and grow and to do what makes me happy and whole. Just being able to have that support from Agile Six to be able to grow has been something that I've never experienced before.
-
+What surprised me the most was the amount of support and encouragement I get here to improve and grow and to do what makes me happy and whole. Just being able to have that support from Agile Six to be able to grow has been something that I've never experienced before. \
 \
 Something else that surprised me is that the competition is removed at this company. At other companies, you might find that you're trying to compete with the next person to get to the next level. I’ve never felt that here because everyone is treated as an equal. It does not matter if you have 20 more years of experience, I've never felt the need to compete or need to have a certain title. I've always felt equal to everybody else here. 
 
@@ -81,8 +77,6 @@ I've always known I wanted to be some kind of designer since I was about seven.�
 ## Q. What would you say to someone considering a career at Agile Six?
 
 I would say 100% go for it. We all share the same vision of doing better for the world. The possibilities are endless here at Agile Six, and anybody here would be happy, especially if you don't like to be micromanaged. You won't get that here.
-
-
 
 ## Final Thoughts
 
