@@ -8,8 +8,8 @@ shortdescription: "On this Veterans Day, I would like to thank all my fellow
   events, and for the many injuries they now endure as a result. I also want to
   thank their families and friends who missed them then and care for them now.
   And because no level of gratitude would ever be enough, at Agile Six we’ll be
-  doing the hard work to ensure that our country truly leaves no Veteran behind.
-  "
+  doing the hard work to ensure that our country truly leaves no Veteran
+  behind.   Click for full message."
 background: /img/veterans-post.jpeg
 ---
 > *“With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation’s wounds, to care for him who shall have borne the battle and for his widow, and his orphan, to do all which may achieve and cherish a just and lasting peace among ourselves and with all nations.” -Abraham Lincoln*
