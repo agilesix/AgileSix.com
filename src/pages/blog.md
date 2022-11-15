@@ -1,7 +1,7 @@
 ---
 templateKey: blog
 title: We're Agile Six.
-subtitle: Better Place to Work. Better Work to do.
+subtitle: Better Place to Work. Better Work to Do.
 hero: /img/digital-transformation.png
 blogSubheadline: Sixer Spotlights
 intro: Every one of our projects has required a lot of listening, iterating, and
