@@ -11,6 +11,7 @@ blogposts:
   - Welcome Charlie Day
   - Sixer Spotlight With Rakshinda Aslam
   - Sixer Spotlight with Athena Bozak
+  - A Veterans Day Message from Agile Six CEO Robert Rasmussen
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
