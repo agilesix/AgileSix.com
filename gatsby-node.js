@@ -61,10 +61,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     const gitModifiedTime = execSync(
       `git log --pretty=format:%aI -- ${node.fileAbsolutePath} | head -1`
-    ).toString()
+    ).toString().trim()
     const gitCreatedTime = execSync(
       `git log --pretty=format:%aI --reverse -- ${node.fileAbsolutePath} | head -1`
-    ).toString()
+    ).toString().trim()
     actions.createNodeField({
       node,
       name: "gitModifiedTime",
