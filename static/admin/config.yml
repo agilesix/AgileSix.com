@@ -369,11 +369,12 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Hero Image", name: "hero", widget: image }
-          - { label: "Intro", name: "intro", widget: "markdown" }
+          - { label: "Intro", name: "intro", widget: "markdown", required: false }
           - {
               label: "Blog Subheadline",
               name: "blogSubheadline",
               widget: "string",
+              required: false
             }
           - {
               label: "Blog Posts",
