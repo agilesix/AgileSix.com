@@ -22,6 +22,8 @@
                html
                fields {
                  slug
+                 gitModifiedTime
+                 gitCreatedTime
                }
                frontmatter {
                  title
@@ -41,13 +43,7 @@
        }
      `}
     render={(data) => {
-      let blogposts = [ ...data.allMarkdownRemark.edges].sort((a, b) => {
-        // TODO -- sort blog posts outside of query until we can find a reliable way to sort
-        // blog posts by publish or modified date in query
-        const timeA = a.node.fields.gitModifiedTime;
-        const timeB = b.node.fields.gitModifiedTime;
-        return (timeA, timeB) => (timeA < timeB) ? -1 : ((timeA > timeB) ? 1 : 0);
-      });
+      const blogposts = data.allMarkdownRemark.edges;
        return (
          <div className={'flex flex-wrap md:-mx-2'}>
            {blogposts.map(blogpost => {
