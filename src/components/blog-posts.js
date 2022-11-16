@@ -43,18 +43,18 @@
        }
      `}
     render={(data) => {
-      const blogposts = data.allMarkdownRemark.edges;
-      // const blogposts = data.allMarkdownRemark.edges.sort((a, b) => {
-      //   // TODO -- sort blog posts outside of query until we can find a reliable way to sort
-      //   // blog posts by publish or modified date in query
-      //   const timeA = a.node.fields.gitCreatedTime;
-      //   const timeB = b.node.fields.gitCreatedTime;
-      //   return (timeA > timeB) ? -1 : ((timeA < timeB) ? 1 : 0);
-      // });
+      const blogposts = data.allMarkdownRemark.edges.sort((a, b) => {
+        // TODO -- sort blog posts outside of query until we can find a reliable way to sort
+        // blog posts by publish or modified date in query
+        const timeA = a.node.fields.gitModifiedTime;
+        const timeB = b.node.fields.gitModifiedTime;
+        return (timeA > timeB) ? -1 : ((timeA < timeB) ? 1 : 0);
+      });
        return (
          <div className={'flex flex-wrap md:-mx-2'}>
            {blogposts.map(blogpost => {
              let display = true;
+             console.log(blogpost.node.fields.gitModifiedTime)
              if (featuredOnly) {
                if (blogpost.node.frontmatter.featured) {
                  display = true;
