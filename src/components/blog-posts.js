@@ -54,7 +54,6 @@
          <div className={'flex flex-wrap md:-mx-2'}>
            {blogposts.map(blogpost => {
              let display = true;
-             console.log(blogpost.node.fields.gitModifiedTime)
              if (featuredOnly) {
                if (blogpost.node.frontmatter.featured) {
                  display = true;

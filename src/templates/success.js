@@ -37,7 +37,6 @@ SuccessTemplate.propTypes = {
 
 const Success = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark
-  console.log(frontmatter);
 
   return (
     <Layout>
