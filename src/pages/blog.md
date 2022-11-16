@@ -3,7 +3,7 @@ templateKey: blog
 title: We're Agile Six.
 subtitle: Better Place to Work. Better Work to Do.
 hero: /img/digital-transformation.png
-intro: null
+intro: ""
 blogSubheadline: ""
 blogposts:
   - " Sixer Spotlight with Athena Bozak"
