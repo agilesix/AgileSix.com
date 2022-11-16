@@ -1,6 +1,7 @@
 const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
+const { execSync } = require("child_process")
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -49,12 +50,30 @@ exports.createPages = ({ actions, graphql }) => {
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
+
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
       node,
       value,
+    })
+
+    const gitModifiedTime = execSync(
+      `git log --pretty=format:%aI -- ${node.fileAbsolutePath} | head -1`
+    ).toString()
+    const gitCreatedTime = execSync(
+      `git log --pretty=format:%aI --reverse -- ${node.fileAbsolutePath} | head -1`
+    ).toString()
+    actions.createNodeField({
+      node,
+      name: "gitModifiedTime",
+      value: gitModifiedTime,
+    })
+    actions.createNodeField({
+      node,
+      name: "gitCreatedTime",
+      value: gitCreatedTime,
     })
   }
 }
