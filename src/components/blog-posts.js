@@ -18,6 +18,7 @@
          ) {
            edges {
              node {
+               id
                html
                fields {
                  slug
@@ -39,9 +40,8 @@
          }
        }
      `}
-     render={(data) => {
-       let blogposts = data.allMarkdownRemark.edges;
- 
+    render={(data) => {
+      let blogposts = data.allMarkdownRemark.edges;
        return (
          <div className={'flex flex-wrap md:-mx-2'}>
            {blogposts.map(blogpost => {
@@ -60,7 +60,7 @@
  
              if (display) {
                return (
-                 <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
+                 <div key={blogpost.node.id} className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
                    <div className={'w-full bg-white'}>
                      <a href={blogpost.node.fields.slug} title={blogpost.node.frontmatter.title}>
                        <div className={'bg-white relative'}>
