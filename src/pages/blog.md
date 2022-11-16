@@ -1,22 +1,18 @@
 ---
-title: Sixer Blog
-subtitle: There’s no one-size-fits-all solution for digital transformation.
+templateKey: blog
+title: We're Agile Six.
+subtitle: Better Place to Work. Better Work to Do.
 hero: /img/digital-transformation.png
-spotlightheader: Sixer Spotlights
+intro:
 blogSubheadline: Sixer Spotlights
-intro: |-
-  Every one of our projects has required a lot of listening, iterating, and
-
-  custom-tailoring. Check out some of the problems we’ve solved and clients
-
-  we’ve helped.
 blogposts:
-  - Sixer Spotlight Rashinda
-  - Test Blog Post
+  - " Sixer Spotlight with Athena Bozak"
+  - A Veterans Day Message from Agile Six CEO Robert Rasmussen
+  - Sixer Spotlight With Rakshinda Aslam
 cta:
-  cta-visible: true
-  cta-title: Work with us
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
+  cta-title: Work with us
   cta-url: /contact
+  cta-visible: true
 ---

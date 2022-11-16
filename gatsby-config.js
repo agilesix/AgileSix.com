@@ -78,6 +78,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/content/blog-posts`,
+        name: "blogposts",
+      },
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
@@ -119,6 +126,7 @@ module.exports = {
         printRejected: false,
         develop: false,
         tailwind: true,
+        ignore: ['/css'], // Ignore files/folders
       },
     }
   ],

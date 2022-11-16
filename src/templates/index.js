@@ -43,7 +43,7 @@ export const IndexTemplate = ({
         ></div>
       </Prose>
       {!preview && <CapabilitiesBlock selectedCapabilities={capabilities} />}
-      <div class="text-center mt-10">
+      <div className="text-center mt-10">
         <a
           href="/capabilities"
           className="block md:inline-block px-8 py-3 leading-none border border-transparent text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0"
@@ -60,7 +60,7 @@ export const IndexTemplate = ({
         ></div>
       </Prose>
       {!preview && <CaseStudiesBlock selectedCasestudies={casestudies} />}
-      <div class="text-center mt-10">
+      <div className="text-center mt-10">
         <a
           href="/work"
           className="block md:inline-block px-8 py-3 leading-none border border-transparent text-white text-center bg-red hover:border-red hover:text-red hover:bg-white mt-4 md:mt-0"

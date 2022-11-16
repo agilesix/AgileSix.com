@@ -18,6 +18,7 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
         ) {
           edges {
             node {
+              id
               html
               fields {
                 slug
@@ -60,7 +61,7 @@ const CaseStudies = ({ children, selectedCasestudies, featuredOnly }) => (
 
             if (display) {
               return (
-                <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
+                <div key={caseStudy.node.id} className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
                   <div className={'w-full bg-white'}>
                     <a href={caseStudy.node.fields.slug} title={caseStudy.node.frontmatter.title}>
                       <div className={'bg-white relative'}>

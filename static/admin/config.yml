@@ -73,6 +73,29 @@ collections:
         }
       - { label: "Image", name: "background", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
+      
+  - name: "blogposts"
+    label: "Blog Post"
+    folder: "src/content/blog-posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blogpost",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sub-Title", name: "subtitle", widget: "string" }
+      - {
+          label: "Short Description",
+          name: "shortdescription",
+          widget: "string",
+        }
+      - { label: "Image", name: "background", widget: image }
+      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: "Audio-Path", name: "audio", widget: "string", required: false }
 
   - name: "pages"
     label: "Pages"
@@ -333,3 +356,45 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - file: "src/pages/blog.md"
+        label: "Blog"
+        name: "blog"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "blog",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Hero Image", name: "hero", widget: image }
+          - { label: "Intro", name: "intro", widget: "markdown" }
+          - {
+              label: "Blog Subheadline",
+              name: "blogSubheadline",
+              widget: "string",
+            }
+          - {
+              label: "Blog Posts",
+              name: "blogposts",
+              widget: "relation",
+              collection: "blogposts",
+              value_field: "title",
+              search_fields: ["title"],
+              multiple: true,
+              displayFields: ["title"],
+            }
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Visible", name: "cta-visible", widget: "boolean" }
+              - { label: "Title", name: "cta-title", widget: "string" }
+              - {
+                  label: "Description",
+                  name: "cta-description",
+                  widget: "string",
+                }
+              - { label: "Button Label", name: "cta-label", widget: "string" }
+              - { label: "Button URL", name: "cta-url", widget: "string" }

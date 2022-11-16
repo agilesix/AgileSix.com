@@ -18,7 +18,7 @@ const Block = ({ title, children, className, image, imageTitle, imageBackgroundC
 )
 
 Block.propTypes = {
-  title: PropTypes.node.isRequired,
+  title: PropTypes.node,
 }
 
 Block.defaultProps = {

@@ -18,6 +18,7 @@ const Capabilities = ({ children, selectedCapabilities, featuredOnly, cardColor 
         ) {
           edges {
             node {
+              id
               html
               fields {
                 slug
@@ -60,7 +61,7 @@ const Capabilities = ({ children, selectedCapabilities, featuredOnly, cardColor 
 
             if (display) {
               return (
-                <div className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
+                <div key={capability.node.id} className={'mt-6 md:mt-0 md:p-2 md:w-1/2 flex'}>
                   <div className={`bg-${cardColor || 'grey-light'} ${cardColor ? '' : 'p-1'}`}>
                     {capability.node.frontmatter.featuredimage && (
                       <div className={'bg-white mb-3'}>

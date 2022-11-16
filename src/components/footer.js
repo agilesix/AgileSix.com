@@ -19,6 +19,7 @@ const CaseStudies = ({ children }) => (
         ) {
           edges {
             node {
+              id
               html
               fields {
                 slug
@@ -60,7 +61,7 @@ const CaseStudies = ({ children }) => (
                 <div className={'uppercase font-bold mb-4'}>Case Studies</div>
                 {caseStudies.map((caseStudy) => {
                   return(
-                    <div className={'mb-6'}>
+                    <div key={caseStudy.node.id} className={'mb-6'}>
                       <Link to={caseStudy.node.fields.slug}>{caseStudy.node.frontmatter.title}</Link>
                     </div>
                   )
