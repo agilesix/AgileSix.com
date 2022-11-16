@@ -16,7 +16,7 @@ After four years of active duty service in the U.S Air Force, [Athena Bozak](htt
 
 ## Tell us about your Journey to Agile Six.
 
-I served in the Air Force from 2003 to 2007.  I was stationed in Biloxi, Mississippi, and Travis Air Force Base in California, where I served as a Nutritional Medicine Technician. In 2004, I met my husband, who is now a 20-year retired Air Force Veteran. After having our first child in 2007, I left the service and then joined the Department of Defense, where I worked for the Navy and the Air Force until 2016. I then transitioned to the tech world with Agile Six supporting our Veterans. 
+I served in the Air Force from 2003 to 2007.  I was stationed in Biloxi, Mississippi, and Travis Air Force Base in California, where I served as a Nutritional Medicine Technician. In 2004, I met my husband, who is now a 20-year retired Air Force Veteran. After having our first child in 2007, I left the service and then joined the Department of Defense, where I worked for the Navy and the Air Force until 2016. I then transitioned to the tech world with Agile Six supporting our Veterans.
 
 ## My first role at Agile Six.
 
