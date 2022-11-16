@@ -31,11 +31,13 @@ export const BlogTemplate = ({
       subtitle={subtitle}
       hero={hero}
     />
+    {!!intro &&
     <Block className={'bg-white'} title={false}>
       <Prose>
         <div className={'text-xl md:text-2xl'} dangerouslySetInnerHTML={{__html: intro}}></div>
       </Prose>
     </Block>
+    }
     <Block className={'bg-grey-light'} title={blogSubheadline}>
       {!preview && (
         <BlogPostBlock selectedBlogPosts={blogposts} />

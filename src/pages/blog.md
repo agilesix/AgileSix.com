@@ -3,8 +3,8 @@ templateKey: blog
 title: We're Agile Six.
 subtitle: Better Place to Work. Better Work to Do.
 hero: /img/digital-transformation.png
+intro:
 blogSubheadline: Sixer Spotlights
-intro: R﻿ead and hear about how we're putting people first.
 blogposts:
   - " Sixer Spotlight with Athena Bozak"
   - A Veterans Day Message from Agile Six CEO Robert Rasmussen
