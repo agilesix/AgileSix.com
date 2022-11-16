@@ -6,9 +6,9 @@ hero: /img/digital-transformation.png
 blogSubheadline: Sixer Spotlights
 intro: R﻿ead and hear about how we're putting people first.
 blogposts:
-  - Sixer Spotlight With Rakshinda Aslam
-  - A Veterans Day Message from Agile Six CEO Robert Rasmussen
   - " Sixer Spotlight with Athena Bozak"
+  - A Veterans Day Message from Agile Six CEO Robert Rasmussen
+  - Sixer Spotlight With Rakshinda Aslam
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
