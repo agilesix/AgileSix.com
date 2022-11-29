@@ -6,6 +6,7 @@ hero: /img/digital-transformation.png
 intro: ""
 blogSubheadline: ""
 blogposts:
+  - Sixer Spotlight with Edmund Dunn
   - " Sixer Spotlight with Athena Bozak"
   - A Veterans Day Message from Agile Six CEO Robert Rasmussen
   - Sixer Spotlight With Rakshinda Aslam
