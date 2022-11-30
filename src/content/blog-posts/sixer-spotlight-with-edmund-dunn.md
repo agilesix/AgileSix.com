@@ -25,7 +25,8 @@ We can't look at people and treat them as less than others, but look at all peop
 I served from 1993 to 2013, and one of the major reasons I joined the Army was to help people. You see responses to natural disasters and things like that, and even in war, you see soldiers helping people. For me, that was important. It was something I wanted to do, and part of it was also fighting wars for the right reasons.  
 
 ![](https://lh6.googleusercontent.com/LKNp075byBZSiFpSr0ktP1t-D6wavSzE3ndJRXfczRQ1p3TTFEg4YKTszvg1nTx0DNqYL4DmqvQh_qevexkxnRH9idfbFKasq_7EYm4lKE2xE41IAbPSiK6PhtQVlDhZkdN8M-xYkfZTDgKMTBolWj23xSsanieheZxsz5PCa59t3lxcU-_ZxNBY41XBEg)
-\[Edmund Dunn, 2002, reenlistment as a Staff sergeant at Ft. Carson, Colorado]
+
+\[Pictured: Edmund Dunn, 2002, reenlistment as a Staff sergeant at Ft. Carson, Colorado]
 
 **Tell us about your transition from the military to the civilian world.**
 
