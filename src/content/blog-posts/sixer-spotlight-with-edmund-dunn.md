@@ -51,7 +51,9 @@ It is rewarding because I know what I'm doing is helping Veterans find the infor
 It's also interesting work because this is the first job where I've worked single code base. Whereas before, there have always been many projects with many different code bases. 
 
 What I'm doing now is helping to maintain the system and enhance things for users of the system. The users we primarily focus on are the editors, people at all the various VA locations and sites that are inputting the information into Drupal for the Veterans.
-As a Veteran, how important is the work that you are doing?
+
+**As a Veteran, how important is the work that you are doing?**
+
 It's extremely important. As a Veteran, there's nothing more important I could be doing.
 
 You start talking about identity, and how we see ourselves and identify ourselves; being a Veteran is a huge part of my identity, and being a husband and father is also a large part of it. After serving 20 years, ensuring we provide information and access to services is so important because this has been so hard for Veterans in the past. Now, with the internet and this website, it's gotten so much easier, and it will continue to get easier as we continue to improve the website.
