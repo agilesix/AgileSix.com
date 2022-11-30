@@ -43,7 +43,9 @@ The hardest part of the transition for me, and probably for most service members
 I saw a job listing for a Drupal engineer to work on Va.gov. I wasn't actively looking for a new job. I get a lot of newsletters about Drupal and tech, and one of them is called the Weekly Drop; it's all about Drupal. At the bottom, they always have job listings, and that's where I saw it. I always check what companies are looking for and do that for two reasons -  one, to see where my skills are, and two, because I still actively mentor Veterans so I can help steer them towards things they can do to help get hired and jobs.
 
 I just saw this job, and it feels like I have to apply because it’s to work on Va.gov, and here we are.
-Tell us about the work you are doing at Agile Six.
+
+**Tell us about the work you are doing at Agile Six.**
+
 I'm a Drupal engineer on the sitewide CMS team and work on the Drupal CMS for VA.gov. My team is the overarching team for the whole Drupal CMS. There are other teams that work on different pieces of it and focus on different areas, and our team oversees the entire CMS.  
 
 It is rewarding because I know what I'm doing is helping Veterans find the information they need and get access to the services they need, etc. 
@@ -83,7 +85,8 @@ Transparency and trust are win-win for everyone.
 **Q. What core value resonates most with you – Purpose, Wholeness, Trust, Self-Management, Inclusion?**
 
 Trust and inclusion resonate with me. Trust because that goes back to transparency.  Everything going on here is out there for all of us to see. They are showing trust in us, and we're also showing trust in them. With regard to inclusion, that goes back to everybody, period, has something to contribute.
-Q. Do you think Agile Six is a place where Veterans can thrive? 
+
+**Q. Do you think Agile Six is a place where Veterans can thrive?**
 
 Yes, some of it will take some help as it takes a little getting used to as the self-management is a little different. After 20 years in the Army and then working for more traditional agencies, it's different. It's not different, bad, just different. 
 
