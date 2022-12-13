@@ -11,6 +11,7 @@ background: /img/kiel-sixer-spotlight-linkedin.png
 audio: https://player.simplecast.com/d81015e3-ca60-462e-98fd-f1b7e17d918e?dark=false
 ---
 ## Meet Kiel McLaughlin
+
 After a decade of working in the government contracting space, Kiel McLaughlin gets candid about what it’s like working in government, how he’s motivated by purpose, and how coming to Agile Six turned on the care and the commitment to meaningful work. Let’s find out why he’s planting his roots here and learn about his journey to Agile Six. 
 
  **Q. How long have you been at Agile Six, and what do you do?**
@@ -88,4 +89,4 @@ If you are the kind of person looking for this type of environment where wholene
 
 Coming to Agile Six was the culmination of many years of searching for me. I got here, and my caring turned back on for a job in a way that I hadn't had in a long time where I wanted to see the company thrive because I thought if we did, we could make a big difference. I felt like I could be part of that, and that motivated me in a way that I hadn't in a long time, and it's gotten me engaged and kept me engaged. 
 
-Sixer Spotlight is an ongoing series to share the stories of our team. If Kiel’s story piqued your interest in a career with Agile Six, explore our open roles.
+Sixer Spotlight is an ongoing series to share the stories of our team. If Kiel’s story piqued your interest in a career with Agile Six, explore our [open roles.](https://agile6.com/careers)
