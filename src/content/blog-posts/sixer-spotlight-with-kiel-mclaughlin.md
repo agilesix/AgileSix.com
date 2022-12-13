@@ -7,7 +7,7 @@ shortdescription: "After a decade of working in the government contracting
   how he’s motivated by purpose, and how coming to Agile Six turned on the care
   and the commitment to meaningful work. Let’s find out why he’s planting his
   roots here and learn about his journey to Agile Six. "
-background: /img/kiel-sixer-spotlight-linkedin.png
+background: /img/kiel-sixer-spotlight-linkedin-1-.png
 audio: https://player.simplecast.com/d81015e3-ca60-462e-98fd-f1b7e17d918e?dark=false
 ---
 ## Meet Kiel McLaughlin
