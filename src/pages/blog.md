@@ -10,6 +10,7 @@ blogposts:
   - " Sixer Spotlight with Athena Bozak"
   - A Veterans Day Message from Agile Six CEO Robert Rasmussen
   - Sixer Spotlight With Rakshinda Aslam
+  - Sixer Spotlight with Kiel McLaughlin
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
