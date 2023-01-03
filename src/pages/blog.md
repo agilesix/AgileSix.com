@@ -11,6 +11,7 @@ blogposts:
   - A Veterans Day Message from Agile Six CEO Robert Rasmussen
   - Sixer Spotlight With Rakshinda Aslam
   - Sixer Spotlight with Kiel McLaughlin
+  - Sixer Spotlight with Berni Xiong
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
