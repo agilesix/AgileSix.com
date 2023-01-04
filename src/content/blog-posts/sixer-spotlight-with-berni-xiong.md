@@ -70,44 +70,24 @@ You care about people. You care about making a difference. You care that the wor
 
 Ability to self-organize and self-manage. You're not expecting someone to tell you what to do. You have the authority to make your own decisions. You're not fearful of making your own decisions. You don't wait to ask for permission to do things if you wholeheartedly believe it's a good choice. 
 
-
-
 Be the boss of your own desk. Another thing as well is somebody content with being the boss of their own desk, being the boss of their own work, not expecting to get credit for something so they can climb up this imaginary corporate ladder into the C-suite. You already are the CEO of your own desk, so when you have a mentality like that, it makes it much more enjoyable to show up and feel seen, heard, and valued.
-
-
 
 ## Q. What core value resonates the most with you, and why? Purpose, trust, wholeness, self-management, inclusion, or all of the above.
 
-
-
 Thank you for the last option, because I was having trouble deciding the most important one to me because I don't think that independently they're as strong as if they were holistically together as one.
-
-
 
 If I think about my team, for example, there is trust on the team. They all are great at self-management. They're all very inclusive of each other's differences and skills; if there is anything else that sets them apart, they're very sensitive to that. They make sure that they're cognizant of how they care for each other. They're all very purposeful in the way they work and the way they show up, and what matters to them, and why that ends up making them do such great work that they do.
 
- 
-
 The wholeness piece is also huge because everybody shows up with different personalities and sense of humor, and I think that makes the team camaraderie so fantastic. You don't want everybody to be homogeneous; you want everybody to have a different flavor, style, and flair. 
 
-
-
 All these core values that Agile Six has, when I apply them to this awesome team I have, are all the perfect ingredients for a successful and amazing team. I think they \[core values] all have to work together to make a difference.
-
-
 
 ## Q. What has surprised you the most about working here?
 
 I think what has surprised me is also why I absolutely love working at Agile Six – it’s the number of opportunities for growth and sharpening your skills as a professional. If someone chooses to change their career or advance their career, enhance their skills, maybe they stay in the same role, but improve it in some way. It doesn't matter what path you want to take. They encourage you to choose how you want to grow within this organization or not.
 
-
-
 ## Q. What would you say to someone considering a career at Agile Six?
 
-
-
 Make sure it aligns with how you want to show up in the world and the kind of work that you want to do. If you want to show up and help improve government systems and processes, if you want to be a part of that impact, if you're not afraid to self-manage, if you're not looking to climb the corporate ladder, and if you care about people, come on in.
-
-
 
 Sixer Spotlight is an ongoing series to share the stories of our team. If Berni’s story piqued your interest in a career with Agile Six, [explore our open roles](https://boards.greenhouse.io/agilesix).
