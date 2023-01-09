@@ -4,5 +4,5 @@ name: Matt Levenson
 position: Strategy
 bio: "Null"
 picture: /img/matt-levenson.jpg
-order: 0
+order: 2
 ---
