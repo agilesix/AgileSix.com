@@ -1,7 +1,7 @@
 ---
 templateKey: team-member
 name: Brian Derfer
-position: Chief Innovation Officer
+position: Chief Operating Officer
 bio: " "
 picture: /img/brian_sierras.jpeg
 order: 0
