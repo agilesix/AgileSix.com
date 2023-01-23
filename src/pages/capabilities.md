@@ -1,8 +1,7 @@
 ---
 templateKey: capabilities
 title: Capabilities
-subtitle: >-
-  We’ve got the know-how to guide you through every step of digital
+subtitle: We’ve got the know-how to guide you through every step of digital
   transformation.
 hero: /img/capabilities.png
 capabilities-title: What We Do
@@ -11,14 +10,10 @@ capabilities-body: >-
   government modernization, product delivery, and human-centered design. 
 
 
-  But we’re not _just_ a tech company. We’re a solutions company. While most of
-  our work is digital, we recognize that some problems can’t be solved by coding
-  or new hardware. Our team will work with you to figure out what you need —
-  sometimes the best solution is as low-tech as a new process for handling
-  incoming paperwork. 
+  But we’re not _just_ a tech company. We’re a solutions company. While most of our work is digital, we recognize that some problems can’t be solved by coding or new hardware. Our team will work with you to figure out what you need — sometimes the best solution is as low-tech as a new process for handling incoming paperwork. 
 capabilities:
   - Design
-  - 'Product Development '
+  - "Product Development "
   - DevOps & Cloud Infrastructure
   - Agile Coaching
   - Research
@@ -38,14 +33,13 @@ process-body: >-
 
   * GSA IT-70 (GS-35F-004GA) 
 
-  * CMS - Enterprise Agile Transformation Services (EATS) BPA
-  (HHSM-500-2017-00004B)
+  * CDC -Pandemic Ready Interoperability Modernization Effort (PRIME) and Data Modernization Initiative (DMI) BPA (47QFSA22A0008) 
 
   * CMS - Medicare Payment Systems Modernization (MPSM) BPA (75FCMC19A0006)
 
   * VA - Customer  Experience, DevOps, Agile Releases (CEDAR) (36C10B21D0006)
 
-  * State of California PQVP AD-DS and CMAS (3-18-70-3581A) 
+  * OPM -Digital Services Support (DSS) BPA (24322623A00012) 
 
 
   ### Industry Information
@@ -65,4 +59,3 @@ cta:
   cta-url: /contact
   cta-visible: true
 ---
-
