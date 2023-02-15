@@ -13,6 +13,7 @@ blogposts:
   - Sixer Spotlight with Kiel McLaughlin
   - Sixer Spotlight with Berni Xiong
   - Sixer Spotlight with Dotti Cummings
+  - Sixer Spotlight with Kunle Oyesola
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
