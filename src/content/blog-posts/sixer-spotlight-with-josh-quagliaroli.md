@@ -10,6 +10,7 @@ shortdescription: Have you ever wondered how putting purpose and people first
   discover how purpose and a people-first approach are at the forefront of
   creating better outcomes.
 background: /img/josh-spotlight-.png
+audio: https://player.simplecast.com/ff2ef6bb-5e80-4455-ac3e-0feb8b864164?dark=false
 ---
 Have you ever wondered how putting purpose and people first drives growth?
 
