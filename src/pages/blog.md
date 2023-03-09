@@ -14,6 +14,7 @@ blogposts:
   - Sixer Spotlight with Berni Xiong
   - Sixer Spotlight with Dotti Cummings
   - Sixer Spotlight with Kunle Oyesola
+  - Sixer Spotlight with Josh Quagliaroli
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
