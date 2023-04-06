@@ -14,6 +14,8 @@ shortdescription: Curious about how a purpose-driven culture of trust can
 background: /img/arabella-.png
 audio: https://player.simplecast.com/2556a679-3940-45a4-a146-844295e1f80a?dark=false
 ---
+Curious about how a purpose-driven culture of trust can empower individuals to achieve outcomes that create real change? Join us for today's Sixer Spotlight with Arabella Crawford, where she shares her journey at Agile Six and how a people-first culture enabled her to bring her true self to work and excel in her role supporting CMS's modernization efforts. She speaks candidly about the importance of being seen, heard, and valued in the workplace and her unique problem-solving approach using human-centered design. Let’s learn how she achieved outcomes that created real impact through a culture based on shared principles.
+
 **Journey to Agile Six**
 
 **Q. Tell us about your journey to Agile Six.**
