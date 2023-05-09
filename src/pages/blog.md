@@ -16,6 +16,7 @@ blogposts:
   - Sixer Spotlight with Kunle Oyesola
   - Sixer Spotlight with Josh Quagliaroli
   - Sixer Spotlight with Arabella Crawford
+  - Partner Spotlight with Dr. Andrey Ostrovsky
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
