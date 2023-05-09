@@ -1,7 +1,7 @@
 ---
 templateKey: blogpost
 title: Partner Spotlight with Dr. Andrey Ostrovsky
-subtitle: Innovating Healthcare Policy for Health Equity with Dr. Andrey Ostrovsky
+subtitle: Innovating Healthcare Policy for Health Equity
 shortdescription: Health equity is a fundamental goal of healthcare policy, and
   achieving it requires significant policy changes that address the underlying
   social determinants of health. In this interview, and our first Agile Six
@@ -123,3 +123,6 @@ Arnold Ventures - <https://www.arnoldventures.org/>
 Commonwealth Fund - <https://www.commonwealthfund.org/>
 
 American Board of Family Medicine Foundation - <https://www.theabfm.org/ABFM-Foundation>
+
+**\
+Disclaimer:** This blog post is a summary of the interview with Dr. Andrey Ostrovsky. To access the full audio interview, please visit the top of this page.
