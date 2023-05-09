@@ -1,7 +1,7 @@
 ---
 templateKey: index
-title: A Better Place To Work
-subtitle: Better Work To Do
+title: A Better Place To Work.
+subtitle: Better Work To Do.
 hero: /img/we-ve-got-your-6.png
 capabilities-body: >-
   At Agile Six, we use modern technology and user-friendly, inclusive design to
