@@ -1,14 +1,11 @@
 ---
 templateKey: index
-title: "We make digital transformation achievable. "
-subtitle: Better systems for government. Better outcomes for people.
+title: A Better Place To Work
+subtitle: Better Work To Do
 hero: /img/we-ve-got-your-6.png
 capabilities-body: >-
   At Agile Six, we use modern technology and user-friendly, inclusive design to
   build better government services for everyone. 
-
-
-  <iframe class="pt-6" width="1237" height="696" style="aspect-ratio: 16 / 9; height: 100%; width: 100%;" src="https://www.youtube.com/embed/9CW204239Es" title="Why We Choose the Work We Do" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
   Agile Six works with government agencies to create customized digital solutions that meet the needs of their users. The end goal? Digital products that are as powerful and easy to use as the apps on your phone.
@@ -22,8 +19,8 @@ capabilities:
   - Pioneering work in civic tech
 casestudies-title: We’re proud of our work
 casestudies-body: Our team has helped clients like the Centers for Medicare and
-  Medicaid Services and the Department of Veterans Affairs revolutionize their
-  digital services.
+  Medicaid Services, the Department of Veterans Affairs, and the Centers for
+  Disease Control and Prevention revolutionize their digital services.
 casestudies:
   - VA.gov Modernization
   - CCSQ Agile Coaching and Digital Transformation
