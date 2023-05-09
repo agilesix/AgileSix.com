@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Hero from '../../components/hero'
+import React from "react"
+import PropTypes from "prop-types"
+import Hero from "../../components/hero"
 
 const IndexPagePreview = ({ entry, getAsset }) => {
-  const data = entry.getIn(['data']).toJS()
+  const data = entry.getIn(["data"]).toJS()
 
   if (data) {
     return (
@@ -11,8 +11,9 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         title={data.title}
         subtitle={data.subtitle}
         hero={data.hero}
-        className={`bg-blue-dark`}
-        textClass={`text-white`}
+        className="bg-blue-dark"
+        titleClass="text-white"
+        subtitleClass="text-blue-light"
       />
     )
   } else {

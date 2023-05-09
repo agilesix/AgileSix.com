@@ -32,7 +32,8 @@ export const IndexTemplate = ({
       title={title}
       subtitle={subtitle}
       className={`bg-blue-dark`}
-      textClass={`text-white`}
+      titleClass={`text-white`}
+      subtitleClass="text-blue-light"
       hero={hero}
     />
     <Block className={"bg-white"} title={capabilities_title}>
