@@ -20,7 +20,7 @@ Health equity is a fundamental goal of healthcare policy, and achieving it requi
 
 **Meet Andrey Ostrovsky, M.D.**\
 \
-A little bit about myself: I'm a pediatrician. I practice medicine two Fridays a month, just enough to get my fix, before returning to work on system issues. I am the managing partner of Social Innovation Ventures, where I invest in diverse founders trying to close health equity gaps. I also find time to work with good friends like Dan Levenson with Agile Six. He and I worked together back at CMS, and we've continued our work together since leaving CMS, focusing on similar issues from the outside and helping our friends at the federal government continue the good work they're doing.
+A little bit about myself: I'm a pediatrician. I practice medicine two Fridays a month, just enough to get my fill, before returning to work on system issues. I am the managing partner of Social Innovation Ventures, where I invest in diverse founders trying to close health equity gaps. I also find time to work with good friends like Dan Levenson with Agile Six. He and I worked together back at CMS, and we've continued our work together since leaving CMS, focusing on similar issues from the outside and helping our friends at the federal government continue the good work they're doing.
 
 **Tell us about the partnership with the American Board of Family Medicine Foundation and Agile Six.** 
 
