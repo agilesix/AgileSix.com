@@ -31,7 +31,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/agile-six-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/agile6_social_icon_300x300.jpg`, // This path is relative to the root of the site.
       },
     },
     {
@@ -117,8 +117,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require("tailwindcss"), require("autoprefixer")]
-      }
+        postCssPlugins: [require("tailwindcss"), require("autoprefixer")],
+      },
     },
     {
       resolve: `gatsby-plugin-purgecss`,
@@ -126,8 +126,8 @@ module.exports = {
         printRejected: false,
         develop: false,
         tailwind: true,
-        ignore: ['/css'], // Ignore files/folders
+        ignore: ["/css"], // Ignore files/folders
       },
-    }
+    },
   ],
 }
