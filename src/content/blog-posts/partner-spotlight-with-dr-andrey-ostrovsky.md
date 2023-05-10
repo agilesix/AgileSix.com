@@ -116,7 +116,7 @@ Dr. Andrey Ostrovsky's contact information: [LinkedIn](https://www.linkedin.com/
 
 [Health Affairs Report](https://www.healthaffairs.org/content/forefront/accounting-social-risks-medicare-and-medicaid-payments) 
 
-[ASPE Repor](https://aspe.hhs.gov/sites/default/files/documents/474a62378abf941f20b3eaa74ca5721c/Area-level-Indices-ASPE-Reflections.pdf)
+[ASPE Report](https://aspe.hhs.gov/sites/default/files/documents/474a62378abf941f20b3eaa74ca5721c/Area-level-Indices-ASPE-Reflections.pdf)
 
 Arnold Ventures - <https://www.arnoldventures.org/>
 
