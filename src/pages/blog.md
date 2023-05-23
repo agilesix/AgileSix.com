@@ -17,6 +17,7 @@ blogposts:
   - Sixer Spotlight with Josh Quagliaroli
   - Sixer Spotlight with Arabella Crawford
   - Partner Spotlight with Dr. Andrey Ostrovsky
+  - Sixer Spotlight with Michelle Johnson
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
