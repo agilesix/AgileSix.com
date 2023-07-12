@@ -111,5 +111,8 @@ A. For me personally, I love it. I feel more in control of my schedule. I attend
 
 There are ways to adapt if you're used to being around people on a daily basis, but for me, the remote culture - I can't imagine going back to some kind of in-person role.
 
-***Final Thoughts***A. Agile Six is a better place to work because of the people and the mission. We're excited for new applicants and engineers who are interested in civic tech. If you want to get involved in government and find more purpose, Agile Six is a great place to start.**\
-Sixer Spotlight is an ongoing series to share the stories of our team. If Aaron’s story piqued your interest in a career with Agile Six, [explore our open roles](https://boards.greenhouse.io/agilesix).**
+***Final Thoughts***
+
+A. Agile Six is a better place to work because of the people and the mission. We're excited for new applicants and engineers who are interested in civic tech. If you want to get involved in government and find more purpose, Agile Six is a great place to start.
+
+**Sixer Spotlight is an ongoing series to share the stories of our team. If Aaron’s story piqued your interest in a career with Agile Six, [explore our open roles](https://boards.greenhouse.io/agilesix).**
