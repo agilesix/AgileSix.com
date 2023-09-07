@@ -1,7 +1,7 @@
 ---
 templateKey: blogpost
-title: Uncovering the Journey and Vision of Agile Six
-subtitle: Founder Spotlight with Robert Rasmussen
+title: Founder Spotlight with Robert Rasmussen
+subtitle: Uncovering the Journey and Vision of Agile Six
 shortdescription: Our Sixer Founder Spotlight kicks off with an inside look into
   the heart of Agile Six's story – its roots, vision, and narrative – with the
   CEO and Founder, Robert Rasmussen. This interview is the first of a two-part
