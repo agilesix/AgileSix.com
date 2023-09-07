@@ -19,6 +19,7 @@ blogposts:
   - Partner Spotlight with Dr. Andrey Ostrovsky
   - Sixer Spotlight with Michelle Johnson
   - "Sixer Spotlight with Aaron Ponce "
+  - Uncovering the Journey and Vision of Agile Six
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
