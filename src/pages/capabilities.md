@@ -31,15 +31,15 @@ process-body: >-
   ### Contract Vehicles (Prime)
 
 
-  * GSA IT-70 (GS-35F-004GA) 
+  * GSA MAS \[Formerly IT-70] (GS-35F-004GA) 
 
-  * CDC -Pandemic Ready Interoperability Modernization Effort (PRIME) and Data Modernization Initiative (DMI) BPA (47QFSA22A0008) 
+  * CDC - Pandemic Ready Interoperability Modernization Effort (PRIME) and Data Modernization Initiative (DMI) BPA (47QFSA22A0008) 
 
   * CMS - Medicare Payment Systems Modernization (MPSM) BPA (75FCMC19A0006)
 
-  * VA - Customer  Experience, DevOps, Agile Releases (CEDAR) (36C10B21D0006)
+  * VA - Customer Experience, DevOps, Agile Releases (CEDAR) (36C10B21D0006)
 
-  * OPM -Digital Services Support (DSS) BPA (24322623A00012) 
+  * OPM - Digital Services Support (DSS) BPA (24322623A00012) 
 
 
   ### Industry Information
