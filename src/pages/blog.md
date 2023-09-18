@@ -19,6 +19,7 @@ blogposts:
   - Partner Spotlight with Dr. Andrey Ostrovsky
   - Sixer Spotlight with Michelle Johnson
   - "Sixer Spotlight with Aaron Ponce "
+  - Founder Spotlight with Robert Rasmussen
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
