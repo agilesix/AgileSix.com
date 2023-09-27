@@ -8,9 +8,7 @@ shortdescription: Our Sixer Founder Spotlight kicks off with an inside look into
   series exploring Robert's personal journey and the authentic path he navigated
   to build a better workplace and establish a purpose-driven company.
 background: /img/founder-spotlight-linkedin.png
-audio: <iframe height="200px" width="100%" frameborder="no" scrolling="no"
-  seamless
-  src="https://player.simplecast.com/fe729752-58e0-4fb4-bf0c-441f4e3a5ba4?dark=false"></iframe>
+audio: https://player.simplecast.com/fe729752-58e0-4fb4-bf0c-441f4e3a5ba4?dark=false
 ---
 Our Sixer Founder Spotlight kicks off with an inside look into the heart of Agile Six's story – its roots, vision, and narrative – with the CEO and Founder, Robert Rasmussen. This interview is the first of a two-part series exploring Robert's personal journey and the authentic path he navigated to build a better workplace and establish a purpose-driven company.
 
@@ -124,4 +122,4 @@ You just have to unfold authentically, and I think that’s the why for me.\
 \
 *Disclaimer: This blog post is a summary of the interview with Robert Rasmussen. To access the full audio interview, please visit the top of this page.*\
 \
-Sixer Spotlight is an ongoing series to share the stories of our team. If Robert’s story piqued your interest in a career with Agile Six, [explore our open roles](https://boards.greenhouse.io/agilesix).
+Sixer Spotlight is an ongoing series to share the stories of our team. If Robert’s story piqued your interest in a career with Agile Six, [explore our open roles](https://boards.greenhouse.io/agilesix)
