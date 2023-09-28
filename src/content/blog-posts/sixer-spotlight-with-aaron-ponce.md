@@ -15,6 +15,8 @@ shortdescription: Curious about the world of engineering in Civic Tech and its
 background: /img/aaron-ponce.png
 audio: https://player.simplecast.com/7f86d67e-64dc-4517-a50d-b72dcb593073?dark=false
 ---
+### **^ L﻿isten to the Interview above ^**  
+
 Curious about the world of engineering in Civic Tech and its impact on people's lives? Today's Sixer Spotlight features Aaron Ponce, a software engineer at Agile Six who is making a remarkable difference in this space. Join us as we explore Aaron's unconventional path from artist to engineer and discover how his work with the VA is impacting the lives of Veterans. We'll discuss the challenges, rewards, and significant experiences of engineering in the government contracting space, where technology intersects with the public sector. But our conversation won't end there. We'll also shed light on the realities of working in Civic Tech, where patience, process, purpose, and trust converge to drive innovation.
 
 ***Aaron's Background and Journey***\
