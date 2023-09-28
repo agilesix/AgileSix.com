@@ -58,8 +58,6 @@ join-body: >-
 
   * 401K matching: 100% matching up to 4% of your salary 
 
-  * Tenure-based profit sharing
-
   * Employee Stock Ownership Plan (ESOP) for all employees!
 
 
