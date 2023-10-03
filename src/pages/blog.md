@@ -20,7 +20,7 @@ blogposts:
   - Sixer Spotlight with Michelle Johnson
   - "Sixer Spotlight with Aaron Ponce "
   - Founder Spotlight with Robert Rasmussen
-  - Founder Spotlight with Robert Rasmussen pt 2
+  - Founder Spotlight with Robert Rasmussen Part 2
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
