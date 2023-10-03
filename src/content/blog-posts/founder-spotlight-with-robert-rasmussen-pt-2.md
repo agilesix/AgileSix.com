@@ -1,6 +1,6 @@
 ---
 templateKey: blogpost
-title: Founder Spotlight with Robert Rasmussen pt 2
+title: Founder Spotlight with Robert Rasmussen, Part 2
 subtitle: "The Power of 'We': Cultivating Authentic Workplace Culture"
 shortdescription: "In our previous episode, we uncovered the journey and vision,
   revealing the story of how it all began—make sure to take a listen or read it
