@@ -21,6 +21,7 @@ blogposts:
   - "Sixer Spotlight with Aaron Ponce "
   - Founder Spotlight with Robert Rasmussen
   - Founder Spotlight with Robert Rasmussen Part 2
+  - Sixer Spotlight with Anneliese LaTempa
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
