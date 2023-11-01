@@ -3,6 +3,6 @@ templateKey: team-member
 name: Nico Aparicio
 position: "Recruiting / People "
 bio: "0"
-picture: /img/img_8696.jpg
+picture: /img/screenshot-2023-11-01-at-2.42.36-pm.png
 order: 0
 ---
