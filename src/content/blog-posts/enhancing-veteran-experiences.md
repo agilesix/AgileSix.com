@@ -12,7 +12,7 @@ shortdescription: Today, we're going behind the scenes to learn how Agile Six is
 background: /img/new-sixer-spotlight-linkedin-3-.png
 audio: https://player.simplecast.com/a95406db-38e7-430e-8919-f9fa2a6d75c1?dark=false
 ---
-#### **^ LISTEN TO THE INTERVIEW ABOVE ^**
+### **^ LISTEN TO THE INTERVIEW ABOVE ^**
 
 **Enhancing Veteran Experiences: Agile Six's Partnership with the VA**\
 \
