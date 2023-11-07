@@ -34,12 +34,11 @@ I am excited to be part of the story about our work at the Department of Veteran
 
 It's really important that we're able to collaborate with the VA not only at the project level, but also at a higher level to understand what it is the VA is trying to do and then try to help them get there as best as we can. Our focus is on outcomes to improve the experience for Veterans working with the VA. In order to do that, we all have to be on the same page.
 
-We work very closely with the CTO’s office at the VA, and a lot of that is more Veteran-facing. We have twelve prime contracts right now. It's not just about what the contracts are telling us we have to do; it's about understanding how to make the experience better for Veterans. If that means making the experience better for employees at the VA, \[then that is] essential to improve the overall experience for Veterans.\
-\
-**Agile Six's Projects with the VA: Enhancing the Veteran Experience**
+We work very closely with the CTO’s office at the VA, and a lot of that is more Veteran-facing. We have twelve prime contracts right now. It's not just about what the contracts are telling us we have to do; it's about understanding how to make the experience better for Veterans. If that means making the experience better for employees at the VA, \[then that is] essential to improve the overall experience for Veterans.
 
-**\
-The Content: At the Heart of Information**
+### **Agile Six's Projects with the VA: Enhancing the Veteran Experience**
+
+**The Content: At the Heart of Information**
 
 *\[Content Management System, Accelerated Publishing, Facilities, and Public Websites]*
 
