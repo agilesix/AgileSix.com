@@ -108,7 +108,7 @@ In addition to this basic profile information, we are dedicated to addressing th
 
 We are committed to building better, providing Veterans with the necessary tools, resources, and assistance they need to navigate both the authenticated experience and debt resolution aspects of their VA journey, ultimately reducing the stress and uncertainties in their lives.\
 \
-**Heather Rinks: Supporting Our Military Community**\
+**Heather Rienks: Supporting Our Military Community**\
 \
 I’m a Delivery Manager at Agile Six and I work on a digital experience team on VA.gov, specifically on the Debt Resolution Team. What we do is help Veterans make it easier to understand if they have any debt to the VA.
 
