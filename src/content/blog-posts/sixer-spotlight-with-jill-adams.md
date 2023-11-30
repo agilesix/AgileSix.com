@@ -17,7 +17,7 @@ shortdescription: Curious about what lies beyond the realm of big tech? Today's
 background: /img/new-sixer-spotlight-linkedin-4-.png
 audio: https://player.simplecast.com/9288bfc2-63bb-45d8-98c1-da69c5dfd063?dark=false
 ---
-#### ^ LISTEN TO THE INTERVIEW ABOVE ^
+### ^ LISTEN TO THE INTERVIEW ABOVE ^
 
 Curious about what lies beyond the realm of big tech? Today's Sixer Spotlight features Jill Adams, a delivery manager at Agile Six, who found more than a new career path when she moved from prioritizing stockholders to empowering stakeholders. Discover how Jill's work with the Department of Veterans Affairs is making an impact, and learn about her journey from Amazon to Civic Tech, including the surprises and fulfillment that came along with it. Jill shares how ending up in Big Tech was a veer off of her path of wanting to help people, and coming to Civic Tech felt like returning to a more values-based fit for her. We'll have a frank conversation about finances, values, and the profound sense of reclaiming one’s purpose in work that genuinely makes a difference. Join us as Jill unfolds her Values-Driven Path to Civic Tech.
 
