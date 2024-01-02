@@ -13,10 +13,10 @@ capabilities-body: >-
 
   Changing government systems and processes can be tough. Agile Six can help. We’ll meet you where you are, then get you where you want to go.
 capabilities:
-  - Digital transformation, start to finish
   - Tools that work for real people
   - Product development and devops
   - Pioneering work in civic tech
+  - Digital Transformation
 casestudies-title: We’re proud of our work
 casestudies-body: Our team has helped clients like the Centers for Medicare and
   Medicaid Services, the Department of Veterans Affairs, and the Centers for
