@@ -16,7 +16,8 @@ audio: https://player.simplecast.com/110933b3-a804-49dc-9423-92bdabec9d55
 ---
 
 
-**^ L﻿ISTEN TO THE INTERVIEW ABOVE ^**
+### **^ LISTEN TO THE INTERVIEW ABOVE ^**
+
 
 Today's Sixer Spotlight features software engineer Tanner Heffner. In this episode, Tanner engages in a candid conversation with us about his journey into civic tech and the challenges and experiences he's faced in this unpredictable landscape, including his departure and subsequent return to Agile Six. We'll dive deep into the significance of values in this space and explore why Tanner considers Agile Six's culture, which is rooted in self-management and trust, to be the secret sauce. Join us as we uncover the valuable lessons and perspectives Tanner brings to the table on the value of trust in navigating the challenges of government contracting.
 
