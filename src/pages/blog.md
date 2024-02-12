@@ -24,6 +24,7 @@ blogposts:
   - Sixer Spotlight with Anneliese LaTempa
   - Enhancing Veteran Experiences
   - Sixer Spotlight with Jill Adams
+  - Sixer Spotlight with Tanner Heffner
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
