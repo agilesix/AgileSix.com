@@ -23,7 +23,7 @@ Today's Sixer Spotlight features software engineer Tanner Heffner. In this episo
 
 
 
-### Tanner’s Background and Journey
+**Tanner’s Background and Journey**
 
 **Who is Tanner Heffner?**
 
@@ -41,7 +41,7 @@ Right now, I'm a tech lead for a project at the VA (U.S. Department of Veterans 
 
 I've been a software engineer for nine years at a variety of different agencies and private sector places. Mostly working for digital agencies on projects for larger companies and have done projects for Twitter, Google, Pinterest, and smaller hospitals and colleges. I've contributed to a lot of different industries. But Civic Tech seemed like a way to use that skillset in a way that was more beneficial to society as a whole. Something at the scale of the VA is exciting to work on and feels more impactful to me.
 
-### Navigating The Challenges of Government Contracting
+**Navigating The Challenges of Government Contracting**
 
 **What are some of the challenges working in this space?**
 
@@ -49,7 +49,7 @@ Government contracting can be unpredictable. I think there are both big and smal
 
 Another challenge is that government contracts are unpredictable. You have a timeframe on them, but you don't know beyond that. For full context for the listeners, the project I'm on, the main contract was up for a one-year recompete to get to the next contract vehicle. And we didn't win. So it kind of threw a wrench into multiple roadmaps across these teams. Here's what we had planned out for the next year, and now we need to pivot because we only have two months or four months. What can we do in that time to keep things running smoothly, to ensure the transfer of knowledge? That's tough because it changes the whole roadmap, the whole plan. You're on a team. You've got your project, your scrum, your roadmaps, your here's what we're going to do in this quarter, the next quarter, the quarter after that. And then you find out you actually don't have the runway that you thought you had. So, how do you pivot rapidly? That has its own set of challenges.
 
-### Navigating Through Unpredictable Times
+**Navigating Through Unpredictable Times**
 
 **How did you navigate through this experience?**
 
@@ -69,7 +69,7 @@ There's a short answer and then there's a longer answer. I think the short answe
 
 When I was weighing [staying at the other company] versus coming back to Agile Six at a project that I knew I wanted to be a part of, it heavily went to Agile Six's favor because there are a lot of great people here, a lot of nice perks. They take care of their people as much as they can. I really appreciate a lot that Agile Six has to offer.
 
-### Perks of Working at Agile Six
+**Perks of Working at Agile Six**
 
 **What are the perks at Agile Six that you really like?**
 
@@ -79,13 +79,13 @@ I think having separate wellness days from paid time off (PTO) is one of the gre
 
 That's a lengthy answer, and I've only covered two of them so far, but the lack of a management layer and the availability of wellness days are huge for me. Another perk I genuinely appreciate is the absence of negotiation around pay, promotions, and raises. It's reassuring to be in a place where I find the work fulfilling, and I still feel that they value me and compensate me appropriately. I can't recall a single instance where I've had to negotiate or haggle over my pay, yet I've seen a 10% increase in my compensation since I started a couple of years ago. I haven't had to request anything; it simply happens. So, I appreciate the transparency in this regard.
 
-### Adapting to a Self-Managed Environment and Its Benefits
+**Adapting to a Self-Managed Environment and Its Benefits**
 
 **Was it challenging for you to acclimate to this self-managed environment? And what benefits do you see from working this way?**
 
 For me personally, no, it was a very easy adjustment for me. I love collaborating and working with my team. Having those conversations there and then also reporting to a manager who's not connected to the work, who doesn't have insight into what you're doing day to day or have that visibility - that's the part I don't need as much. I love asking people on my team for feedback. I still find a way to get that feedback cycle. You don't need a manager to tell you, “Hey, you're doing good,” or “You need improvement over here.” Ask the people you work with, just use your sprint retros. There are places for those things without a management layer in a way that's more applicable and effective for your day-to-day.
 
-### The Values
+**The Values**
 
 **Agile Six has five core values: purpose, wholeness, trust, self-management, and inclusion. Which one resonates with you the most and why?**
 
@@ -93,7 +93,7 @@ It's interesting because I don't think about them that much, but hearing that li
 
 At the project level, I trust my team. I trust us to figure out the problems that we have in front of us and come up with a solution that works at the scale the VA needs it to. At a team level, that's huge. You have to be able to count on the people you go to work with every day, the people that you're in the trenches with, that you're doing the work. You have to trust them that they can do the job, or if they can't, or if they hit a blocker or something, that they're going to speak up, and we're going to solve it together. I think my team in particular has that trust. There is a lot of good collaboration and communication back and forth, and that only happens with trust.
 
-### The Culture
+**The Culture**
 
 **Can you share a moment that exemplifies the culture in action?**
 
@@ -117,6 +117,8 @@ The unique thing for me at Agile Six is the self-management layer, and that coup
 
 It's nice to be at a place where I find the work fulfilling, and I still feel like they value me. I really appreciate a lot of what Agile Six has to offer. It's a great place to work, and it is really rewarding to work in this problem space for the betterment of society.
 
----
+
+
+
 
 **Sixer Spotlight is an ongoing series to share the stories of our team. If Tanner’s story piqued your interest in a career with Agile Six, [explore our open roles](https://boards.greenhouse.io/agilesix).**
