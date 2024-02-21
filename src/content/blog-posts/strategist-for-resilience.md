@@ -1,6 +1,6 @@
 ---
 templateKey: blogpost
-title: Strategist for Resilience
+title: Strategies for Resilience
 subtitle: Navigating Challenges in Government Contracting with Dan Levenson
 shortdescription: Government contracting presents an unpredictable and complex
   landscape. Dan Levenson, President of Agile Six, joins us to discuss the
@@ -13,7 +13,7 @@ shortdescription: Government contracting presents an unpredictable and complex
 background: /img/new-sixer-spotlight-linkedin-8-.png
 audio: https://player.simplecast.com/6993c84f-4a79-438a-8ef1-e77f8bd9d80f?dark=false
 ---
-#### ^ LISTEN TO THE INTERVIEW ABOVE ^
+### ^ LISTEN TO THE INTERVIEW ABOVE ^
 
 Government contracting presents an unpredictable and complex landscape. Dan Levenson, President of Agile Six, joins us to discuss the strategies for resilience and navigating these challenges. From grappling with bureaucratic hurdles to the rewards of impactful, purposeful work, our conversation uncovers the realities of working in this space and the innovative approaches Agile Six takes to navigate it. We'll explore how its unique culture and people-first approach set it apart in the realm of civic tech.\
 \
