@@ -25,7 +25,7 @@ blogposts:
   - Enhancing Veteran Experiences
   - Sixer Spotlight with Jill Adams
   - Sixer Spotlight with Tanner Heffner
-  - Strategist for Resilience
+  - Strategies for Resilience
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
