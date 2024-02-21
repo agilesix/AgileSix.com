@@ -19,15 +19,15 @@ Government contracting presents an unpredictable and complex landscape. Dan Leve
 \
 **Understanding the Challenges**
 
-*Why is government contracting so challenging?*
+**Why is government contracting so challenging?**
 
 The government space is really challenging, and I think a big part of that is really just the size and scope of the mission over time, referred to as the bureaucracy. It leads to a lot of ideas and processes, initially with good intent, but then over years and decades, they aren't changed. People just keep repeating the same process, and that results in misaligned incentive structures, making the space very difficult to navigate. Oftentimes, the government is very risk-averse, and it's hard to get clear answers, responses, or feedback from the government. This has led to a lot of much larger companies being able to influence by lobbying or other efforts to really entrench these kinds of peculiar and misaligned incentive structures because they found ways to profit from it. It’s made the space challenging to navigate, especially for new entrants and smaller companies trying to break into the space. I think this is why government technology has often been decades behind the commercial space, and also why it's incredibly difficult for new and innovative companies to break in and really make a difference.
 
 **The Rewards of Purposeful Work**
 
-*I remember the [Sixer Spotlight with Kiel McLaughlin](https://agile6.com/sixer-spotlight-with-kiel-mclaughlin/), and I won't forget his response to this question. I asked him, Why do you think working in government is so challenging? And he said, making a difference in these government spaces is like pushing a boulder up a hill; being able to push the boulder up the hill successfully makes the wins that much sweeter.*\
+**I remember the [Sixer Spotlight with Kiel McLaughlin](https://agile6.com/sixer-spotlight-with-kiel-mclaughlin/), and I won't forget his response to this question. I asked him, Why do you think working in government is so challenging? And he said, making a difference in these government spaces is like pushing a boulder up a hill; being able to push the boulder up the hill successfully makes the wins that much sweeter.**\
 \
-*What are the rewards of working in government contracting?*
+**What are the rewards of working in government contracting?**
 
 I think Kiel was spot on. You know, change in progress in the government space isn't linear. Oftentimes you'll take a step forward and then two steps back. But I think the real key is just having resilience and being able to make that sustainable progress and really savoring those wins, as Kiel mentioned, and I think the rewards are immense. Where else can we have the same impact as improving healthcare for people in America, improving pandemic readiness and keeping people safe, or improving the experience for Veterans who put it all on the line to serve our country? So the rewards are immense, but the real challenge is being able to be resilient enough, understand the space, and be able to stay in and affect that sustainable change and make a difference over time.\
 \
@@ -35,7 +35,7 @@ Progress is often measured in decades in the government space, which can be chal
 \
 **Our Unique Approach to Growth and Challenges**
 
-*We often talk about how Agile Six does things differently. Can you tell us about a time when doing things differently helped you navigate the challenges in this space?*
+**We often talk about how Agile Six does things differently. Can you tell us about a time when doing things differently helped you navigate the challenges in this space?**
 
 We take a very different approach than a lot of companies when it comes to how we look at growth and business development. Many companies have fixed growth targets, maybe driven by outside investors who are looking for a certain amount of growth or returns. We really take growth on a sense-and-respond basis.
 
@@ -45,7 +45,7 @@ In addition to that, we work heavily with our subcontractor partners who bring e
 
 **Navigating Challenges with Culture and Values**
 
-*How do Agile Six's culture and values help navigate challenges and guide decision-making during uncertain times, such as the loss of a recompete? Can you share any specific strategies?*
+**How do Agile Six's culture and values help navigate challenges and guide decision-making during uncertain times, such as the loss of a recompete? Can you share any specific strategies?**
 
 I believe our values and the culture that stems from those values are the foundation of how we approach challenging times. Trust is key; because we have trust, we're able to approach teams and people affected, as well as others within the company, in a transparent way and with openness, not trying to hide the realities of the space in which we're operating—the good, the bad, and everything in between.
 
@@ -55,7 +55,7 @@ I also believe our focus on wholeness and wellness is key in these situations. I
 
 **Lessons Learned**\
 \
-*What key lessons has Agile Six learned while navigating through the challenges?*
+**What key lessons has Agile Six learned while navigating through the challenges?**
 
 We've learned a lot of lessons over the years, and we always continue to try to improve. When speaking about the challenges in the government space and specifically losing a contract or having something disruptive that impacts and affects people's jobs, we've really learned to address people as human beings and as whole people.
 
@@ -67,7 +67,7 @@ A big lesson we've learned is how to best support people and be there for them.\
 \
 **Maintaining a People-First Approach Amid Growth**
 
-*As Agile Six grows, how does the people-first approach continue to guide your decisions? Is it getting more difficult?*
+**As Agile Six grows, how does the people-first approach continue to guide your decisions? Is it getting more difficult?**
 
 There are absolutely challenges as we scale the company. It's something that we're pretty open about and talk a lot about. I'm very grateful for my background as a contracting officer. I got to watch a lot of promising companies who had some success and then, as they grew, they lost a lot of what made them special. I think that experience informs a lot of the approach we take at Agile Six to try to mitigate the risk of that happening.
 
@@ -79,7 +79,7 @@ It truly puts us in a position where we can prioritize purpose over profit.
 
 **The Importance of Transparency at Agile Six**
 
-*One of the first things I noticed when I joined Agile Six was how transparent everything was and how Sixers were seen, heard, and valued. Can you share why transparency is so important?*
+**One of the first things I noticed when I joined Agile Six was how transparent everything was and how Sixers were seen, heard, and valued. Can you share why transparency is so important?**
 
 At Agile Six, we talk a lot about showing the score. Many companies say they're transparent or open. But oftentimes, it's maybe only when there's good news; when there's bad news, there's a lot of toxic positivity in trying to sugarcoat things. For our company with our self-managed approach, we believe that contextual awareness is critical. It's a necessity to be able to self-manage and to give people within the collective a voice to be heard and to be included.
 
@@ -87,7 +87,7 @@ Each month we share company health metrics around our profit, how our customers 
 
 **Working in Civic Tech**
 
-*Why is working in civic tech so important to you?*
+**Why is working in civic tech so important to you?**
 
 Working in civic tech is extremely important to me. When I started at Centers for Medicare & Medicaid Services (CMS) and realized the impact we could have on people's lives—this includes my family, your family, everyone, since everyone interacts with government in some way—supporting what we like to call healing agencies, particularly in healthcare and veteran services, became a passion. I don’t believe I could be spending my time doing anything more meaningful.
 
@@ -95,19 +95,19 @@ Once I was able to experience that from inside the government, I knew that I wan
 
 **Advice for Aspiring Civic Tech Professionals**
 
-*What would you say to someone interested in getting into civic tech?*
+**What would you say to someone interested in getting into civic tech?**
 
 I would encourage someone who's interested in jumping into civic tech to have as many conversations with folks who are in this space as possible. I know people at Agile Six are always willing to have conversations and chat with people. Understanding the challenges and the frustration that come with working in civic tech is important. The bureaucracy can be challenging at times. It can be really difficult to make progress, and you really need to savor that progress when you are able to make it. Civic tech often doesn't offer the very high salaries that can sometimes be found on the commercial side of things. However, the unmatched purpose civic tech brings is significant. If you're interested in supporting the biggest challenges that face our country right now and trying to make a difference, I encourage folks to take a serious look at civic tech, while also being honest about all the trade-offs. I think for a lot of people, once they dip their toes into civic tech, they make a decision that this is it for them for life. They never want to leave.
 
 **A Better Place To Work**\
 \
-*How would you describe Agile Six to someone?*
+**How would you describe Agile Six to someone?**
 
 Agile Six is a better place to work that has better work to do. And I know just reciting the tagline may seem like a little bit too much, but I truly believe that. This is foundational for us and goes back to when I decided to join the company and the partnership that I have with our CEO, Robert Rasmussen. While we both believe in both aspects of that, Robert's greatest passion is for building a better place to work and everything that goes with that, including how that aligns with my greatest passion of better work to do. To me, it's what Agile Six is all about.
 
 **Final Thoughts**
 
-*As we wrap up. Are there any final thoughts you'd like to share?*
+**As we wrap up. Are there any final thoughts you'd like to share?**
 
 We've talked a lot about the purpose and mission within civic tech, and the values and culture that make Agile Six special. I believe wholeheartedly in all of those things, but I also think at times within this space and especially civic tech, there can be a bit of toxic positivity around not being realistic about the trade-offs. These are term contracts that we're working on with the government, and the system isn't always perfect.
 
