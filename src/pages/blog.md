@@ -26,6 +26,8 @@ blogposts:
   - Sixer Spotlight with Jill Adams
   - Sixer Spotlight with Tanner Heffner
   - Strategies for Resilience
+  - "How We Navigate Challenges in Government Contracting: Insights from Agile
+    Six"
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
