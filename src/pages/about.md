@@ -55,7 +55,7 @@ history-body: >-
   Our team hit some roadblocks along the way, and the biggest was recognizing that federal ecosystems just weren’t ready for digital transformation at scale. But we didn’t give up. We did what agile people do — pivoted and adapted our approach. By adding coaching to our services, we were able to help staff prepare for the changes we could create.
 
 
-  Since our founding, Agile Six has helped build the civic tech marketplace and grew in size to over 70 employees. We’re now the full-spectrum digital service company we envisioned at our founding, working side-by-side with our civil servant partners to build the better government we all deserve.
+  Since our founding, Agile Six has helped build the civic tech marketplace and grew in size to over 90 employees. We’re now the full-spectrum digital service company we envisioned at our founding, working side-by-side with our civil servant partners to build the better government we all deserve.
 cta:
   cta-description: How can we help you?
   cta-label: Get in touch
