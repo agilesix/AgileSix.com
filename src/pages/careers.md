@@ -78,7 +78,7 @@ join-body: >-
   **Paid Time Off**
 
 
-  * 30+ vacation days: 18 accrued days per year + 11 paid holidays + 1 Floating Holiday
+  * 30+ vacation days: 18 accrued days per year + 11 paid holidays + 2 Floating Holidays
 
   * Flexible wellness days, to disconnect, recharge, recover, and recuperate 
 
