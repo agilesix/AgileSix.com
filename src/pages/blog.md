@@ -13,7 +13,6 @@ blogposts:
   - Sixer Spotlight with Kiel McLaughlin
   - Sixer Spotlight with Berni Xiong
   - Sixer Spotlight with Dotti Cummings
-  - Sixer Spotlight with Kunle Oyesola
   - Sixer Spotlight with Josh Quagliaroli
   - Sixer Spotlight with Arabella Crawford
   - Partner Spotlight with Dr. Andrey Ostrovsky
