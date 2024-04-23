@@ -42,18 +42,18 @@ You'll clearly see after reading this article, self-management isn't about the s
 
 ## Perspectives from the Sixers: Insights on Self-Management. 
 
-> While self-management promotes autonomy, it doesn't equate to unrestrained freedom. Instead, it's about making informed decisions that contribute to the team's and organization's objectives, respecting the shared vision and expertise within the group.
->
-> In environments that promote self-management, such as agile work settings, the role of coaching and feedback is not to dictate actions but to provide insights and advice that help individuals and teams navigate their tasks more effectively. ~ Josh Quagliaroli, Chief Delivery Officer
->
+While self-management promotes autonomy, it doesn't equate to unrestrained freedom. Instead, it's about making informed decisions that contribute to the team's and organization's objectives, respecting the shared vision and expertise within the group.
+
+In environments that promote self-management, such as agile work settings, the role of coaching and feedback is not to dictate actions but to provide insights and advice that help individuals and teams navigate their tasks more effectively. ~ Josh Quagliaroli, Chief Delivery Officer
+
 > Self-management is about balancing autonomy and accountability. With great power comes great responsibility. ~ Guy Schmidt, UX Designer/Researcher
->
-> Transitioning to self-management was very positive as it taught me how to be more self-organized and self-managed professionally and within my own personal life. ~ Athena Bozak, UX Researcher
->
+
+Transitioning to self-management was very positive as it taught me how to be more self-organized and self-managed professionally and within my own personal life. ~ Athena Bozak, UX Researcher
+
 > Self-management is about taking ownership of your work and seeking more responsibilities while asking for help when needed. ~ Matt Kerns, Software Engineer
->
-> Self-management isn't about the self here; it's all built into the context of the team's success. ~ Jill Adams, Delivery Manager
->
+
+Self-management isn't about the self here; it's all built into the context of the team's success. ~ Jill Adams, Delivery Manager
+
 > I love asking people on my team for feedback. I still find a way to get that feedback cycle. You don't need a manager to tell you, 'Hey, you're doing good,' or 'You need improvement over here.' Ask the people you work with, just use your sprint retros. There are places for those things without a management layer in a way that's more applicable and effective for your day-to-day.\
 > \
 > The self-management layer coupled with trust is our 'secret sauce.' It's fulfilling to work in a place that values me and contributes to the betterment of society. ~ Tanner Heffner, Software Engineer
