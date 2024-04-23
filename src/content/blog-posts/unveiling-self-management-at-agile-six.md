@@ -50,11 +50,15 @@ In environments that promote self-management, such as agile work settings, the r
 
 > Self-management is about balancing autonomy and accountability. With great power comes great responsibility. ~ Guy Schmidt, UX Designer/Researcher
 
+
+
 Transitioning to self-management was very positive as it taught me how to be more self-organized and self-managed professionally and within my own personal life. ~ Athena Bozak, UX Researcher
 
 
 
 > Self-management is about taking ownership of your work and seeking more responsibilities while asking for help when needed. ~ Matt Kerns, Software Engineer
+
+
 
 Self-management isn't about the self here; it's all built into the context of the team's success. ~ Jill Adams, Delivery Manager
 
