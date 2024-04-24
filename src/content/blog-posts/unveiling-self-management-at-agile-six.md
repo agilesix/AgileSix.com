@@ -76,8 +76,8 @@ The self-management layer coupled with trust is our 'secret sauce.' It's fulfill
 >
 > People come to me because they're struggling with the human side of work. They want to improve their relationships, communicate better, and build stronger connections within the team. It's not about whether they're doing their job well in a technical sense; it's about how they're navigating the complexities of working with other people."
 
-**Successful Self-Management Practices and What They Look Like**\
-\
+## **Successful Self-Management Practices and What They Look Like**
+
 Wondering what successful self-management practices look like at Agile Six? We talked with Delivery Manager Sarah Knopp to get her insights.\
 \
 **Asking for Advice**
