@@ -12,7 +12,7 @@ team-intro: >-
   At Agile Six, we take the one-team approach seriously. No strict hierarchies, no jockeying for status. We’re equally dedicated to the work and to each other. 
 join-title: " "
 join-body: We're a remote first company and our team members above represent at
-  least 15 states in the U.S!
+  least 28 states in the U.S!
 cta:
   cta-description: Interested in working at Agile Six?
   cta-label: Open Positions
