@@ -27,7 +27,7 @@ Ever wonder what happens when a company actually lives the values it promotes? O
 
 Sarah discusses the impactful work she's doing at Agile Six, including the project she's working on modernizing Grants.gov, which aims to make grant opportunities more accessible, especially for underprivileged communities. She'll offer valuable insights on navigating challenges, building trusted teams, and achieving growth in a fully remote, self-managed workplace. If you're curious about how values and innovation intersect in the tech world, you're in the right place. Join us as we learn how Sarah is making a difference in civic tech by living her values and supporting Agile Six in building better by putting people first.
 
-#### Meet Sarah Knopp
+**Meet Sarah Knopp**
 
 **Tell us a little bit about yourself. Who is Sarah Knopp?**
 
