@@ -28,6 +28,7 @@ blogposts:
   - "How We Navigate Challenges in Government Contracting: Insights from Agile
     Six"
   - Unveiling Self-Management at Agile Six
+  - Sixer Spotlight with Sarah Knopp
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
