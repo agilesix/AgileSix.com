@@ -14,7 +14,7 @@ audio: https://player.simplecast.com/edfd4e74-baa8-4bb1-b906-3b4f4cf911fc?dark=f
 ---
 ### ^ LISTEN TO THE INTERVIEW ABOVE ^
 
-### Redefining Mentor-Protégé Relationships: The agile six and theta. Partnership
+**Redefining Mentor-Protégé Relationships: The agile six and theta. Partnership**
 
 You don't often hear the words authenticity, intentionality, and collaboration used to describe mentor-protégé partnerships. President of agile six, Dan Levenson, and Founder and Managing Member of theta., Emmanuel (Mannie) Iroanya, discuss their unique mentor-protégé relationship, shared vision, values, and the importance of trusted relationships. They share how this partnership goes beyond contractual obligations and aims to reshape the landscape of mentor-protégé relationships by building something far greater.\
 \
