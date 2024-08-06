@@ -18,7 +18,7 @@ audio: https://player.simplecast.com/9b8344dd-77f2-49fb-8ffe-eb4ac31f3fa5?dark=f
 ---
 ### ^ LISTEN TO THE INTERVIEW ABOVE ^
 
-Ever wonder how a fully remote workplace thrives without traditional managers? In today’s Sixer Spotlight, we’re joined by Sara Quagliaroli, a self-management coach at Agile Six. Sara gives us an in-depth look at how self-management drives personal growth and team success in this unique, fully remote environment.
+Ever wonder how a fully remote workplace thrives without traditional managers? In today’s Sixer Spotlight, we’re joined by Sara Quagliaroli, a self-management coach at Agile Six. Sara gives us an in-depth look at how self-management drives personal growth and team success in this unique, fully remote environment. 
 
 She explains how principles like trust, empathy, and self-awareness foster collaboration, informed decision-making, and meaningful contributions to team goals. Sara also delves into the challenges and rewards of self-management, the role of values, and offers practical advice for navigating its complexities. Join us to discover how self-management can transform team dynamics and drive both personal and collective growth.\
 \
