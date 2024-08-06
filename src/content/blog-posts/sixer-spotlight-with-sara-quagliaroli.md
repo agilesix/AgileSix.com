@@ -14,6 +14,7 @@ shortdescription: Ever wonder how a fully remote workplace thrives without
   self-management can transform team dynamics and drive both personal and
   collective growth.
 background: /img/sara-sixer-spotlight-linkedin-11-.png
+audio: https://player.simplecast.com/9b8344dd-77f2-49fb-8ffe-eb4ac31f3fa5?dark=false
 ---
 ### ^ LISTEN TO THE INTERVIEW ABOVE ^
 
