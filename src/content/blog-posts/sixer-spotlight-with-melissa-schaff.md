@@ -33,11 +33,7 @@ I mentioned that I’m from Philadelphia originally, and I think that my upbring
 
 **Let's talk about your background because it's impressive. With over five years at the U.S. Digital Service (USDS), time at Goldman Sachs, and even projects within the NFL, share your journey to Agile Six and tell us what drew you to human-centered design.**
 
-A. I’m a digital services strategist here at Agile Six. I took a very indirect road into the design space and the tech space, as well as civic tech specifically. What really drew me to human-centered design are three things:
-
-1. I’m super organized.\
-2. I’m creative—or so people tell me.\
-3. I love to solve problems.
+A. I’m a digital services strategist here at Agile Six. I took a very indirect road into the design space and the tech space, as well as civic tech specifically. What really drew me to human-centered design are three things: I’m super organized. I’m creative—or so people tell me. I love to solve problems.
 
 The human-centered design space allows me to flex all three of those muscles at the same time. In particular, in civic tech I find that the work is really meaningful, and I get to impact people’s lives. I’ve seen a direct correlation between minor tweaks and changes that come from research and from the work that I have done talking to different people about their needs, wants, desires, and pain points, and it makes a huge difference in their lives to be able to access things more easily—like healthcare or applying for benefits they’re eligible for at the VA.\
 \
