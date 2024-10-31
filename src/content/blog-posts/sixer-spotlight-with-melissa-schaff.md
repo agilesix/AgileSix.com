@@ -145,6 +145,8 @@ Any time, I’m happy to.
 
 **Sixer Spotlight is an ongoing series to share the stories of our team. If Melissa’s story piqued your interest in a career with Agile Six, [explore our open roles](https://job-boards.greenhouse.io/agilesix).**
 
+
+
 - - -
 
 
