@@ -31,7 +31,7 @@ blogposts:
   - Redefining Mentor-Protégé Relationships
   - Sixer Spotlight with Sara Quagliaroli
   - Sixer Spotlight with Melissa Schaff
-  - A Veterans Day Message from Agile Six CEO Robert Rasmussen ('24)
+  - A Veterans Day Message from Agile Six CEO Robert Rasmussen
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
