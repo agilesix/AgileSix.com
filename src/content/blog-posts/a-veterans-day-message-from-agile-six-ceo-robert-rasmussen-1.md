@@ -1,6 +1,6 @@
 ---
 templateKey: blogpost
-title: A Veterans Day Message from Agile Six CEO Robert Rasmussen ('24)
+title: A Veterans Day Message from Agile Six CEO Robert Rasmussen
 subtitle: Recognizing the Many Faces of Service and Sacrifice
 shortdescription: "Ten years ago, my partners and I decided to launch a
   business. One of our first decisions was critical to our success: Who would we
