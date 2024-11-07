@@ -8,7 +8,6 @@ blogSubheadline: ""
 blogposts:
   - Sixer Spotlight with Edmund Dunn
   - " Sixer Spotlight with Athena Bozak"
-  - A Veterans Day Message from Agile Six CEO Robert Rasmussen
   - Sixer Spotlight With Rakshinda Aslam
   - Sixer Spotlight with Kiel McLaughlin
   - Sixer Spotlight with Berni Xiong
@@ -32,6 +31,7 @@ blogposts:
   - Redefining Mentor-Protégé Relationships
   - Sixer Spotlight with Sara Quagliaroli
   - Sixer Spotlight with Melissa Schaff
+  - A Veterans Day Message from Agile Six CEO Robert Rasmussen ('24)
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
