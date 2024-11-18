@@ -13,7 +13,7 @@ shortdescription: Welcome to a special edition of the Sixer Spotlight. This
 background: /img/agile6_decade_linkedin.jpg
 audio: https://player.simplecast.com/418171ef-3875-4db5-9fe8-0bd148ba4f8b?dark=false
 ---
-## ^ LISTEN TO THE INTERVIEW ABOVE ^
+### ^ LISTEN TO THE INTERVIEW ABOVE ^
 
 Welcome to a special edition of the Sixer Spotlight. This November, Agile Six celebrates its 10th anniversary, and today we reflect on a journey that’s about more than building a company; it’s about creating a community dedicated to transforming government services by putting people first. From early milestones like CEDAR to the VA’s landmark SPRUCE contract, Agile Six has remained true to its purpose-driven mission to better serve Veterans. Today, we hear from our founders and team members as they reflect on the values, challenges, and purpose that drive us forward.
 
