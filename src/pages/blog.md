@@ -32,6 +32,7 @@ blogposts:
   - Sixer Spotlight with Sara Quagliaroli
   - Sixer Spotlight with Melissa Schaff
   - A Veterans Day Message from Agile Six CEO Robert Rasmussen
+  - A Decade of Purpose
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
