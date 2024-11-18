@@ -17,9 +17,7 @@ audio: https://player.simplecast.com/418171ef-3875-4db5-9fe8-0bd148ba4f8b?dark=f
 
 Welcome to a special edition of the Sixer Spotlight. This November, Agile Six celebrates its 10th anniversary, and today we reflect on a journey that’s about more than building a company; it’s about creating a community dedicated to transforming government services by putting people first. From early milestones like CEDAR to the VA’s landmark SPRUCE contract, Agile Six has remained true to its purpose-driven mission to better serve Veterans. Today, we hear from our founders and team members as they reflect on the values, challenges, and purpose that drive us forward.
 
-
-
-- - -
+\-﻿-----------------------------------------------------------------------------------
 
 **The Significance of SPRUCE**\
 \
@@ -27,9 +25,7 @@ Agile Six has been awarded a prime seat on the Secure, Performant, Reliable, and
 
 This monumental shift underscores the VA's and the broader government's commitment to more user-centered, outcomes-driven technology. We have been at the forefront of advocating for government contracts that prioritize outcomes and user needs. Our inclusion in the SPRUCE IDIQ enables us to continue this legacy and further solidify our impact at the VA.
 
-
-
-- - -
+\-﻿----------------------------------------------------------------------------------------
 
 **Robert Rasmussen, Founder and CEO**\
 *Building a Collective Vision: Reflections on 10 Years of Agile Six*
@@ -110,9 +106,7 @@ Having been in this space for a long time, SPRUCE gets us closer to realizing wh
 
 By unlocking and realizing the potential of what government can do, and trying to rebuild that trust so people can believe in government and know government will be there for them, Agile Six is really focused on the long-term sustainability of this movement. We have three small service-disabled Veteran-owned small businesses (SDVOSBs) on our SPRUCE team because we know how important it is for there to be a continued pipeline of strong and autonomous small businesses, specifically SDVOSBs, who can continue delivering for Veterans way into the future. Because as proud as we are of Agile Six and our role in this movement, it's not enough. One company will never be enough. It's about building this ecosystem that can continue to build better for Veterans; Agile Six strives to be a catalyst that always puts that first and helps drive things forward.
 
-
-
-- - -
+\-﻿---------------------------------------------------------------------------------------
 
 As Agile Six embarks on its next chapter, the SPRUCE contract is not just a milestone—it’s a launching point for even greater impact. With a continued focus on putting people first, Agile Six remains dedicated to delivering innovative, user-centered solutions that improve the lives of Veterans and shape the future of government services. This is just the beginning of our journey as we continue to build better together—guided by the values that have driven us for the past decade and will carry us forward for years to come.
 
