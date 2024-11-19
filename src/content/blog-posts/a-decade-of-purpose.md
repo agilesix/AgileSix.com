@@ -32,7 +32,7 @@ We didn’t hold too tightly to a singular vision or push too hard on growth goa
 
 Winning CEDAR was a huge affirmation that we were on the right path. But now, with SPRUCE, it feels like the universe is validating our collective purpose in an even bigger way. We’ve stayed true to ourselves, and that’s why this feels so special. SPRUCE is the continuation of everything we’ve built together.\
 \
-**Ernie Rameriz, Founder and CFO**\
+**Ernie Ramirez, Founder and CFO**\
 *Reflections on Growth, Impact, and Gratitude*
 
 When we started the company, our goal was to help Veterans. CEDAR was a smaller scale of what SPRUCE is going to be. As a founder, it's a confirmation that we're on the right path. You start the company thinking you can make a big impact and want to make a big impact and help Veterans. This is just a bigger opportunity and a greater responsibility. This is what we wanted to do.
