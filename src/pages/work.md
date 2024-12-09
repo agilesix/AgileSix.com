@@ -4,8 +4,7 @@ title: Work
 subtitle: There’s no one-size-fits-all solution for digital transformation.
 hero: /img/digital-transformation.png
 casestudiestitle: Some of our work
-intro: >-
-  Every one of our projects has required a lot of listening, iterating, and
+intro: Every one of our projects has required a lot of listening, iterating, and
   custom-tailoring. Check out some of the problems we’ve solved and clients
   we’ve helped.
 casestudies:
@@ -13,6 +12,7 @@ casestudies:
   - CCSQ Agile Coaching and Digital Transformation
   - Diffusion Marketplace
   - Digital Services Coalition
+  - "Modernizing VA Services: The Design System Form Engine Pilot"
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
@@ -20,4 +20,3 @@ cta:
   cta-url: /contact
   cta-visible: true
 ---
-
