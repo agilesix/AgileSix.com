@@ -22,9 +22,7 @@ Today, he reflects on how the culture he and his co-founders established continu
 
 **Who is Brian Derfer?**
 
-It’s such a big question. I’m a husband and father, a member of communities in Sayulita and Encinitas, a founding member of a company, and a member of a rock band. I enjoy watching NFL football and getting into hockey with some of my friends. I think so much of who you are is the relationships that you build. Those are some of the most important relationships to me.\
-\
-**Journey to Agile Six**
+It’s such a big question. I’m a husband and father, a member of communities in Sayulita and Encinitas, a founding member of a company, and a member of a rock band. I enjoy watching NFL football and getting into hockey with some of my friends. I think so much of who you are is the relationships that you build. Those are some of the most important relationships to me.
 
 **Tell us about your background and journey to Agile Six.**\
 \
@@ -74,15 +72,11 @@ I think, in order to do truly great transformative things, you need trust. If yo
 \
 If you can build that foundation of trust between people, then you can do really amazing things. Core values aren’t just something that you say and stick on a refrigerator in an office. They really need to be authentic and define who you are.
 
-**What Differentiates Agile Six?**
-
 **What differentiates Agile Six from other companies in this space?**
 
 I think we are focused on an intentional culture. We put more focus on culture and values than any company I’ve ever worked for. It literally infuses every decision that we make in a way that I’ve never seen anywhere else.
 
 The fact that we put so much time and intent into thinking about what our values are, what kind of culture we want to build, why we exist as a company, and then making sure that we lean into that in every aspect of our operations—the way we structure the leadership team, how we go after work, who we decide to hire, who we decide to partner with—all of that. Just that clarity around our values, and the extent to which we authentically live those values every day, and they infuse every decision we make, I think it’s truly unique.
-
-**AI in Civic Tech**
 
 **Now I'd like to shift the conversation and talk about AI. How do you see AI improving government services and helping better serve citizens?**
 
@@ -94,8 +88,6 @@ Regardless of our agencies' adoption of AI, I think as engineers, UX practitione
 
 It just frees up more of our capacity to actually think about what needs we are solving and how we are solving them in the big picture, rather than getting caught up in the plumbing of the solutions.\
 \
-**Lessons Learned** 
-
 **Let’s talk about lessons learned. What’s the one key lesson you’ve learned from your time here at Agile Six that you would like to share with others?**
 
 One of the things I’ve learned is to just keep my eye on a target that’s much farther out. As a founder and leader, that’s one of the things I had to learn. When I started, I was probably a bit reactive to short-term successes or failures.
@@ -104,8 +96,6 @@ Keeping focus on where you're going is something I learned from both Robert and 
 
 I think that ability to unite people under a common vision is something I’ve learned here.\
 \
-**A Moment of Pride**
-
 **Looking back at your time here, is there a moment that stands out to you that you're especially proud of?**
 
 I have two answers to that. The first one is when we started the company, the VA was the agency that we most wanted to serve, but it was really hard to get any work at the VA. We went for a few years just striking out. I think it was 2018 when we put in a bid for the work for the content management system for VA.gov, and we ended up winning. There was pride in the fact that we won, but I think there was even more pride that we had persevered through such adversity for so many years. I remember there were some pretty dark moments for me after losing so many bids in a row.
