@@ -14,7 +14,7 @@ shortdescription: In today’s Founder Spotlight, I’m talking with Brian Derfe
 background: /img/brian-newest.png
 audio: https://player.simplecast.com/9f6afd09-70c3-4932-9e09-a384ca12432d?dark=false
 ---
-### ^ LISTEN TO THE INTERVIEW ABOVE 
+### ^ LISTEN TO THE INTERVIEW ABOVE ^
 
 In today’s Founder Spotlight, I’m talking with Brian Derfer, co-founder and Chief Operations & Technology Officer at Agile Six. From the very start, Brian has believed that strong teams are built on trust, autonomy, and giving people the freedom to play to their strengths.
 
