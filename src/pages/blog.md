@@ -13,7 +13,6 @@ blogposts:
   - Sixer Spotlight with Berni Xiong
   - Sixer Spotlight with Dotti Cummings
   - Sixer Spotlight with Josh Quagliaroli
-  - Sixer Spotlight with Arabella Crawford
   - Partner Spotlight with Dr. Andrey Ostrovsky
   - Sixer Spotlight with Michelle Johnson
   - "Sixer Spotlight with Aaron Ponce "
