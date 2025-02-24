@@ -1,6 +1,6 @@
 ---
 templateKey: blogpost
-title: Transforming Government Services Through Human-Centered Design
+title: Transforming Government Services Through Human Centered Design
 subtitle: Insights From Our Team
 shortdescription: What happens when government services embrace Human-Centered
   Design (HCD)? In a world where outdated systems often hinder progress, HCD
