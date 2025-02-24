@@ -13,7 +13,6 @@ blogposts:
   - Sixer Spotlight with Berni Xiong
   - Sixer Spotlight with Dotti Cummings
   - Sixer Spotlight with Josh Quagliaroli
-  - Partner Spotlight with Dr. Andrey Ostrovsky
   - Sixer Spotlight with Michelle Johnson
   - "Sixer Spotlight with Aaron Ponce "
   - Founder Spotlight with Robert Rasmussen
@@ -33,6 +32,7 @@ blogposts:
   - A Veterans Day Message from Agile Six CEO Robert Rasmussen
   - A Decade of Purpose
   - Founder Spotlight with Brian Derfer
+  - Transforming Government Services Through Human Centered Design
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
