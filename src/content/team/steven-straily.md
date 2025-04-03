@@ -1,8 +1,8 @@
 ---
 templateKey: team-member
-name: Steven Straily
+name: Steven S.
 position: "Experience "
 bio: "0"
-picture: /img/steven-straily.jpeg
+picture: /img/about.png
 order: 0
 ---
