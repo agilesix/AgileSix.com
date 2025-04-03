@@ -12,12 +12,12 @@ capabilities-body: >-
 
   But we’re not _just_ a tech company. We’re a solutions company. While most of our work is digital, we recognize that some problems can’t be solved by coding or new hardware. Our team will work with you to figure out what you need — sometimes the best solution is as low-tech as a new process for handling incoming paperwork. 
 capabilities:
-  - Design
   - "Product Development "
   - DevOps & Cloud Infrastructure
   - Agile Coaching
-  - Research
   - Digital Transformation
+  - Research & Design
+  - AI Powered Digital Services
 process-title: Industry Information
 process-body: >-
   ### Certifications
@@ -51,7 +51,7 @@ process-body: >-
 
   * **CAGE Code:** 79H77 
 
-  * **NAICS Codes:** 541511, 541512, 541513, 541519, 541611, 611420, 611430
+  * **NAICS Codes:** 541511, 541512, 541513, 541519, 541611
 cta:
   cta-description: We can help.
   cta-label: Get in touch
