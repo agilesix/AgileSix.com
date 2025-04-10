@@ -129,5 +129,6 @@ module.exports = {
         ignore: ["/css"], // Ignore files/folders
       },
     },
+    `gatsby-plugin-meta-redirect`,
   ],
 }

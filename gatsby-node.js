@@ -4,7 +4,15 @@ const { createFilePath } = require('gatsby-source-filesystem')
 const { execSync } = require("child_process")
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
+
+  // Create redirect from /team to /about
+  createRedirect({
+    fromPath: '/team',
+    toPath: '/about',
+    isPermanent: true,
+    redirectInBrowser: true,
+  })
 
   return graphql(`
     {
