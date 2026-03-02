@@ -1,6 +1,6 @@
 ---
 templateKey: blogpost
-title: "Built to Deliver: Responsible AI in Practice"
+title: Built to Deliver - Responsible AI in Practice
 subtitle: How a Six-Person Team Helped VA Get Benefits to Veterans Faster
 shortdescription: Our Agile Six team partnered with the Department of Veterans
   Affairs (VA) to digitize and delivered two complex benefits forms on a
