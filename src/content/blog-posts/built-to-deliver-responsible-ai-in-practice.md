@@ -3,12 +3,12 @@ templateKey: blogpost
 title: "Built to Deliver: Responsible AI in Practice"
 subtitle: How a Six-Person Team Helped VA Get Benefits to Veterans Faster
 shortdescription: Our Agile Six team partnered with the Department of Veterans
-  Affairs (VA) to digitize and deliver two complex benefits forms on a two-month
-  deadline. Work that typically takes at least six months per form.  "That mix
-  of experience, focus, and trust allowed the team to move quickly and to become
-  the first team in the Benefits Intake Optimization (BIO) initiative to pass
-  both architecture and staging reviews, and ship both forms shortly after the
-  government reopened." — @Berni Bernardini Xiong
+  Affairs (VA) to digitize and delivered two complex benefits forms on a
+  two-month deadline. Work that typically takes at least six months per
+  form.  "That mix of experience, focus, and trust allowed the team to move
+  quickly and to become the first team in the Benefits Intake Optimization (BIO)
+  initiative to pass both architecture and staging reviews, and ship both forms
+  shortly after the government reopened." — @Berni Bernardini Xiong
 background: /img/built-to-deliver-linkedin-blog.png
 audio: https://player.simplecast.com/42bbb694-a1bb-49cc-a28d-1e0a9f73cf10?dark=false
 ---
