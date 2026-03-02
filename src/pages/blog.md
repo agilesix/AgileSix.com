@@ -29,10 +29,10 @@ blogposts:
   - Redefining Mentor-Protégé Relationships
   - Sixer Spotlight with Sara Quagliaroli
   - Sixer Spotlight with Melissa Schaff
-  - A Veterans Day Message from Agile Six CEO Robert Rasmussen
   - A Decade of Purpose
   - Founder Spotlight with Brian Derfer
   - Transforming Government Services Through Human Centered Design
+  - "Built to Deliver: Responsible AI in Practice"
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
