@@ -161,7 +161,7 @@ I think the VA’s trust that each agency was going to be responsible and follow
 
 I’d like to see the VA embracing lean teams with more focused work, maybe some tighter timelines. Because in doing that, it keeps the partner very involved in making sure the deliverable is hit, and it doesn’t turn into a multi-year, bloated project.
 
-
+### Closing
 
 We’ve proved that we can do forms in a month. I’ve never been able to work on a project in the past that was under nine months doing a form comparable in size. This proves that flexibility in how the product approach is done, not following that standard process I think most project teams are using, can really benefit timelines and deliverables. And you can do it with smaller teams now.
 
