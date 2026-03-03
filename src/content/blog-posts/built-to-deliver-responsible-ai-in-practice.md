@@ -163,8 +163,6 @@ I’d like to see the VA embracing lean teams with more focused work, maybe some
 
 We’ve proved that we can do forms in a month. I’ve never been able to work on a project in the past that was under nine months doing a form comparable in size. This proves that flexibility in how the product approach is done, not following that standard process I think most project teams are using, can really benefit timelines and deliverables. And you can do it with smaller teams now.
 
-- - -
-
 A lean, six-person team. Two forms. A two-month deadline. A partnership built on trust, and AI used to accelerate human judgment, not replace it. That’s what responsible AI in practice looks like, in a team that’s built to deliver.
 
 If this story piqued your interest in a career with Agile Six, [explore our open roles](https://job-boards.greenhouse.io/agilesix).
