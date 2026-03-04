@@ -9,7 +9,7 @@ shortdescription: Our Agile Six team partnered with the Department of Veterans
   quickly and to become the first team in the Benefits Intake Optimization (BIO)
   initiative to pass both architecture and staging reviews, and ship both forms
   shortly after the government reopened." — @Berni Bernardini Xiong
-background: /img/built-to-deliver-linkedin-blog.png
+background: /img/built-to-deliver-linkedin-blog-1-.png
 audio: https://player.simplecast.com/42bbb694-a1bb-49cc-a28d-1e0a9f73cf10?dark=false
 ---
 ### ^ LISTEN TO THE INTERVIEW ABOVE ^ 
