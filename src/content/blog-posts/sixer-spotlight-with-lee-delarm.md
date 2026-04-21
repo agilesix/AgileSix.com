@@ -15,6 +15,8 @@ audio: https://player.simplecast.com/b0ec97f0-dd0d-4d3a-be90-38b65baf1004?dark=f
 ---
 ### ^ LISTEN TO THE INTERVIEW ABOVE ^
 
+
+
 Joining us today is Lee Delarm, a Veteran and software engineer at Agile Six. Lee shares his journey from the Air Force to a place he didn't expect to find, a company where purpose and people matter. Today, his work helps hundreds of thousands of Veterans each week access care and benefits they've earned. In his community, he chooses to be a single brick in the lives of the people around him, helping others build something of their own. This is a conversation about purpose, values, community, and what it looks like to build a better path for yourself and for others.
 
 **Meet Lee Delarm**
