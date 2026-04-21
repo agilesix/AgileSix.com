@@ -33,6 +33,7 @@ blogposts:
   - Founder Spotlight with Brian Derfer
   - Transforming Government Services Through Human Centered Design
   - Built to Deliver - Responsible AI in Practice
+  - Sixer Spotlight with Lee Delarm
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
