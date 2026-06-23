@@ -34,6 +34,7 @@ blogposts:
   - Transforming Government Services Through Human Centered Design
   - Built to Deliver - Responsible AI in Practice
   - Sixer Spotlight with Lee Delarm
+  - Sixer Spotlight with Renata Keck
 cta:
   cta-description: Let’s collaborate on your next project.
   cta-label: Get in touch
