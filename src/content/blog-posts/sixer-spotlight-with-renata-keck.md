@@ -1,7 +1,7 @@
 ---
 templateKey: blogpost
 title: Sixer Spotlight with Renata Keck
-subtitle: The Language of Care
+subtitle: "The Language of Care "
 shortdescription: "Not many people wake up excited to fill out a form, but for
   Veterans, caregivers, and family members, those forms are often the front door
   to getting the care they need. Joining us today is Renata Keck, a UX
