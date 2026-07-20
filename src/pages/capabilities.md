@@ -12,12 +12,12 @@ capabilities-body: >-
 
   But we’re not _just_ a tech company. We’re a solutions company. While most of our work is digital, we recognize that some problems can’t be solved by coding or new hardware. Our team will work with you to figure out what you need. Sometimes the best solution is as low-tech as a new process for handling incoming paperwork. 
 capabilities:
-  - "Product Development "
-  - DevOps & Cloud Infrastructure
-  - Agile Coaching
   - Digital Transformation
-  - Research & Design
+  - "Product Development "
+  - DevSecOps & Cloud Infrastructure
   - AI Powered Digital Services
+  - Research & Design
+  - Agile Coaching
 process-title: Industry Information
 process-body: >-
   ### Certifications
