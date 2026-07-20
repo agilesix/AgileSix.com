@@ -1,7 +1,8 @@
 ---
 templateKey: capability
 title: AI Powered Digital Services
-shortdescription: Leveraging artificial intelligence to quickly understand
-  problem domains and deliver high quality solutions more efficiently
+shortdescription: We build with AI and modern technologies every day. We help
+  leaders decide how to introduce new capabilities into existing systems in ways
+  that strengthen delivery, at scale.
 featuredimage: /img/ai-tools.png
 ---
