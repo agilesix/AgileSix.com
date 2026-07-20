@@ -12,6 +12,6 @@ CMS leadership was ready to shift from a traditional waterfall delivery mindset 
 
 ## The Solution
 
-Starting in the fall of 2016, Agile Six has been working with CCSQ to provide coaching, training, and consulting to support the rollout of SAFe and Scrum with existing vendors. We’ve used a human-centered approach to encourage them to think beyond specific contract deliverables and focus on collaboration, transparency, better outcomes, and the overarching needs of the program.
+Starting in the fall of 2016, Agile Six has been working with CCSQ to provide coaching, training, and consulting to support the rollout of SAFe and Scrum with existing vendors. We’ve used a user-centered approach to encourage them to think beyond specific contract deliverables and focus on collaboration, transparency, better outcomes, and the overarching needs of the program.
 
 In coordination with CMS leadership, Agile Six were instrumental partners in launching three of the first Scaled Agile Release Trains (ARTs) at CMS. As a result of our work, SAFe published a case study featuring our work titled, "[Centers for Medicare & Medicaid shifts from maintenance mode to modernization with SAFe](https://v5.scaledagileframework.com/blog/centers-for-medicare-medicaid-shifts-from-maintenance-mode-to-modernization-with-safe/)."
