@@ -5,7 +5,7 @@ subtitle: Better Work To Do.
 hero: /img/we-ve-got-your-6.png
 capabilities-body: >-
   At Agile Six, we use modern technology and user-friendly, accessible design to
-  build better government services for everyone.
+  build better government and public services for everyone.
 
 
   Agile Six works with government agencies to create customized digital solutions that meet the needs of their users. The end goal? Digital products that are as powerful and easy to use as the apps on your phone.
@@ -14,8 +14,8 @@ capabilities-body: >-
   Changing government systems and processes can be tough. Agile Six can help. We’ll meet you where you are, then get you where you want to go.
 capabilities:
   - Digital Transformation
-  - AI Powered Digital Services
   - Product Development and DevSecOps
+  - AI Powered Digital Services
   - Tools that Work for Real People
 casestudies-title: We’re proud of our work
 casestudies-body: Our team has helped clients like the Centers for Medicare and
