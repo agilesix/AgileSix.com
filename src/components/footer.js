@@ -73,7 +73,7 @@ const CaseStudies = ({ children }) => (
                   <div>Agile Six Applications., Inc</div>
                 </div>
                 <div className={'mb-6'}>
-                  <div className={'uppercase font-bold'}>UEI Number</div>
+                  <div className={'uppercase font-bold'}>UEI</div>
                   <div>UP4JHKJQ9MQ7</div>
                 </div>
                 <div className={'mb-6'}>
