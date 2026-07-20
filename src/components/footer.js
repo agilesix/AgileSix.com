@@ -70,11 +70,11 @@ const CaseStudies = ({ children }) => (
               <div className={'md:w-1/4 md:pr-4'}>
                 <div className={'mb-6'}>
                   <div className={'uppercase font-bold'}>Legal Name</div>
-                  <div>Agile Six Applications, Inc</div>
+                  <div>Agile Six Applications., Inc</div>
                 </div>
                 <div className={'mb-6'}>
-                  <div className={'uppercase font-bold'}>DUNS Number</div>
-                  <div>079622664</div>
+                  <div className={'uppercase font-bold'}>UEI Number</div>
+                  <div>UP4JHKJQ9MQ7</div>
                 </div>
                 <div className={'mb-6'}>
                   <div className={'uppercase font-bold'}>Cage Code</div>
@@ -123,7 +123,7 @@ const CaseStudies = ({ children }) => (
                </div>
               </div>
             <div className='border-t-2 border-grey-light pt-8 mt-8'>
-              <div className={'text-md'}>Copyright © 2022 Agile Six Applications, Inc.</div>
+              <div className={'text-md'}>Copyright © 2026 Agile Six Applications., Inc.</div>
             </div>
           </Block>
         </footer>
