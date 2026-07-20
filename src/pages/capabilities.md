@@ -14,10 +14,10 @@ capabilities-body: >-
 capabilities:
   - Digital Transformation
   - "Product Development "
+  - Agile Coaching
   - DevSecOps & Cloud Infrastructure
   - AI Powered Digital Services
   - Research & Design
-  - Agile Coaching
 process-title: Industry Information
 process-body: >-
   ### Certifications
