@@ -25,7 +25,7 @@ casestudies:
   - VA.gov Modernization
   - CCSQ Agile Coaching and Digital Transformation
   - Diffusion Marketplace
-  - Digital Services Coalition
+  - "Modernizing VA Services: The Design System Form Engine Pilot"
 cta:
   cta-description: "Get in touch. We’d love to talk. "
   cta-label: Contact Us
