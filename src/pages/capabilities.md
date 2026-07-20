@@ -7,10 +7,10 @@ hero: /img/capabilities.png
 capabilities-title: What We Do
 capabilities-body: >-
   Agile Six is a full-spectrum digital services company that combines digital
-  government modernization, product delivery, and human-centered design. 
+  government modernization, product delivery, and user-centered design. 
 
 
-  But we’re not _just_ a tech company. We’re a solutions company. While most of our work is digital, we recognize that some problems can’t be solved by coding or new hardware. Our team will work with you to figure out what you need — sometimes the best solution is as low-tech as a new process for handling incoming paperwork. 
+  But we’re not _just_ a tech company. We’re a solutions company. While most of our work is digital, we recognize that some problems can’t be solved by coding or new hardware. Our team will work with you to figure out what you need. Sometimes the best solution is as low-tech as a new process for handling incoming paperwork. 
 capabilities:
   - "Product Development "
   - DevOps & Cloud Infrastructure
@@ -23,8 +23,6 @@ process-body: >-
   ### Certifications
 
 
-  * Service Disabled Veteran-Owned Small Business (SDVOSB) - Federal 
-
   * Disabled Veteran Small Business Enterprise (SB/DVBE) - State of California 
 
 
@@ -33,7 +31,7 @@ process-body: >-
 
   * GSA MAS \[Formerly IT-70] (GS-35F-004GA) 
 
-  * CDC - Pandemic Ready Interoperability Modernization Effort (PRIME) and Data Modernization Initiative (DMI) BPA (47QFSA22A0008) 
+  * NASA Solutions for Enterprise-Wide Procurement (SEWP) VI, Categories B & C
 
   * HHS - Office of Grants (OG) Software Integration and Frontend Technology (SWIFT) BPA (75P00124A00009)
 
@@ -47,11 +45,11 @@ process-body: >-
 
   * **Legal Name:** Agile Six Applications, Inc. 
 
-  * **DUNS Number:** 079622664 
+  * **UEI:** UP4JHKJQ9MQ7
 
   * **CAGE Code:** 79H77 
 
-  * **NAICS Codes:** 541511, 541512, 541513, 541519, 541611
+  * **NAICS Codes:** 541511, 541512, 541513, 541519, 541611, 611420, 611430
 cta:
   cta-description: We can help.
   cta-label: Get in touch
