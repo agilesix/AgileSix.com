@@ -30,22 +30,24 @@ process-body: >-
 
 
   * General Services Administration (GSA) Multiple Award Schedule (MAS) #GS-35F-004GA
-    * Business size: other than small
-    * SIN:
-      * 54151HEAL - Health Information Technology Services
-      * 54151S - Information Technology Professional Services
-    * NAICS:
-      * 541511 - Custom Computer Programming Services
-      * 541512 - Computer Systems Design Services
-      * 541513 - Computer Facilities Management Services
-      * 541519 - Other Computer Related Services
-      * 541611 - Administrative Management and General Management Consulting Services
-      * 611420 - Computer Training
-      * 611430 - Professional and Management Development Training
+      * Business size: other than small
+      * SIN:
+        * 54151HEAL - Health Information Technology Services
+        * 54151S - Information Technology Professional Services
+      * NAICS:
+        * 541511 - Custom Computer Programming Services
+        * 541512 - Computer Systems Design Services
+        * 541513 - Computer Facilities Management Services
+        * 541519 - Other Computer Related Services
+        * 541611 - Administrative Management and General Management Consulting Services
+        * 611420 - Computer Training
+        * 611430 - Professional and Management Development Training
+
   * NASA Solutions for Enterprise-Wide Procurement VI (SEWP VI)
-    * Business size: Small Business
-    * Category B - Enterprise-wide ITC/AV Service Solutions
-    * Category C - ITC/AV Mission-Based (Information Technology Communication (ITC) and Audio Visual (AV) Services)
+      * Business size: Small Business
+      * Category B - Enterprise-wide ITC/AV Service Solutions
+      * Category C - ITC/AV Mission-Based (Information Technology Communication (ITC) and Audio Visual (AV) Services)
+
   * HHS Software Integration and Frontend Technology (SWIFT) #75P00124A00009
 
 
